@@ -1,0 +1,64 @@
+[
+    {
+		"title": "Butterfly",
+		"alias": [ "蝴蝶" ],
+		"artist": "kors k feat.Starbitz",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"thumbnail": "BUTTERFLY.jpg",
+		"remyurl": "Butterfly_(kors_k_feat.Starbitz)",
+		"easy": 6,
+		"normal": 10,
+		"notes": [ 
+			{ "note": "note_PrevUnlockBy", "mission": "mission_Clear", "origlength": 0, "ing": "ing", "s": [ "Don't Stop!!" ] }, 
+			{ "note": "note_OldMission", "mission": "mission_Clear", "mis": "Discount", "origlength": 0, "s": [ "Gimme a Big Beat" ] }, 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "DUB I DUB" ] }, 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Garuda" ] } 
+		],
+		"links": [ "Don't Stop!!", "Gimme a Big Beat", "DUB I DUB", "Garuda" ],
+		"easyurl": "_Wibt185l9s",
+		"normalurl": "3EBwsrmviE0"
+	},
+    {
+		"title": "アルストロメリア (walk with you remix)",
+		"alias": [ "Alstroemeria (walk with you remix)", "Alstromeria (walk with you remix)" ],
+		"artist": "TAG",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Alstroemeria_(walk_with_you_remix).png",
+		"remyurl": "Alstroemeria_(walk_with_you_remix)",
+		"easy": 3,
+		"normal": 7,
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Broadway Walk" ] }, 
+			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Discovery", "s": [ "Thank You Merry Christmas -DANCERUSH Mix-" ] } 
+		],
+		"links": [ "Broadway Walk", "Thank You Merry Christmas -DANCERUSH Mix-" ],
+		"easyurl": "C4fwcxZ-YBE",
+		"normalurl": "Ivl7e-LQYxc"
+	},
+    {
+		"title": "Dive in Blue",
+		"artist": "BlackY",
+		"category": "sparkfes2020",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "TROP, Otias ENT Produced",
+		"thumbnail": "Dive_in_Blue.png",
+		"remyurl": "Dive_in_Blue",
+		"easy": 7,
+		"normal": 9,
+		"stars": 40,
+		"discount": [ 
+			{ "mission": "mission_Clear", "s": [ "Shamshir" ] }, 
+			{ "mission": "mission_Unlock", "s": [ "Shamshir" ] } 
+		],
+		"notes": [ 
+			"**SPARK FESTIVAL 2020**:\nLike This ⇒ **Dive in Blue** ⇒ Shamshir ⇒ Act Now! ⇒ Don't Speak ⇒ Touch Me ⇒ Meltdown ⇒ UCHU ⇒ Crazy For You", 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Prettiful!" ] } 
+		],
+		"links": [ "Like This", "Dive in Blue", "Shamshir", "Act Now!", "Don't Speak", "Touch Me", "Meltdown", "UCHU", "Crazy For You", "Prettiful!" ],
+		"easyurl": "co7qWvsEaQ8",
+		"normalurl": "Qf5nEXW7CWU"
+	}
+]
