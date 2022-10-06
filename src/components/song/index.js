@@ -5,9 +5,12 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
+// TODO add searching functionality
+// TODO add advanced search functionality
+// TODO How to use search functionality modal lol
 const Song = (props) => {
   return (
-    <Card sx={{ minWidth: 318.75,width: "100%", margin: "20px", marginLeft: 0, marginRight: 0 }}>
+    <Card sx={{ minWidth: 318.75,width: "100%", maxHeight:"191px", margin: "20px", marginLeft: 0, marginRight: 0, }}>
       <CardActionArea onClick={() => {
         props.handleOpen(props.song.id)
       }}>
@@ -35,10 +38,10 @@ const Song = (props) => {
             >
               {props.song.genre}
             </Typography>
-            <Typography variant="h6" component="div" gutterBottom style={{fontWeight: "bold"}}>
+            <Typography variant="h6" component="div" gutterBottom style={{fontWeight: "bold", textAlign: "left"}}>
               {props.song.song}
             </Typography>
-            <Typography sx={{ fontSize: 14 }} color="text.secondary">
+            <Typography sx={{ fontSize: 14, textAlign: "left" }} color="text.secondary">
               {props.song.artist}
             </Typography>
           </CardContent>
@@ -46,7 +49,7 @@ const Song = (props) => {
             component="img"
             height="82px"
             width="82px"
-            src={require("./jacket.jpg")}
+            src={"images/" + props.song.thumbnail}
             alt="song"
             padding="16px"
           />
