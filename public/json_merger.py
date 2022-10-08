@@ -6,6 +6,9 @@ file_path_1 = 'C:\\Users\\Andrew\\projects\\dancerush-frontend\\public\\dancerus
 file_path_2 = 'C:\\Users\\Andrew\\projects\\dancerush-frontend\\public\\botsjson.json'
 
 df1 = pd.read_json(file_path_1)
+df1 = df1.drop('id', axis=1)
+df1 = df1.sort_values(by='song')
+
 df2 = pd.read_json(file_path_2)
 df2 = df2.drop('artist', axis=1)
 df2 = df2.drop('category', axis=1)
@@ -31,6 +34,7 @@ df2 = df2.drop('easyguide', axis=1)
 df2 = df2.drop('bpm', axis=1)
 
 df = df1.merge(df2, left_on='song', right_on='title')
+df = df.drop('title', axis=1)
 data = df.to_json('./final_songs.json', orient='records')
 
 
