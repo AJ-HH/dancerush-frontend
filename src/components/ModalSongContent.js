@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
-const ModalContent = ({ modalSong }) => {
+const ModalSongContent = ({ modalSong }) => {
   const [easyClicked, setEasyClicked] = React.useState(false);
   const [normalClicked, setNormalClicked] = React.useState(false);
   const handleEasyClick = () => {
@@ -212,9 +212,6 @@ const ModalContent = ({ modalSong }) => {
             <Typography
               sx={{
                 fontSize: 14,
-                // textAlign: "left",
-                // position: "relative",
-                // left: "-93px",
               }}
               color="text.secondary"
               gutterBottom
@@ -226,9 +223,6 @@ const ModalContent = ({ modalSong }) => {
             <Typography
               sx={{
                 fontSize: 14,
-                // textAlign: "left",
-                // position: "relative",
-                // left: "-93px",
               }}
               color="text.secondary"
               gutterBottom
@@ -325,4 +319,4 @@ const ModalContent = ({ modalSong }) => {
     </Card>
   );
 };
-export default ModalContent;
+export default ModalSongContent;

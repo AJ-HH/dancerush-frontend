@@ -35,7 +35,8 @@ df2 = df2.drop('bpm', axis=1)
 
 df = df1.merge(df2, left_on='song', right_on='title')
 df = df.drop('title', axis=1)
-data = df.to_json('./final_songs.json', orient='records')
+df.insert(0, 'id', range(1, 1 + len(df)))
+data = df.to_json('./final_songs.json', orient='records', index=True)
 
 
 # Used to find if there are any songs that aren't merged correctly

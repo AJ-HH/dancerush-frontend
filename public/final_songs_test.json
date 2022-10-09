@@ -1,5 +1,6 @@
 [
   {
+    "id": 41,
     "genre": "EDM/BEMANI",
     "song": "Butterfly",
     "artist": "kors k feat.Starbitz",
@@ -19,6 +20,7 @@
     "alias": ["\u8774\u8776"]
   },
   {
+    "id": 42,
     "genre": "BEMANI",
     "song": "Butterfly Twist",
     "artist": "Yooh",
@@ -38,6 +40,7 @@
     "alias": ["\u8774\u8776\u8f49"]
   },
   {
+    "id": 43,
     "genre": "EDM/BEMANI",
     "song": "C'mon baby",
     "artist": "Polyphonix",
@@ -55,5 +58,65 @@
     "easyurl": "hcfSVq8Z4cU",
     "normalurl": "r3pq7yKg-Tw",
     "alias": null
+  },
+  {
+    "id": 44,
+    "genre": "EDM/BEMANI",
+    "song": "CHAPTER II(Ready Go)",
+    "artist": "kors k feat.\u798f\u5cf6\u862d\u4e16 with \u5449\u572d\u5d07",
+    "bpm": 130,
+    "easy": 5,
+    "noteseasy": 277,
+    "normal": 8,
+    "notesnormal": 382,
+    "unlocked": 0,
+    "chinalocked": 0,
+    "japanonly": 0,
+    "koreaonly": 0,
+    "artistalias": ["Fukushima ranse", "Kure Yoshitaka"],
+    "thumbnail": "ChapterII_Ready_Go_Jacket.png",
+    "easyurl": "EsGs_KG3FYA",
+    "normalurl": "WoSKy3g_vQ4",
+    "alias": ["Chapter 2 (Ready Go)"]
+  },
+  {
+    "id": 45,
+    "genre": "EDM/BEMANI",
+    "song": "CONNECT-",
+    "artist": "BEMANI Sound Team \"Sota Fujimori\"",
+    "bpm": 150,
+    "easy": 5,
+    "noteseasy": 285,
+    "normal": 8,
+    "notesnormal": 402,
+    "unlocked": 1,
+    "chinalocked": 0,
+    "japanonly": 0,
+    "koreaonly": 0,
+    "artistalias": ["BST Sota"],
+    "thumbnail": "CONNECT-.png",
+    "easyurl": "3HqohrASXJM",
+    "normalurl": "5xMfa9BUlFk",
+    "alias": null
+  },
+  {
+    "id": 324,
+    "genre": "POPS",
+    "song": "\u7fa4\u9752",
+    "artist": "(YOASOBI)",
+    "bpm": 135,
+    "easy": 3,
+    "noteseasy": 213,
+    "normal": 7,
+    "notesnormal": 296,
+    "unlocked": 1,
+    "chinalocked": 0,
+    "japanonly": 0,
+    "koreaonly": 0,
+    "artistalias": null,
+    "thumbnail": "Gunjou.png",
+    "easyurl": "oybq2lhxY5I&t=11s",
+    "normalurl": "SQWkF7fGcDQ&t=15s",
+    "alias": ["Gunjou", "Ultramarine"]
   }
 ]

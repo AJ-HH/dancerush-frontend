@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "genre": "BEMANI",
     "song": "1-2-3 Jump!",
     "artist": "\u307e\u308d\u3093 (IOSYS) ft. Renko",
@@ -19,6 +20,7 @@
     "alias": null
   },
   {
+    "id": 2,
     "genre": "EDM/S",
     "song": "41 Days",
     "artist": "Merk & Kremont",
@@ -38,6 +40,7 @@
     "alias": null
   },
   {
+    "id": 3,
     "genre": "BEMANI",
     "song": "50th Memorial Songs -Beginning Story-",
     "artist": "BEMANI Sound Team",
@@ -57,6 +60,7 @@
     "alias": null
   },
   {
+    "id": 4,
     "genre": "BEMANI",
     "song": "50th Memorial Songs -Flagship medley-",
     "artist": "BEMANI Sound Team",
@@ -76,6 +80,7 @@
     "alias": null
   },
   {
+    "id": 5,
     "genre": "BEMANI",
     "song": "50th Memorial Songs -The BEMANI History-",
     "artist": "BEMANI Sound Team",
@@ -95,6 +100,7 @@
     "alias": null
   },
   {
+    "id": 6,
     "genre": "BEMANI",
     "song": "50th Memorial Songs -\u4e8c\u4eba\u306e\u6642 \uff5eunder the cherry blossoms\uff5e-",
     "artist": "BEMANI Sound Team",
@@ -116,6 +122,7 @@
     ]
   },
   {
+    "id": 7,
     "genre": "EDM/BEMANI",
     "song": "7 to Smoke",
     "artist": "lapix",
@@ -135,6 +142,7 @@
     "alias": ["Seven to Smoke"]
   },
   {
+    "id": 8,
     "genre": "EDM/BEMANI",
     "song": "8347",
     "artist": "Zekk",
@@ -154,6 +162,7 @@
     "alias": ["BEAT"]
   },
   {
+    "id": 9,
     "genre": "EDM/BEMANI",
     "song": "A Legend Is Born",
     "artist": "RoughSketch",
@@ -173,6 +182,7 @@
     "alias": ["ALIB", "\u9b3c\u624b"]
   },
   {
+    "id": 10,
     "genre": "EDM/BEMANI",
     "song": "A Vague Idea",
     "artist": "BEMANI Sound Team \"PHQUASE\"",
@@ -192,6 +202,7 @@
     "alias": null
   },
   {
+    "id": 11,
     "genre": "BEMANI",
     "song": "ALGORITHM",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
@@ -211,6 +222,7 @@
     "alias": ["\u6f14\u7b97\u6cd5"]
   },
   {
+    "id": 12,
     "genre": "BEMANI",
     "song": "ATRAX",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR\"",
@@ -230,6 +242,7 @@
     "alias": ["\u8718\u86db\u5973"]
   },
   {
+    "id": 13,
     "genre": "EDM/BEMANI",
     "song": "Act Now!",
     "artist": "MK",
@@ -249,6 +262,7 @@
     "alias": ["\u6309\u9215"]
   },
   {
+    "id": 14,
     "genre": "BEMANI",
     "song": "Afterimage d'automne",
     "artist": "BEMANI Sound Team \"\u732b\u53c9\u5287\u56e3\"",
@@ -268,6 +282,7 @@
     "alias": ["\u79cb\u5929\u7684\u6b98\u50cf"]
   },
   {
+    "id": 15,
     "genre": "BEMANI",
     "song": "Aftermath",
     "artist": "BEMANI Sound Team \"\u732b\u53c9Master & \u3042\u3055\u304d & Yvya\"",
@@ -287,6 +302,7 @@
     "alias": null
   },
   {
+    "id": 16,
     "genre": "EDM/BEMANI",
     "song": "Anxiety",
     "artist": "YUKIYANAGI",
@@ -306,6 +322,7 @@
     "alias": null
   },
   {
+    "id": 17,
     "genre": "EDM/BEMANI",
     "song": "As I go",
     "artist": "Akira Complex & Slyleaf",
@@ -325,6 +342,7 @@
     "alias": null
   },
   {
+    "id": 18,
     "genre": "EDM/BEMANI",
     "song": "Astrogazer",
     "artist": "DJ TOTTO",
@@ -344,6 +362,7 @@
     "alias": null
   },
   {
+    "id": 19,
     "genre": "EDM/BEMANI",
     "song": "Audiovisual",
     "artist": "Moe Shop",
@@ -363,6 +382,7 @@
     "alias": null
   },
   {
+    "id": 20,
     "genre": "EDM/BEMANI",
     "song": "Auto Click",
     "artist": "KAN TAKAHIKO",
@@ -382,6 +402,7 @@
     "alias": null
   },
   {
+    "id": 21,
     "genre": "EDM/BEMANI",
     "song": "Awakening",
     "artist": "Shouya Namai",
@@ -401,6 +422,7 @@
     "alias": null
   },
   {
+    "id": 22,
     "genre": "POPS",
     "song": "BAAM",
     "artist": "MOMOLAND",
@@ -420,6 +442,7 @@
     "alias": null
   },
   {
+    "id": 23,
     "genre": "POPS",
     "song": "BBoom Bboom",
     "artist": "MOMOLAND",
@@ -439,6 +462,7 @@
     "alias": null
   },
   {
+    "id": 24,
     "genre": "EDM/BEMANI",
     "song": "BENJAMIN",
     "artist": "MARON(IOSYS)",
@@ -458,6 +482,7 @@
     "alias": ["Unga Bunga", "\u73ed\u5091\u660e"]
   },
   {
+    "id": 25,
     "genre": "EDM/BEMANI",
     "song": "BENJAMIN RUNNING MAN EDITION",
     "artist": "MARON(IOSYS)",
@@ -485,6 +510,7 @@
     ]
   },
   {
+    "id": 26,
     "genre": "EDM/BEMANI",
     "song": "BEYOND THE EARTH (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -504,6 +530,7 @@
     "alias": ["BTE (STARDOM Remix)", "\u5730\u7403"]
   },
   {
+    "id": 27,
     "genre": "BEMANI",
     "song": "BLACK JACKAL",
     "artist": "Akira Complex",
@@ -523,6 +550,7 @@
     "alias": ["\u9ed1\u4e4b\u80e1\u72fc"]
   },
   {
+    "id": 28,
     "genre": "EDM/BEMANI",
     "song": "BONE BORN",
     "artist": "MARON (IOSYS)",
@@ -542,6 +570,7 @@
     "alias": null
   },
   {
+    "id": 29,
     "genre": "POPS",
     "song": "BOOMBAYAH-Japanese version-",
     "artist": "BLACKPINK",
@@ -561,6 +590,7 @@
     "alias": null
   },
   {
+    "id": 30,
     "genre": "POPS",
     "song": "BOOMBAYAH-Japanese version- ANOTHER EDITION",
     "artist": "BLACKPINK",
@@ -580,6 +610,7 @@
     "alias": null
   },
   {
+    "id": 31,
     "genre": "EDM/BEMANI",
     "song": "BREDLI",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -599,6 +630,7 @@
     "alias": null
   },
   {
+    "id": 32,
     "genre": "EDM/BEMANI",
     "song": "BREDLI RUNNING MAN EDITION",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -624,6 +656,7 @@
     ]
   },
   {
+    "id": 33,
     "genre": "EDM/BEMANI",
     "song": "Bad Boy Birdwatch",
     "artist": "HyperJuice",
@@ -643,6 +676,7 @@
     "alias": null
   },
   {
+    "id": 34,
     "genre": "EDM/BEMANI",
     "song": "Bad Riddim",
     "artist": "KAN TAKAHIKO",
@@ -662,6 +696,7 @@
     "alias": null
   },
   {
+    "id": 35,
     "genre": "EDM/BEMANI",
     "song": "Bad Riddim T STEP EDITION",
     "artist": "KAN TAKAHIKO",
@@ -685,6 +720,7 @@
     ]
   },
   {
+    "id": 36,
     "genre": "EDM/BEMANI",
     "song": "Be My Baby",
     "artist": "nagomu tamaki",
@@ -704,6 +740,7 @@
     "alias": null
   },
   {
+    "id": 37,
     "genre": "EDM/BEMANI",
     "song": "Bloody Bounce",
     "artist": "Alicemetix",
@@ -723,6 +760,7 @@
     "alias": null
   },
   {
+    "id": 38,
     "genre": "EDM/BEMANI",
     "song": "Bounce To This",
     "artist": "android52",
@@ -742,6 +780,7 @@
     "alias": ["\u53cd\u5f48"]
   },
   {
+    "id": 39,
     "genre": "EDM/BEMANI",
     "song": "Brand New Step",
     "artist": "Kradness",
@@ -761,6 +800,7 @@
     "alias": null
   },
   {
+    "id": 40,
     "genre": "EDM/BEMANI",
     "song": "Broadway Walk",
     "artist": "Dirty Androids",
@@ -780,6 +820,7 @@
     "alias": ["\u767e\u8001\u532f"]
   },
   {
+    "id": 41,
     "genre": "EDM/BEMANI",
     "song": "Butterfly",
     "artist": "kors k feat.Starbitz",
@@ -799,6 +840,7 @@
     "alias": ["\u8774\u8776"]
   },
   {
+    "id": 42,
     "genre": "BEMANI",
     "song": "Butterfly Twist",
     "artist": "Yooh",
@@ -818,6 +860,7 @@
     "alias": ["\u8774\u8776\u8f49"]
   },
   {
+    "id": 43,
     "genre": "EDM/BEMANI",
     "song": "C'mon baby",
     "artist": "Polyphonix",
@@ -837,6 +880,7 @@
     "alias": null
   },
   {
+    "id": 44,
     "genre": "EDM/BEMANI",
     "song": "CHAPTER II(Ready Go)",
     "artist": "kors k feat.\u798f\u5cf6\u862d\u4e16 with \u5449\u572d\u5d07",
@@ -856,6 +900,7 @@
     "alias": ["Chapter 2 (Ready Go)"]
   },
   {
+    "id": 45,
     "genre": "EDM/BEMANI",
     "song": "CONNECT-",
     "artist": "BEMANI Sound Team \"Sota Fujimori\"",
@@ -875,6 +920,7 @@
     "alias": null
   },
   {
+    "id": 46,
     "genre": "BEMANI",
     "song": "Catastrophic Dance",
     "artist": "the wandering bard feat. \u5fd7\u65b9\u3042\u304d\u3053",
@@ -894,6 +940,7 @@
     "alias": null
   },
   {
+    "id": 47,
     "genre": "EDM/BEMANI",
     "song": "Catch Our Fire! (STARDOM Remix)",
     "artist": "kors k",
@@ -913,6 +960,7 @@
     "alias": null
   },
   {
+    "id": 48,
     "genre": "EDM/BEMANI",
     "song": "Ch4nge M4 Life",
     "artist": "LADY'S ONLY",
@@ -932,6 +980,7 @@
     "alias": ["Change Ma Life"]
   },
   {
+    "id": 49,
     "genre": "EDM/BEMANI",
     "song": "Chaos of Drum",
     "artist": "KO3",
@@ -951,6 +1000,7 @@
     "alias": null
   },
   {
+    "id": 50,
     "genre": "EDM/BEMANI",
     "song": "Comin\u2019 Back",
     "artist": "TEMPLIME",
@@ -970,6 +1020,7 @@
     "alias": ["Coming Back"]
   },
   {
+    "id": 51,
     "genre": "EDM/BEMANI",
     "song": "Crazy For You",
     "artist": "D\u00c9 D\u00c9 MOUSE",
@@ -989,6 +1040,7 @@
     "alias": ["CFY"]
   },
   {
+    "id": 52,
     "genre": "EDM/BEMANI",
     "song": "Crazy Shuffle",
     "artist": "Yooh",
@@ -1008,6 +1060,7 @@
     "alias": ["CS"]
   },
   {
+    "id": 53,
     "genre": "EDM/BEMANI",
     "song": "Crystal Clear",
     "artist": "Stessie",
@@ -1027,6 +1080,7 @@
     "alias": null
   },
   {
+    "id": 54,
     "genre": "BEMANI",
     "song": "Crystarium",
     "artist": "BlackY",
@@ -1046,6 +1100,7 @@
     "alias": ["\u6c34\u6676\u7403"]
   },
   {
+    "id": 55,
     "genre": "EDM/BEMANI",
     "song": "Cyber Devotion",
     "artist": "ARM (IOSYS)",
@@ -1065,6 +1120,7 @@
     "alias": null
   },
   {
+    "id": 56,
     "genre": "BEMANI",
     "song": "DANCE ALL NIGHT",
     "artist": "Sota Fujimori",
@@ -1084,6 +1140,7 @@
     "alias": null
   },
   {
+    "id": 57,
     "genre": "How To Play",
     "song": "DANCE RUSH \u904a\u3073\u65b9 1",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -1103,6 +1160,7 @@
     "alias": ["How to play", "DANCE RUSH asobikata 1"]
   },
   {
+    "id": 58,
     "genre": "EDM/BEMANI",
     "song": "DANCERUSH STARDOM ANTHEM",
     "artist": "kors k feat.\u798f\u5cf6\u862d\u4e16",
@@ -1122,6 +1180,7 @@
     "alias": ["DRS ANTHEM"]
   },
   {
+    "id": 59,
     "genre": "BEMANI",
     "song": "DAWN OF FALCON",
     "artist": "L.E.D.-G",
@@ -1141,6 +1200,7 @@
     "alias": null
   },
   {
+    "id": 60,
     "genre": "EDM/BEMANI",
     "song": "DEADLOCK (STARDOM Remix)",
     "artist": "RoughSketch",
@@ -1160,6 +1220,7 @@
     "alias": null
   },
   {
+    "id": 61,
     "genre": "EDM/BEMANI",
     "song": "DEVILFISHMAN\u306e\u30c6\u30fc\u30de",
     "artist": "BEMANI Sound Team \"\u5287\u56e3\u30ec\u30b3\u30fc\u30c9\"",
@@ -1179,6 +1240,7 @@
     "alias": ["DEVILFISHMAN no theme", "\u7ae0\u9b5a\u4eba\u4e3b\u984c\u66f2"]
   },
   {
+    "id": 62,
     "genre": "EDM/BEMANI",
     "song": "DO YOU WANNA PARTY!!(DJ KEN-BOW MIX)",
     "artist": "HiBiKi",
@@ -1198,6 +1260,7 @@
     "alias": null
   },
   {
+    "id": 63,
     "genre": "EDM/BEMANI",
     "song": "DOWNER & UPPER",
     "artist": "BEMANI Sound Team \"DJ TOTTO\"",
@@ -1217,6 +1280,7 @@
     "alias": null
   },
   {
+    "id": 64,
     "genre": "EDM/BEMANI",
     "song": "DOWNER & UPPER T STEP EDITION",
     "artist": "BEMANI Sound Team \"DJ TOTTO\"",
@@ -1240,6 +1304,7 @@
     ]
   },
   {
+    "id": 65,
     "genre": "BEMANI",
     "song": "DUAL STRIKER",
     "artist": "Mayumi Morinaga,Fernweh by BEMANI Sound Team \"L.E.D. & Hu\u03a3eR\"",
@@ -1268,6 +1333,7 @@
     "alias": null
   },
   {
+    "id": 66,
     "genre": "EDM/BEMANI",
     "song": "December in Strasbourg",
     "artist": "nana(Sevencolors) feat. mana",
@@ -1287,6 +1353,7 @@
     "alias": ["\u8056\u8a95\u8001\u4eba"]
   },
   {
+    "id": 67,
     "genre": "EDM/BEMANI",
     "song": "Deep Vibes",
     "artist": "Carpainter",
@@ -1306,6 +1373,7 @@
     "alias": null
   },
   {
+    "id": 68,
     "genre": "BEMANI",
     "song": "Din Don Dan",
     "artist": "Ryu\u2606 feat.Mayumi Morinaga",
@@ -1325,6 +1393,7 @@
     "alias": null
   },
   {
+    "id": 69,
     "genre": "EDM/BEMANI",
     "song": "Disco Nights",
     "artist": "Relect",
@@ -1344,6 +1413,7 @@
     "alias": null
   },
   {
+    "id": 70,
     "genre": "EDM/BEMANI",
     "song": "Dive in Blue",
     "artist": "BlackY",
@@ -1363,6 +1433,7 @@
     "alias": null
   },
   {
+    "id": 71,
     "genre": "EDM/BEMANI",
     "song": "Do It!",
     "artist": "MK",
@@ -1382,6 +1453,7 @@
     "alias": null
   },
   {
+    "id": 72,
     "genre": "EDM/BEMANI",
     "song": "Don't Be Afraid",
     "artist": "MK",
@@ -1401,6 +1473,7 @@
     "alias": ["Music is my Suicide"]
   },
   {
+    "id": 73,
     "genre": "EDM/BEMANI",
     "song": "Don't Rush but Dance Rush",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -1420,6 +1493,7 @@
     "alias": ["Dont Rush but Dancerush", "DRBDR"]
   },
   {
+    "id": 74,
     "genre": "EDM/BEMANI",
     "song": "Don't Speak",
     "artist": "PRIDASK",
@@ -1439,6 +1513,7 @@
     "alias": ["Dont Speak", "\u9589\u5634"]
   },
   {
+    "id": 75,
     "genre": "EDM/BEMANI",
     "song": "Don't Stop!!",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -1458,6 +1533,7 @@
     "alias": ["\u4e0d\u8981\u505c"]
   },
   {
+    "id": 76,
     "genre": "EDM/BEMANI",
     "song": "Don't Stop!! RUNNING MAN EDITION",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -1484,6 +1560,7 @@
     ]
   },
   {
+    "id": 77,
     "genre": "BEMANI",
     "song": "Drop The Bounce",
     "artist": "Hommarju",
@@ -1503,6 +1580,7 @@
     "alias": ["DtB"]
   },
   {
+    "id": 78,
     "genre": "EDM/BEMANI",
     "song": "Dual Bladez",
     "artist": "\u304a\u3082\u3057\u308d\u4e09\u56fd\u5fd7",
@@ -1522,6 +1600,7 @@
     "alias": ["Dual Blades", "\u4e09\u570b"]
   },
   {
+    "id": 79,
     "genre": "BEMANI",
     "song": "EGOISM 110",
     "artist": "BEMANI Sound Team \"U1 Ground-Speed\"",
@@ -1541,6 +1620,7 @@
     "alias": ["110", "\u5370\u5ea6\u4eba"]
   },
   {
+    "id": 80,
     "genre": "EDM",
     "song": "EMPIRE",
     "artist": "AEONS",
@@ -1560,6 +1640,7 @@
     "alias": null
   },
   {
+    "id": 81,
     "genre": "BEMANI",
     "song": "ERROR CODE",
     "artist": "C-Show",
@@ -1579,6 +1660,7 @@
     "alias": ["\u932f\u8aa4\u78bc"]
   },
   {
+    "id": 82,
     "genre": "POPS",
     "song": "EZ DO DANCE",
     "artist": "(TRF)",
@@ -1598,6 +1680,7 @@
     "alias": null
   },
   {
+    "id": 83,
     "genre": "BEMANI",
     "song": "Easy Peasy",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -1617,6 +1700,7 @@
     "alias": null
   },
   {
+    "id": 84,
     "genre": "EDM/BEMANI",
     "song": "Electric Dance System Music",
     "artist": "U1 overground",
@@ -1636,6 +1720,7 @@
     "alias": ["EDSM"]
   },
   {
+    "id": 85,
     "genre": "EDM/BEMANI",
     "song": "FLOWER (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"DJ TOTTO\"",
@@ -1655,6 +1740,7 @@
     "alias": ["\u6276\u8001\u4e8c"]
   },
   {
+    "id": 86,
     "genre": "BEMANI",
     "song": "FUTURE is Dead",
     "artist": "C-Show",
@@ -1674,6 +1760,7 @@
     "alias": null
   },
   {
+    "id": 87,
     "genre": "EDM/BEMANI",
     "song": "Feelin' Good",
     "artist": "DJ.DAI",
@@ -1693,6 +1780,7 @@
     "alias": ["Feeling Good"]
   },
   {
+    "id": 88,
     "genre": "EDM/BEMANI",
     "song": "Fire Spirit",
     "artist": "MK",
@@ -1712,6 +1800,7 @@
     "alias": null
   },
   {
+    "id": 89,
     "genre": "EDM/BEMANI",
     "song": "Flow",
     "artist": "NUU$HI",
@@ -1731,6 +1820,7 @@
     "alias": null
   },
   {
+    "id": 90,
     "genre": "BEMANI",
     "song": "Flying soda",
     "artist": "\u732b\u53c9Master feat.\u6797\u3082\u3082\u3053",
@@ -1750,6 +1840,7 @@
     "alias": null
   },
   {
+    "id": 91,
     "genre": "BEMANI",
     "song": "Follow Tomorrow",
     "artist": "HHH\u00d7MM\u00d7ST",
@@ -1769,6 +1860,7 @@
     "alias": null
   },
   {
+    "id": 92,
     "genre": "EDM/BEMANI",
     "song": "Forgetting Machine",
     "artist": "TAKU INOUE",
@@ -1788,6 +1880,7 @@
     "alias": ["Now I Can't Forget"]
   },
   {
+    "id": 93,
     "genre": "EDM/BEMANI",
     "song": "Forgetting Machine (RoughSketch Remix)",
     "artist": "RoughSketch",
@@ -1807,6 +1900,7 @@
     "alias": null
   },
   {
+    "id": 94,
     "genre": "EDM/BEMANI",
     "song": "Forgetting Machine RUNNING MAN EDITION",
     "artist": "TAKU INOUE",
@@ -1833,6 +1927,7 @@
     ]
   },
   {
+    "id": 95,
     "genre": "BEMANI",
     "song": "GHOST KINGDOM",
     "artist": "BEMANI Sound Team \"\u5287\u56e3\u30ec\u30b3\u30fc\u30c9\"",
@@ -1852,6 +1947,7 @@
     "alias": null
   },
   {
+    "id": 96,
     "genre": "BEMANI",
     "song": "GHOST KINGDOM CHARLESTON EDITION",
     "artist": "BEMANI Sound Team \"\u5287\u56e3\u30ec\u30b3\u30fc\u30c9\"",
@@ -1871,6 +1967,7 @@
     "alias": ["GHOST KINGDOM CHARLESTON version"]
   },
   {
+    "id": 97,
     "genre": "BEMANI",
     "song": "GOLDEN CROSS",
     "artist": "dj REMO-CON VS dj TAKA",
@@ -1890,6 +1987,7 @@
     "alias": ["\u9ec3\u91d1\u5341\u5b57", "\u5c07\u68cb"]
   },
   {
+    "id": 98,
     "genre": "POPS/BEMANI",
     "song": "GRADIUS REMIX (\u2191\u2191\u2193\u2193\u2190\u2192\u2190\u2192BA Ver.)",
     "artist": "TOKYO MACHINE",
@@ -1913,6 +2011,7 @@
     ]
   },
   {
+    "id": 99,
     "genre": "BEMANI",
     "song": "Garuda",
     "artist": "kors k",
@@ -1932,6 +2031,7 @@
     "alias": null
   },
   {
+    "id": 100,
     "genre": "EDM/BEMANI",
     "song": "Garuda (Hommarju Remix)",
     "artist": "Hommarju",
@@ -1951,6 +2051,7 @@
     "alias": null
   },
   {
+    "id": 101,
     "genre": "EDM/BEMANI",
     "song": "Get On The Floor",
     "artist": "RoughSketch",
@@ -1970,6 +2071,7 @@
     "alias": ["GOTF"]
   },
   {
+    "id": 102,
     "genre": "BEMANI",
     "song": "Gimme a Big Beat",
     "artist": "kors k",
@@ -1989,6 +2091,7 @@
     "alias": null
   },
   {
+    "id": 103,
     "genre": "BEMANI",
     "song": "Globe Glitter",
     "artist": "Sana,ATSUMI UEDA by BEMANI Sound Team \"PON\"",
@@ -2008,6 +2111,7 @@
     "alias": null
   },
   {
+    "id": 104,
     "genre": "BEMANI",
     "song": "Go Down",
     "artist": "KO3",
@@ -2027,6 +2131,7 @@
     "alias": null
   },
   {
+    "id": 105,
     "genre": "BEMANI",
     "song": "Golden Palms",
     "artist": "Dirty Androids",
@@ -2046,6 +2151,7 @@
     "alias": null
   },
   {
+    "id": 106,
     "genre": "BEMANI",
     "song": "Gymnopedie-kors k mix-",
     "artist": "kors k",
@@ -2065,6 +2171,7 @@
     "alias": null
   },
   {
+    "id": 107,
     "genre": "EDM/BEMANI",
     "song": "HARD MODE",
     "artist": "NATSUMI",
@@ -2084,6 +2191,7 @@
     "alias": null
   },
   {
+    "id": 108,
     "genre": "POPS",
     "song": "HIP",
     "artist": "Mamamoo",
@@ -2103,6 +2211,7 @@
     "alias": null
   },
   {
+    "id": 109,
     "genre": "EDM",
     "song": "HIT IT!",
     "artist": "Higher5",
@@ -2122,6 +2231,7 @@
     "alias": null
   },
   {
+    "id": 110,
     "genre": "BEMANI",
     "song": "HYPERDRIVE",
     "artist": "Moe Shop",
@@ -2141,6 +2251,7 @@
     "alias": null
   },
   {
+    "id": 111,
     "genre": "EDM/BEMANI",
     "song": "Hastur",
     "artist": "USAO",
@@ -2160,6 +2271,7 @@
     "alias": null
   },
   {
+    "id": 112,
     "genre": "EDM/BEMANI",
     "song": "Heat Up The Dancefloor",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -2179,6 +2291,7 @@
     "alias": null
   },
   {
+    "id": 113,
     "genre": "?",
     "song": "Hello World",
     "artist": "MK",
@@ -2198,6 +2311,7 @@
     "alias": null
   },
   {
+    "id": 114,
     "genre": "EDM/BEMANI",
     "song": "HighBALL",
     "artist": "MK",
@@ -2217,6 +2331,7 @@
     "alias": null
   },
   {
+    "id": 115,
     "genre": "EDM/BEMANI",
     "song": "HighBALL T STEP EDITION",
     "artist": "MK",
@@ -2240,6 +2355,7 @@
     ]
   },
   {
+    "id": 116,
     "genre": "EDM/BEMANI",
     "song": "Honey Bounce",
     "artist": "nora2r",
@@ -2259,6 +2375,7 @@
     "alias": null
   },
   {
+    "id": 117,
     "genre": "EDM/BEMANI",
     "song": "HoneyComb",
     "artist": "Hylen",
@@ -2278,6 +2395,7 @@
     "alias": ["\u8702\u7aa9"]
   },
   {
+    "id": 118,
     "genre": "EDM/BEMANI",
     "song": "I Like to BOUNCE",
     "artist": "BEMANI Sound Team \"Sota Fujimori Final Season\"",
@@ -2297,6 +2415,7 @@
     "alias": null
   },
   {
+    "id": 119,
     "genre": "EDM/BEMANI",
     "song": "Ideal Sunset",
     "artist": "KAN TAKAHIKO",
@@ -2316,6 +2435,7 @@
     "alias": null
   },
   {
+    "id": 120,
     "genre": "BEMANI",
     "song": "Ignited Night",
     "artist": "HHH",
@@ -2335,6 +2455,7 @@
     "alias": null
   },
   {
+    "id": 121,
     "genre": "EDM/BEMANI",
     "song": "Impress",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -2354,6 +2475,7 @@
     "alias": null
   },
   {
+    "id": 122,
     "genre": "EDM/BEMANI",
     "song": "Insomniac Nights",
     "artist": "Relect",
@@ -2373,6 +2495,7 @@
     "alias": ["\u571f\u8457"]
   },
   {
+    "id": 123,
     "genre": "EDM/BEMANI",
     "song": "JOK3R",
     "artist": "Yuta Imai",
@@ -2392,6 +2515,7 @@
     "alias": ["JOKER"]
   },
   {
+    "id": 124,
     "genre": "EDM/BEMANI",
     "song": "Jalebi",
     "artist": "KAN TAKAHIKO",
@@ -2411,6 +2535,7 @@
     "alias": null
   },
   {
+    "id": 125,
     "genre": "BEMANI",
     "song": "Jetcoaster Windy",
     "artist": "BEMANI Sound Team \"dj TAKA\" feat.\u306e\u306e",
@@ -2430,6 +2555,7 @@
     "alias": ["Nono song"]
   },
   {
+    "id": 126,
     "genre": "BEMANI",
     "song": "Kill The Beat",
     "artist": "lapix",
@@ -2449,6 +2575,7 @@
     "alias": ["KTB"]
   },
   {
+    "id": 127,
     "genre": "POPS",
     "song": "LADY",
     "artist": "\u3061\u3083\u3093\u307f\u306a",
@@ -2468,6 +2595,7 @@
     "alias": null
   },
   {
+    "id": 128,
     "genre": "BEMANI",
     "song": "LIKE A VAMPIRE",
     "artist": "koyomi,\u661f\u91ce\u594f\u5b50 by BEMANI Sound Team \"TAKA\"",
@@ -2487,6 +2615,7 @@
     "alias": null
   },
   {
+    "id": 129,
     "genre": "BEMANI",
     "song": "LUV CAN SAVE U",
     "artist": "HIDEKI NAGANUMA",
@@ -2506,6 +2635,7 @@
     "alias": null
   },
   {
+    "id": 130,
     "genre": "EDM/BEMANI",
     "song": "Let Me See Your Dance",
     "artist": "kors k vs BEMANI Sound Team \"SYUNN\"",
@@ -2525,6 +2655,7 @@
     "alias": null
   },
   {
+    "id": 131,
     "genre": "BEMANI",
     "song": "Let's DANCE aROUND!!",
     "artist": "kors k feat.Jaejun by NuevoStudio",
@@ -2544,6 +2675,7 @@
     "alias": null
   },
   {
+    "id": 132,
     "genre": "EDM/BEMANI",
     "song": "Let's Party!!",
     "artist": "Relect",
@@ -2563,6 +2695,7 @@
     "alias": ["Lets Party"]
   },
   {
+    "id": 133,
     "genre": "EDM/BEMANI",
     "song": "Like This",
     "artist": "android52",
@@ -2582,6 +2715,7 @@
     "alias": null
   },
   {
+    "id": 134,
     "genre": "EDM/BEMANI",
     "song": "Love 2 Shuffle",
     "artist": "BEMANI Sound Team \"Sota F.\" feat. Starbitz",
@@ -2601,6 +2735,7 @@
     "alias": ["L2S"]
   },
   {
+    "id": 135,
     "genre": "EDM/BEMANI",
     "song": "Love Me",
     "artist": "Kenichi Chiba",
@@ -2620,6 +2755,7 @@
     "alias": null
   },
   {
+    "id": 136,
     "genre": "EDM/BEMANI",
     "song": "Luminous Pajama",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -2639,6 +2775,7 @@
     "alias": ["\u7761\u8863"]
   },
   {
+    "id": 137,
     "genre": "BEMANI",
     "song": "MA\u30fbTSU\u30fbRI",
     "artist": "\u304b\u306a\u305f\u3093,\u30a2\u30de\u30ae\u30bb\u30fc\u30e9,\u3041\u3085 by BEMANI Sound Team \"\u85e4\u68ee\u5d07\u591a\"",
@@ -2666,6 +2803,7 @@
     "alias": ["Matsuri", "Festival"]
   },
   {
+    "id": 138,
     "genre": "BEMANI",
     "song": "MOVE! (We Keep It Movin')",
     "artist": "Jonny Dynamite!,Lisa - paint with stars -,Rio Hiiragi by BEMANI Sound Team \"U1-ASAMi\"",
@@ -2691,6 +2829,7 @@
     "alias": ["Moving"]
   },
   {
+    "id": 139,
     "genre": "EDM/BEMANI",
     "song": "MUTSUKI",
     "artist": "KO3",
@@ -2710,6 +2849,7 @@
     "alias": null
   },
   {
+    "id": 140,
     "genre": "EDM/BEMANI",
     "song": "MY NAME IS",
     "artist": "STUDIO MOTTIE",
@@ -2729,6 +2869,7 @@
     "alias": ["Mottie Song"]
   },
   {
+    "id": 141,
     "genre": "EDM/BEMANI",
     "song": "Majestic",
     "artist": "Dirty Androids",
@@ -2748,6 +2889,7 @@
     "alias": null
   },
   {
+    "id": 142,
     "genre": "EDM/BEMANI",
     "song": "Majestic CRAB STEP EDITION",
     "artist": "Dirty Androids",
@@ -2767,6 +2909,7 @@
     "alias": ["Majestic CRAB STEP version"]
   },
   {
+    "id": 143,
     "genre": "EDM/BEMANI",
     "song": "Make That Body",
     "artist": "kors k vs Yooh",
@@ -2786,6 +2929,7 @@
     "alias": null
   },
   {
+    "id": 144,
     "genre": "POPS",
     "song": "Make you happy",
     "artist": "NiziU",
@@ -2805,6 +2949,7 @@
     "alias": null
   },
   {
+    "id": 145,
     "genre": "EDM/BEMANI",
     "song": "Mandrake",
     "artist": "nagomu tamaki",
@@ -2824,6 +2969,7 @@
     "alias": null
   },
   {
+    "id": 146,
     "genre": "EDM/BEMANI",
     "song": "Meltdown",
     "artist": "G Blazen",
@@ -2843,6 +2989,7 @@
     "alias": ["\u7194\u5316"]
   },
   {
+    "id": 147,
     "genre": "EDM/BEMANI",
     "song": "Memories",
     "artist": "CHEAP CREAM",
@@ -2862,6 +3009,7 @@
     "alias": null
   },
   {
+    "id": 148,
     "genre": "BEMANI",
     "song": "Mermaid girl",
     "artist": "Cream puff",
@@ -2881,6 +3029,7 @@
     "alias": null
   },
   {
+    "id": 149,
     "genre": "BEMANI",
     "song": "Metric",
     "artist": "Hommarju",
@@ -2900,6 +3049,7 @@
     "alias": null
   },
   {
+    "id": 150,
     "genre": "EDM/BEMANI",
     "song": "Midland Mainline",
     "artist": "Genick",
@@ -2919,6 +3069,7 @@
     "alias": ["Mainland China", "\u4e2d\u571f\u4e3b\u7dda"]
   },
   {
+    "id": 151,
     "genre": "EDM/BEMANI",
     "song": "Midnight Amaretto",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -2942,6 +3093,7 @@
     ]
   },
   {
+    "id": 152,
     "genre": "EDM/BEMANI",
     "song": "Midnight Amaretto RUNNING MAN EDITION",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -2967,6 +3119,7 @@
     ]
   },
   {
+    "id": 153,
     "genre": "?",
     "song": "Midnight Starlight",
     "artist": "kors k feat.Such",
@@ -2986,6 +3139,7 @@
     "alias": null
   },
   {
+    "id": 154,
     "genre": "EDM/S",
     "song": "Missing You",
     "artist": "Mesto",
@@ -3005,6 +3159,7 @@
     "alias": null
   },
   {
+    "id": 155,
     "genre": "EDM/BEMANI",
     "song": "My Time",
     "artist": "RiraN",
@@ -3024,6 +3179,7 @@
     "alias": null
   },
   {
+    "id": 156,
     "genre": "EDM/BEMANI",
     "song": "Neon Rider",
     "artist": "RoughSketch",
@@ -3043,6 +3199,7 @@
     "alias": null
   },
   {
+    "id": 157,
     "genre": "EDM/BEMANI",
     "song": "New Solution",
     "artist": "KARUT",
@@ -3062,6 +3219,7 @@
     "alias": null
   },
   {
+    "id": 158,
     "genre": "EDM/BEMANI",
     "song": "NewAige",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR\"",
@@ -3081,6 +3239,7 @@
     "alias": null
   },
   {
+    "id": 159,
     "genre": "EDM/BEMANI",
     "song": "NewAige CHARLESTON EDITION",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR\"",
@@ -3100,6 +3259,7 @@
     "alias": ["NewAige CHARLESTON version"]
   },
   {
+    "id": 160,
     "genre": "EDM/BEMANI",
     "song": "Next Stage 2022",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -3119,6 +3279,7 @@
     "alias": null
   },
   {
+    "id": 161,
     "genre": "EDM/BEMANI",
     "song": "Night & Day",
     "artist": "TANUKI",
@@ -3138,6 +3299,7 @@
     "alias": ["Night and Day"]
   },
   {
+    "id": 162,
     "genre": "EDM/BEMANI",
     "song": "Nighthiker",
     "artist": "nana(Sevencolors) feat.mana",
@@ -3157,6 +3319,7 @@
     "alias": null
   },
   {
+    "id": 163,
     "genre": "EDM/BEMANI",
     "song": "Nightlife",
     "artist": "Moe Shop",
@@ -3176,6 +3339,7 @@
     "alias": null
   },
   {
+    "id": 164,
     "genre": "EDM/BEMANI",
     "song": "Nocturnus",
     "artist": "KAN TAKAHIKO",
@@ -3195,6 +3359,7 @@
     "alias": ["\u591c\u66f2"]
   },
   {
+    "id": 165,
     "genre": "BEMANI",
     "song": "Oboro Cybernetics",
     "artist": "Tanchiky",
@@ -3214,6 +3379,7 @@
     "alias": null
   },
   {
+    "id": 166,
     "genre": "EDM/BEMANI",
     "song": "Official Bootleg",
     "artist": "Blacklolita",
@@ -3233,6 +3399,7 @@
     "alias": null
   },
   {
+    "id": 167,
     "genre": "EDM/S",
     "song": "One Word",
     "artist": "Deadly Zoo",
@@ -3252,6 +3419,7 @@
     "alias": null
   },
   {
+    "id": 168,
     "genre": "EDM/BEMANI",
     "song": "Oppress",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -3271,6 +3439,7 @@
     "alias": null
   },
   {
+    "id": 169,
     "genre": "EDM/BEMANI",
     "song": "Orange Lullaby",
     "artist": "Yooh",
@@ -3290,6 +3459,7 @@
     "alias": null
   },
   {
+    "id": 170,
     "genre": "BEMANI",
     "song": "Our Soul",
     "artist": "CaZ",
@@ -3309,6 +3479,7 @@
     "alias": null
   },
   {
+    "id": 171,
     "genre": "EDM/BEMANI",
     "song": "PRANK",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -3328,6 +3499,7 @@
     "alias": null
   },
   {
+    "id": 172,
     "genre": "EDM/BEMANI",
     "song": "Pandora's Box",
     "artist": "MK",
@@ -3347,6 +3519,7 @@
     "alias": ["\u6f58\u6735\u62c9"]
   },
   {
+    "id": 173,
     "genre": "EDM/BEMANI",
     "song": "Party Jumpin'",
     "artist": "KO3",
@@ -3366,6 +3539,7 @@
     "alias": null
   },
   {
+    "id": 174,
     "genre": "EDM/BEMANI",
     "song": "Party Jumpin' RUNNING MAN EDITION",
     "artist": "KO3",
@@ -3391,6 +3565,7 @@
     ]
   },
   {
+    "id": 175,
     "genre": "EDM/BEMANI",
     "song": "Penguin Morning",
     "artist": "nora2r",
@@ -3410,6 +3585,7 @@
     "alias": ["\u4f01\u9d5d\u7684\u65e9\u6668"]
   },
   {
+    "id": 176,
     "genre": "EDM",
     "song": "Playa",
     "artist": "SlayZ",
@@ -3429,6 +3605,7 @@
     "alias": null
   },
   {
+    "id": 177,
     "genre": "EDM/BEMANI",
     "song": "Polar Night",
     "artist": "Hommarju",
@@ -3448,6 +3625,7 @@
     "alias": ["\u6975\u591c"]
   },
   {
+    "id": 178,
     "genre": "EDM/BEMANI",
     "song": "Poochie",
     "artist": "kors k",
@@ -3467,6 +3645,7 @@
     "alias": null
   },
   {
+    "id": 179,
     "genre": "POPS",
     "song": "Pretender",
     "artist": "(Official\u9aed\u7537dism)",
@@ -3486,6 +3665,7 @@
     "alias": null
   },
   {
+    "id": 180,
     "genre": "?",
     "song": "Prettiful!",
     "artist": "BlackY",
@@ -3505,6 +3685,7 @@
     "alias": null
   },
   {
+    "id": 181,
     "genre": "BEMANI",
     "song": "RAIN",
     "artist": "dj TAKA",
@@ -3524,6 +3705,7 @@
     "alias": null
   },
   {
+    "id": 182,
     "genre": "EDM/BEMANI",
     "song": "RAVELINE ATTACK",
     "artist": "hara (HyperJuice)",
@@ -3543,6 +3725,7 @@
     "alias": null
   },
   {
+    "id": 183,
     "genre": "BEMANI",
     "song": "RISING FIRE HAWK",
     "artist": "L.E.D.-G",
@@ -3562,6 +3745,7 @@
     "alias": null
   },
   {
+    "id": 184,
     "genre": "EDM/BEMANI",
     "song": "Raw Crawler",
     "artist": "Masayoshi Iimori",
@@ -3581,6 +3765,7 @@
     "alias": null
   },
   {
+    "id": 185,
     "genre": "EDM/BEMANI",
     "song": "Red Hot Chili Samba!",
     "artist": "ARM (IOSYS)",
@@ -3600,6 +3785,7 @@
     "alias": ["Red Hot Chili Pepper"]
   },
   {
+    "id": 186,
     "genre": "EDM",
     "song": "Rip It Off (Now) Rip It Off",
     "artist": "\u304b\u3081\u308a\u3042 feat. kradness",
@@ -3619,6 +3805,7 @@
     "alias": null
   },
   {
+    "id": 187,
     "genre": "EDM/BEMANI",
     "song": "Robot Loves Smoked-Salmon",
     "artist": "BEMANI Sound Team \"The Foie-Gras of The Sea\"",
@@ -3638,6 +3825,7 @@
     "alias": ["\u7159\u71fb\u9bad\u9b5a"]
   },
   {
+    "id": 188,
     "genre": "EDM/BEMANI",
     "song": "Robot Loves Smoked-Salmon CRAB STEP EDITION",
     "artist": "BEMANI Sound Team \"The Foie-Gras of The Sea\"",
@@ -3660,6 +3848,7 @@
     ]
   },
   {
+    "id": 189,
     "genre": "EDM/BEMANI",
     "song": "Roughneck Disco",
     "artist": "Itchy&Scratchy",
@@ -3679,6 +3868,7 @@
     "alias": null
   },
   {
+    "id": 190,
     "genre": "EDM/BEMANI",
     "song": "S7AGE",
     "artist": "Zekk",
@@ -3698,6 +3888,7 @@
     "alias": null
   },
   {
+    "id": 191,
     "genre": "EDM/BEMANI",
     "song": "SHINOBI",
     "artist": "Relect",
@@ -3717,6 +3908,7 @@
     "alias": null
   },
   {
+    "id": 192,
     "genre": "EDM/BEMANI",
     "song": "Sakura Reflection (STARDOM Remix)",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -3736,6 +3928,7 @@
     "alias": null
   },
   {
+    "id": 193,
     "genre": "BEMANI",
     "song": "Sakura Sunrise",
     "artist": "Ryu\u2606",
@@ -3755,6 +3948,7 @@
     "alias": null
   },
   {
+    "id": 194,
     "genre": "BEMANI",
     "song": "Saturday Night Love",
     "artist": "Sota feat. Brenda V.",
@@ -3774,6 +3968,7 @@
     "alias": null
   },
   {
+    "id": 195,
     "genre": "BEMANI",
     "song": "Saturday Night Love -Phunk Disco Mix-",
     "artist": "Sota Fujimori",
@@ -3793,6 +3988,7 @@
     "alias": null
   },
   {
+    "id": 196,
     "genre": "BEMANI",
     "song": "Second Heaven -Samba,Samba,SomeBody MIX-",
     "artist": "Remixed by DJ YOSHITAKA",
@@ -3812,6 +4008,7 @@
     "alias": ["Somebody Scream"]
   },
   {
+    "id": 197,
     "genre": "BEMANI",
     "song": "Second Heaven -Samba,Samba,SomeBody MIX- SPONGEBOB EDITION",
     "artist": "Remixed by DJ YOSHITAKA",
@@ -3834,6 +4031,7 @@
     ]
   },
   {
+    "id": 198,
     "genre": "EDM/BEMANI",
     "song": "Set Me Free",
     "artist": "kors k vs BEMANI Sound Team \"L.E.D.\"",
@@ -3853,6 +4051,7 @@
     "alias": ["SMF"]
   },
   {
+    "id": 199,
     "genre": "EDM/BEMANI",
     "song": "Shamshir",
     "artist": "Blacklolita",
@@ -3872,6 +4071,7 @@
     "alias": ["\u5f4e\u5200"]
   },
   {
+    "id": 200,
     "genre": "EDM/BEMANI",
     "song": "She Shines Under The Mirror Ball",
     "artist": "BEMANI Sound Team \"Sota F.\"",
@@ -3891,6 +4091,7 @@
     "alias": null
   },
   {
+    "id": 201,
     "genre": "EDM/BEMANI",
     "song": "Shiva",
     "artist": "Relect",
@@ -3910,6 +4111,7 @@
     "alias": ["\u6fd5\u5a46"]
   },
   {
+    "id": 202,
     "genre": "EDM/BEMANI",
     "song": "Shuffle The Cards",
     "artist": "uno(IOSYS TRAX)",
@@ -3929,6 +4131,7 @@
     "alias": ["\u6d17\u724c"]
   },
   {
+    "id": 203,
     "genre": "BEMANI",
     "song": "Shuffle cats",
     "artist": "BEMANI Sound Team \"\u732b\u53c9Master\"",
@@ -3948,6 +4151,7 @@
     "alias": null
   },
   {
+    "id": 204,
     "genre": "BEMANI",
     "song": "SigSig",
     "artist": "kors k",
@@ -3967,6 +4171,7 @@
     "alias": null
   },
   {
+    "id": 205,
     "genre": "BEMANI",
     "song": "Six String Proof (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"Yvya \u00d7 Mutsuhiko Izumi\"",
@@ -3986,6 +4191,7 @@
     "alias": ["SSP", "\u516d\u5f26\u8b49\u660e", "\u5409\u4ed6"]
   },
   {
+    "id": 206,
     "genre": "EDM/BEMANI",
     "song": "Sleepwell",
     "artist": "DJ WILDPARTY feat. yosumi",
@@ -4005,6 +4211,7 @@
     "alias": null
   },
   {
+    "id": 207,
     "genre": "EDM/BEMANI",
     "song": "Small Steps",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4024,6 +4231,7 @@
     "alias": ["\u5c0f\u6b65"]
   },
   {
+    "id": 208,
     "genre": "BEMANI",
     "song": "Sparkle Smilin'",
     "artist": "BEMANI Sound Team \"Qrispy Joybox\" feat.\u3044\u3061\u304b",
@@ -4043,6 +4251,7 @@
     "alias": ["Ichika Rush song", "Ichikarush song"]
   },
   {
+    "id": 209,
     "genre": "BEMANI",
     "song": "Special One",
     "artist": "kors k feat. Suzuyo Miyamoto",
@@ -4062,6 +4271,7 @@
     "alias": null
   },
   {
+    "id": 210,
     "genre": "EDM/BEMANI",
     "song": "Spin & Slide",
     "artist": "KAN TAKAHIKO",
@@ -4081,6 +4291,7 @@
     "alias": ["Spin and Slide"]
   },
   {
+    "id": 211,
     "genre": "EDM/BEMANI",
     "song": "Starlight Kiss",
     "artist": "BlackY",
@@ -4100,6 +4311,7 @@
     "alias": ["\u661f\u5149\u4e4b\u543b"]
   },
   {
+    "id": 212,
     "genre": "?",
     "song": "Starlight Parade",
     "artist": "ARM (IOSYS) ft. Renko",
@@ -4119,6 +4331,7 @@
     "alias": null
   },
   {
+    "id": 213,
     "genre": "EDM/BEMANI",
     "song": "Stepper",
     "artist": "PSYQUI",
@@ -4138,6 +4351,7 @@
     "alias": null
   },
   {
+    "id": 214,
     "genre": "EDM/BEMANI",
     "song": "Summer's End",
     "artist": "Nhato",
@@ -4157,6 +4371,7 @@
     "alias": null
   },
   {
+    "id": 215,
     "genre": "EDM/BEMANI",
     "song": "Summery",
     "artist": "KO3",
@@ -4176,6 +4391,7 @@
     "alias": ["Crazy 'bout your love"]
   },
   {
+    "id": 216,
     "genre": "EDM/BEMANI",
     "song": "Sunrise (feat. LEO & Viola)",
     "artist": "Hommarju",
@@ -4195,6 +4411,7 @@
     "alias": ["Sunrise (KAC)", "Sunrise (Spark Festival)", "Sunrise (SparkFes"]
   },
   {
+    "id": 217,
     "genre": "BEMANI",
     "song": "Sunshine let me find a way",
     "artist": "\u30b3\u30d0\u30e4\u30b7\u30e6\u30a6\u30e4 (IOSYS) ft. You-Re:",
@@ -4214,6 +4431,7 @@
     "alias": null
   },
   {
+    "id": 218,
     "genre": "EDM/BEMANI",
     "song": "Sweet Bordeaux Nightmare",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4233,6 +4451,7 @@
     "alias": null
   },
   {
+    "id": 219,
     "genre": "EDM/BEMANI",
     "song": "Switch",
     "artist": "Dubscribe",
@@ -4252,6 +4471,7 @@
     "alias": null
   },
   {
+    "id": 220,
     "genre": "EDM/BEMANI",
     "song": "Switch SPONGEBOB EDITION",
     "artist": "Dubscribe",
@@ -4271,6 +4491,7 @@
     "alias": ["Switch SPONGEBOB version"]
   },
   {
+    "id": 221,
     "genre": "EDM/BEMANI",
     "song": "Synaptic",
     "artist": "2ToneDisco",
@@ -4290,6 +4511,7 @@
     "alias": null
   },
   {
+    "id": 222,
     "genre": "EDM/BEMANI",
     "song": "Synth Presets & Sample Loops",
     "artist": "BEMANI Sound Team \"90s crew cut\"",
@@ -4309,6 +4531,7 @@
     "alias": ["SPSL"]
   },
   {
+    "id": 223,
     "genre": "EDM/BEMANI",
     "song": "THE SAFARI (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -4328,6 +4551,7 @@
     "alias": ["\u7345\u5b50", "\u6c99\u767c\u529b"]
   },
   {
+    "id": 224,
     "genre": "BEMANI",
     "song": "Thank You Merry Christmas -DANCERUSH Mix-",
     "artist": "VENUS",
@@ -4347,6 +4571,7 @@
     "alias": null
   },
   {
+    "id": 225,
     "genre": "EDM/BEMANI",
     "song": "The First Step",
     "artist": "Yooh",
@@ -4366,6 +4591,7 @@
     "alias": null
   },
   {
+    "id": 226,
     "genre": "EDM/BEMANI",
     "song": "The GameHacker (Sampled Crazy Shuffle)",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR\"",
@@ -4385,6 +4611,7 @@
     "alias": null
   },
   {
+    "id": 227,
     "genre": "EDM/BEMANI",
     "song": "The Second Summer",
     "artist": "rira",
@@ -4404,6 +4631,7 @@
     "alias": null
   },
   {
+    "id": 228,
     "genre": "POPS",
     "song": "The Stealer",
     "artist": "THE BOYZ",
@@ -4423,6 +4651,7 @@
     "alias": null
   },
   {
+    "id": 229,
     "genre": "BEMANI",
     "song": "This Beat Is.....",
     "artist": "Shoichiro Hirata",
@@ -4442,6 +4671,7 @@
     "alias": ["TBI"]
   },
   {
+    "id": 230,
     "genre": "BEMANI",
     "song": "Too Late Snow",
     "artist": "movies (moimoi \u00d7 Xceon \u00d7 Dai.)",
@@ -4461,6 +4691,7 @@
     "alias": null
   },
   {
+    "id": 231,
     "genre": "EDM/BEMANI",
     "song": "Touch Me",
     "artist": "C-Show",
@@ -4480,6 +4711,7 @@
     "alias": ["Doggo", "\u6478\u6211", "\u5409\u5a03\u5a03"]
   },
   {
+    "id": 232,
     "genre": "BEMANI",
     "song": "Touch My Body",
     "artist": "anubasu-anubasu",
@@ -4499,6 +4731,7 @@
     "alias": null
   },
   {
+    "id": 233,
     "genre": "BEMANI",
     "song": "Trash",
     "artist": "Candy House",
@@ -4518,6 +4751,7 @@
     "alias": null
   },
   {
+    "id": 234,
     "genre": "BEMANI",
     "song": "Trill auf G (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"dj TAKA\"",
@@ -4537,6 +4771,7 @@
     "alias": null
   },
   {
+    "id": 235,
     "genre": "BEMANI",
     "song": "Triple Cross",
     "artist": "BEMANI Sound Team \"dj TAKA & DJ YOSHITAKA & SYUNN\"",
@@ -4556,6 +4791,7 @@
     "alias": null
   },
   {
+    "id": 236,
     "genre": "EDM/BEMANI",
     "song": "Tropical Love",
     "artist": "CHEAP CREAM",
@@ -4575,6 +4811,7 @@
     "alias": null
   },
   {
+    "id": 237,
     "genre": "EDM/BEMANI",
     "song": "True Blue (STARDOM Remix)",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4594,6 +4831,7 @@
     "alias": ["\u771f\u85cd"]
   },
   {
+    "id": 238,
     "genre": "EDM/BEMANI",
     "song": "True Blue (STARDOM Remix) T STEP EDITION",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4618,6 +4856,7 @@
     ]
   },
   {
+    "id": 239,
     "genre": "POPS",
     "song": "Twilight",
     "artist": "ONEUS",
@@ -4637,6 +4876,7 @@
     "alias": ["\ud0dc\uc591\uc774 \ub5a8\uc5b4\uc9c4\ub2e4"]
   },
   {
+    "id": 240,
     "genre": "EDM/BEMANI",
     "song": "Twinkle",
     "artist": "Aiobahn",
@@ -4656,6 +4896,7 @@
     "alias": null
   },
   {
+    "id": 241,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4675,6 +4916,7 @@
     "alias": ["T step lesson", "T-step lesson"]
   },
   {
+    "id": 242,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3 \u708e\u306e\u7279\u8a13\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4694,6 +4936,7 @@
     "alias": ["T step lesson fire training", "T-step lesson fire training"]
   },
   {
+    "id": 243,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u5fdc\u7528\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4713,6 +4956,7 @@
     "alias": ["Advanced T step lesson", "Advanced T-step lesson"]
   },
   {
+    "id": 244,
     "genre": "POPS",
     "song": "U.S.A.",
     "artist": "DA PUMP",
@@ -4732,6 +4976,7 @@
     "alias": ["USA"]
   },
   {
+    "id": 245,
     "genre": "POPS",
     "song": "U.S.A. ANOTHER EDITION",
     "artist": "DA PUMP",
@@ -4751,6 +4996,7 @@
     "alias": ["USA"]
   },
   {
+    "id": 246,
     "genre": "EDM/BEMANI",
     "song": "UCHU",
     "artist": "Ken Plus Ichiro",
@@ -4770,6 +5016,7 @@
     "alias": ["\u5b87\u5b99"]
   },
   {
+    "id": 247,
     "genre": "EDM/BEMANI",
     "song": "Undercover",
     "artist": "Hommarju",
@@ -4789,6 +5036,7 @@
     "alias": null
   },
   {
+    "id": 248,
     "genre": "POPS",
     "song": "Valkyrie",
     "artist": "ONEUS",
@@ -4808,6 +5056,7 @@
     "alias": ["\ubc1c\ud0a4\ub9ac"]
   },
   {
+    "id": 249,
     "genre": "EDM/BEMANI",
     "song": "Vamos A Bailar",
     "artist": "Yooh",
@@ -4827,6 +5076,7 @@
     "alias": ["Other 10th KAC song", "\u4f86\u8df3\u821e\u5427"]
   },
   {
+    "id": 250,
     "genre": "EDM/BEMANI",
     "song": "Villains",
     "artist": "RoughSketch",
@@ -4846,6 +5096,7 @@
     "alias": ["\u85a9\u8afe\u65af"]
   },
   {
+    "id": 251,
     "genre": "EDM/BEMANI",
     "song": "Visnu",
     "artist": "Blacklolita",
@@ -4865,6 +5116,7 @@
     "alias": null
   },
   {
+    "id": 252,
     "genre": "BEMANI",
     "song": "Voyager",
     "artist": "lapix",
@@ -4884,6 +5136,7 @@
     "alias": null
   },
   {
+    "id": 253,
     "genre": "EDM/BEMANI",
     "song": "WELCOME TO MY GAME",
     "artist": "GUCHON",
@@ -4903,6 +5156,7 @@
     "alias": null
   },
   {
+    "id": 254,
     "genre": "EDM/BEMANI",
     "song": "Waiting for you",
     "artist": "Soda Sphere",
@@ -4922,6 +5176,7 @@
     "alias": null
   },
   {
+    "id": 255,
     "genre": "EDM/BEMANI",
     "song": "Warpstep",
     "artist": "DJ Shimamura",
@@ -4941,6 +5196,7 @@
     "alias": null
   },
   {
+    "id": 256,
     "genre": "EDM/BEMANI",
     "song": "Wicked",
     "artist": "Hommarju",
@@ -4960,6 +5216,7 @@
     "alias": null
   },
   {
+    "id": 257,
     "genre": "EDM/BEMANI",
     "song": "Wicked SPONGEBOB EDITION",
     "artist": "Hommarju",
@@ -4979,6 +5236,7 @@
     "alias": ["Wicked SPONGEBOB version"]
   },
   {
+    "id": 258,
     "genre": "EDM/BEMANI",
     "song": "Without Words",
     "artist": "Dominant Space",
@@ -4998,6 +5256,7 @@
     "alias": null
   },
   {
+    "id": 259,
     "genre": "BEMANI",
     "song": "Wowie Zowie!",
     "artist": "Hommarju",
@@ -5017,6 +5276,7 @@
     "alias": null
   },
   {
+    "id": 260,
     "genre": "BEMANI",
     "song": "X-ray binary",
     "artist": "BEMANI Sound Team \"Trance Liquid\"",
@@ -5036,6 +5296,7 @@
     "alias": ["X\u5149"]
   },
   {
+    "id": 261,
     "genre": "EDM/BEMANI",
     "song": "You Take My Soul",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -5055,6 +5316,7 @@
     "alias": null
   },
   {
+    "id": 262,
     "genre": "?",
     "song": "You You You",
     "artist": "D.Watt ft. \u7d21\u97f3\u308c\u3044",
@@ -5074,6 +5336,7 @@
     "alias": null
   },
   {
+    "id": 263,
     "genre": "BEMANI",
     "song": "[E]",
     "artist": "dj MAX STEROID",
@@ -5093,6 +5356,7 @@
     "alias": null
   },
   {
+    "id": 264,
     "genre": "EDM/BEMANI",
     "song": "about right",
     "artist": "BEMANI Sound Team \"The Foie-Gras of The Sea\"",
@@ -5112,6 +5376,7 @@
     "alias": null
   },
   {
+    "id": 265,
     "genre": "BEMANI",
     "song": "bass 2 bass",
     "artist": "Ryu\u2606",
@@ -5131,6 +5396,7 @@
     "alias": null
   },
   {
+    "id": 266,
     "genre": "EDM/BEMANI",
     "song": "gigadelic (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"Dustup\"",
@@ -5150,6 +5416,7 @@
     "alias": null
   },
   {
+    "id": 267,
     "genre": "EDM/BEMANI",
     "song": "glacia (STARDOM Remix)",
     "artist": "lapix",
@@ -5169,6 +5436,7 @@
     "alias": ["\u51b0\u5ddd"]
   },
   {
+    "id": 268,
     "genre": "EDM/BEMANI",
     "song": "melody H4CKER",
     "artist": "Moe Shop",
@@ -5188,6 +5456,7 @@
     "alias": ["melody hacker"]
   },
   {
+    "id": 269,
     "genre": "BEMANI",
     "song": "murmur twins",
     "artist": "yu_tokiwa.djw",
@@ -5207,6 +5476,7 @@
     "alias": null
   },
   {
+    "id": 270,
     "genre": "EDM/BEMANI",
     "song": "neu (STARDOM Remix)",
     "artist": "\u5c11\u5e74\u30e9\u30b8\u30aa arranged by BEMANI Sound Team \"PON\"",
@@ -5226,6 +5496,7 @@
     "alias": null
   },
   {
+    "id": 271,
     "genre": "EDM/BEMANI",
     "song": "new heaven",
     "artist": "kiraku",
@@ -5245,6 +5516,7 @@
     "alias": ["\u65b0\u5929\u570b"]
   },
   {
+    "id": 272,
     "genre": "BEMANI",
     "song": "smooooch\u30fb\u2200\u30fb",
     "artist": "kors k",
@@ -5264,6 +5536,7 @@
     "alias": ["smooch"]
   },
   {
+    "id": 273,
     "genre": "EDM/BEMANI",
     "song": "take me higher",
     "artist": "KOTONOHOUSE",
@@ -5283,6 +5556,7 @@
     "alias": null
   },
   {
+    "id": 274,
     "genre": "BEMANI",
     "song": "toy boxer (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"S-C-U & SYUNN\"",
@@ -5302,6 +5576,7 @@
     "alias": null
   },
   {
+    "id": 275,
     "genre": "BEMANI",
     "song": "voltississimo (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"PHQUASE\"",
@@ -5321,6 +5596,7 @@
     "alias": null
   },
   {
+    "id": 276,
     "genre": "EDM/BEMANI",
     "song": "\u2020\u6e1a\u306e\u5c0f\u60aa\u9b54\u30e9\u30f4\u30ea\u30a3\uff5e\u30ec\u30a4\u30c7\u30a3\u30aa\u2020 (STARDOM Remix)",
     "artist": "kors k",
@@ -5343,6 +5619,7 @@
     ]
   },
   {
+    "id": 277,
     "genre": "EDM/BEMANI",
     "song": "\u2020\u6e1a\u306e\u5c0f\u60aa\u9b54\u30e9\u30f4\u30ea\u30a3\uff5e\u30ec\u30a4\u30c7\u30a3\u30aa\u2020 (STARDOM Remix) SPONGEBOB EDITION",
     "artist": "kors k",
@@ -5366,6 +5643,7 @@
     ]
   },
   {
+    "id": 278,
     "genre": "POPS",
     "song": "\u2191\u2191\u2193\u2193\u2190\u2192\u2190\u2192BA",
     "artist": "meiyo",
@@ -5389,6 +5667,7 @@
     ]
   },
   {
+    "id": 279,
     "genre": "POPS",
     "song": "\u3046\u3063\u305b\u3047\u308f",
     "artist": "Ado",
@@ -5408,6 +5687,7 @@
     "alias": ["Usseewa"]
   },
   {
+    "id": 280,
     "genre": "BEMANI",
     "song": "\u304a\u30fc\u307e\u3044\uff01\u3089\u3076\u308a\u30fc\uff01\u3059\u3046\u3043\u30fc\u3066\u3043\uff01\u3060\u30fc\u308a\u3093\uff01 (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"PON\" feat.NU-KO",
@@ -5431,6 +5711,7 @@
     ]
   },
   {
+    "id": 281,
     "genre": "BEMANI",
     "song": "\u3053\u3053\u304b\u3089\u3088\u308d\u3057\u304f\u5927\u4f5c\u6226143",
     "artist": "BEMANI Sound Team \"\u3042\u3055\u304d\u968a\"",
@@ -5454,6 +5735,7 @@
     ]
   },
   {
+    "id": 282,
     "genre": "BEMANI",
     "song": "\u3055\u3088\u306a\u3089\u30c8\u30ea\u30c3\u30d7",
     "artist": "Dormir",
@@ -5473,6 +5755,7 @@
     "alias": ["Sayonara trip", "\u544a\u5225\u4e4b\u65c5"]
   },
   {
+    "id": 283,
     "genre": "BEMANI",
     "song": "\u30a2\u30eb\u30b9\u30c8\u30ed\u30e1\u30ea\u30a2 (walk with you remix)",
     "artist": "TAG",
@@ -5495,6 +5778,7 @@
     ]
   },
   {
+    "id": 284,
     "genre": "BEMANI",
     "song": "\u30a8\u30b3\u723a",
     "artist": "Y&Co.",
@@ -5514,6 +5798,7 @@
     "alias": ["Eco jii", "Eco Grandpa", "\u5de5\u53e3\u723a"]
   },
   {
+    "id": 285,
     "genre": "EDM/BEMANI",
     "song": "\u30aa\u30cd\u30ac\u30a4\u30fb\u30c7\u30a3\u30b9\u30b3\u30fb\u30df\u30e5\u30fc\u30b8\u30c3\u30af",
     "artist": "\u661f\u91ce\u594f\u5b50 Prod by.uno",
@@ -5533,6 +5818,7 @@
     "alias": ["Onegai Disco Music"]
   },
   {
+    "id": 286,
     "genre": "BEMANI",
     "song": "\u30ab\u30b4\u30ce\u30c8\u30ea",
     "artist": "\u6a59\u8272\u7279\u5225\u5ba4",
@@ -5552,6 +5838,7 @@
     "alias": ["Kagonotori", "The Caged Bird", "\u7c60\u4e2d\u9ce5"]
   },
   {
+    "id": 287,
     "genre": "Lesson",
     "song": "\u30af\u30e9\u30d6\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5571,6 +5858,7 @@
     "alias": ["Crab Step lesson"]
   },
   {
+    "id": 288,
     "genre": "BEMANI",
     "song": "\u30b5\u30e8\u30ca\u30e9\u30fb\u30d8\u30f4\u30f3",
     "artist": "\u732b\u53c9Master",
@@ -5596,6 +5884,7 @@
     ]
   },
   {
+    "id": 289,
     "genre": "POPS",
     "song": "\u30b7\u30e5\u30ac\u30fc\u30bd\u30f3\u30b0\u3068\u30d3\u30bf\u30fc\u30b9\u30c6\u30c3\u30d7",
     "artist": "UNISON SQUARE GARDEN",
@@ -5615,6 +5904,7 @@
     "alias": ["Sugar song to bitter step", "Shugasongu to bitasuteppu"]
   },
   {
+    "id": 290,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f31",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5641,6 +5931,7 @@
     ]
   },
   {
+    "id": 291,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f32",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5667,6 +5958,7 @@
     ]
   },
   {
+    "id": 292,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f33",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5691,6 +5983,7 @@
     ]
   },
   {
+    "id": 293,
     "genre": "Lesson",
     "song": "\u30b9\u30dd\u30f3\u30b8\u30dc\u30d6\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5710,6 +6003,7 @@
     "alias": ["Spongebob lesson"]
   },
   {
+    "id": 294,
     "genre": "BEMANI",
     "song": "\u30b9\u30fc\u30d1\u30fc\u6226\u6e6f\u30d0\u30d0\u30f3\u30d0\u30fc\u30f3",
     "artist": "\u3059\u308f\u3072\u3067\u304a,\u79cb\u6210,\u304b\u307c\u3061\u3083,\u85cd\u6708\u306a\u304f\u308b,NU-KO by BEMANI Sound Team \"\u516b\u6238\u4e80\u751f\u7f85\"",
@@ -5739,6 +6033,7 @@
     "alias": ["Super Senyu Babanburn"]
   },
   {
+    "id": 295,
     "genre": "Lesson",
     "song": "\u30c0\u30a6\u30f3\uff06\u30b9\u30e9\u30a4\u30c9\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5758,6 +6053,7 @@
     "alias": ["Down&Slide lesson", "Down & Slide lesson"]
   },
   {
+    "id": 296,
     "genre": "Lesson",
     "song": "\u30c1\u30e3\u30fc\u30eb\u30b9\u30c8\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5777,6 +6073,7 @@
     "alias": ["Charleston Lesson"]
   },
   {
+    "id": 297,
     "genre": "BEMANI",
     "song": "\u30c1\u30e5\u30c3\u30c1\u30e5\u266a\u30de\u30c1\u30e5\u30d4\u30c1\u30e5",
     "artist": "\u306a\u306a\u3072\u3089,Nana Takahashi,\u732b\u4f53\u8cea by BEMANI Sound Team \"\u5287\u30c0\u30f3\u30b5\u30fc\u30ec\u30b3\u30fc\u30c9\"",
@@ -5802,6 +6099,7 @@
     "alias": ["Chuchu Machu Picchu", "Chinchilla song"]
   },
   {
+    "id": 298,
     "genre": "EDM/BEMANI",
     "song": "\u30c9\u30fc\u30d1\u30df\u30f3 (STARDOM Remix)",
     "artist": "ARM(IOSYS)",
@@ -5821,6 +6119,7 @@
     "alias": ["Dopamine"]
   },
   {
+    "id": 299,
     "genre": "POPS",
     "song": "\u30cf\u30c3\u30d4\u30fc\u30b7\u30f3\u30bb\u30b5\u30a4\u30b6",
     "artist": "EasyPop",
@@ -5840,6 +6139,7 @@
     "alias": ["Happy synthesizer", "Happishinsesaiza"]
   },
   {
+    "id": 300,
     "genre": "BEMANI",
     "song": "\u30d4\u30a2\u30ce\u4f53\u64cd\u7b2c\u4e00",
     "artist": "\u30ce\u30b9\u30bf\u30eb\u30b8\u30a2\u6f14\u594f\u5354\u4f1a\u266a",
@@ -5859,6 +6159,7 @@
     "alias": ["Piano taisou dai ichi", "Piano gymnastics first"]
   },
   {
+    "id": 301,
     "genre": "BEMANI",
     "song": "\u30df\u30c3\u30c9\u30ca\u30a4\u30c8\u2606WAR",
     "artist": "\u3044\u3061\u304b",
@@ -5878,6 +6179,7 @@
     "alias": ["Midnight WAR", "Ichika song"]
   },
   {
+    "id": 302,
     "genre": "BEMANI",
     "song": "\u30e6\u30e1\u30d6\u30ad",
     "artist": "\u7d2b\u5d0e \u96ea,Risa Yuzuki,709sec. by BEMANI Sound Team \"PHQUASE & SYUNN\"",
@@ -5897,6 +6199,7 @@
     "alias": ["Yumebuki"]
   },
   {
+    "id": 303,
     "genre": "BEMANI",
     "song": "\u30e9\u30d6\u30ad\u30e9\u2606\u30b9\u30d7\u30e9\u30c3\u30b7\u30e5",
     "artist": "BEMANI Sound Team \"Sota F.\" feat.\u3044\u3061\u304b",
@@ -5920,6 +6223,7 @@
     ]
   },
   {
+    "id": 304,
     "genre": "BEMANI",
     "song": "\u30e9\u30f3\u30ab\u30fc\u30ad\u30e9\u30fc\u30ac\u30fc\u30eb (STARDOM Remix)",
     "artist": "\u4e2d\u5cf6\u7531\u8cb4 \u00d7 \u3044\u3061\u304b",
@@ -5939,6 +6243,7 @@
     "alias": ["Ranker killer girl (STARDOM Remix)"]
   },
   {
+    "id": 305,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5958,6 +6263,7 @@
     "alias": ["Running man lesson", "Runningman lesson", "RM lesson"]
   },
   {
+    "id": 306,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3 \u708e\u306e\u7279\u8a13\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5981,6 +6287,7 @@
     ]
   },
   {
+    "id": 307,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3\u5fdc\u7528\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -6004,6 +6311,7 @@
     ]
   },
   {
+    "id": 308,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\uff06T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u8907\u5408\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -6030,6 +6338,7 @@
     ]
   },
   {
+    "id": 309,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\uff06T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u8907\u5408\u7de82",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -6056,6 +6365,7 @@
     ]
   },
   {
+    "id": 310,
     "genre": "Lesson",
     "song": "\u30ea\u30d0\u30fc\u30b9T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -6075,6 +6385,7 @@
     "alias": ["Reverse T-step lesson", "Reverse T step lesson"]
   },
   {
+    "id": 311,
     "genre": "Lesson",
     "song": "\u30ea\u30d0\u30fc\u30b9\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -6098,6 +6409,7 @@
     ]
   },
   {
+    "id": 312,
     "genre": "EDM/BEMANI",
     "song": "\u4e16\u754c\u306e\u679c\u3066\u306b\u7d04\u675f\u306e\u51f1\u6b4c\u3092 (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"JYUNN\"",
@@ -6130,6 +6442,7 @@
     ]
   },
   {
+    "id": 313,
     "genre": "BEMANI",
     "song": "\u51db\u3068\u3057\u3066\u54b2\u304f\u82b1\u306e\u5982\u304f",
     "artist": "\u7d05\u8272\u30ea\u30c8\u30de\u30b9",
@@ -6153,6 +6466,7 @@
     ]
   },
   {
+    "id": 314,
     "genre": "BEMANI",
     "song": "\u5341\u516d\u591c\u30bb\u30c4\u30ca",
     "artist": "Xceon feat.Mayumi Morinaga",
@@ -6172,6 +6486,7 @@
     "alias": ["Izayoi setsuna", "16 Nights"]
   },
   {
+    "id": 315,
     "genre": "POPS",
     "song": "\u5973\u3005\u3057\u304f\u3066",
     "artist": "\u30b4\u30fc\u30eb\u30c7\u30f3\u30dc\u30f3\u30d0\u30fc",
@@ -6191,6 +6506,7 @@
     "alias": ["Memeshikute"]
   },
   {
+    "id": 316,
     "genre": "POPS",
     "song": "\u5973\u3005\u3057\u304f\u3066 ANOTHER EDITION",
     "artist": "\u30b4\u30fc\u30eb\u30c7\u30f3\u30dc\u30f3\u30d0\u30fc",
@@ -6210,6 +6526,7 @@
     "alias": ["Memeshikute"]
   },
   {
+    "id": 317,
     "genre": "POPS",
     "song": "\u602a\u7269",
     "artist": "YOASOBI",
@@ -6229,6 +6546,7 @@
     "alias": ["Kaibutsu", "Monster"]
   },
   {
+    "id": 318,
     "genre": "BEMANI",
     "song": "\u6700\u5c0f\u4e09\u500d\u5b8c\u5168\u6570 (DANCERUSH Style)",
     "artist": "DJ TECHNORCH with BEMANI Sound Team",
@@ -6252,6 +6570,7 @@
     ]
   },
   {
+    "id": 319,
     "genre": "BEMANI",
     "song": "\u6727",
     "artist": "HHH\u00d7MM\u00d7ST",
@@ -6271,6 +6590,7 @@
     "alias": ["Oboro"]
   },
   {
+    "id": 320,
     "genre": "EDM/BEMANI",
     "song": "\u707c\u71b1Beach Side Bunny (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -6294,6 +6614,7 @@
     ]
   },
   {
+    "id": 321,
     "genre": "BEMANI",
     "song": "\u72c2\u6c34\u4e00\u83ef",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR Vs. SYUNN\" feat.\u3044\u3061\u304b",
@@ -6313,6 +6634,7 @@
     "alias": ["Kyousui ichika", "Rabies Ichika"]
   },
   {
+    "id": 322,
     "genre": "POPS",
     "song": "\u7d05\u84ee\u83ef",
     "artist": "(LiSA)",
@@ -6338,6 +6660,7 @@
     ]
   },
   {
+    "id": 323,
     "genre": "POPS",
     "song": "\u7d05\u84ee\u83ef ANOTHER EDITION",
     "artist": "(LiSA)",
@@ -6363,6 +6686,7 @@
     ]
   },
   {
+    "id": 324,
     "genre": "POPS",
     "song": "\u7fa4\u9752",
     "artist": "(YOASOBI)",
@@ -6382,6 +6706,7 @@
     "alias": ["Gunjou", "Ultramarine"]
   },
   {
+    "id": 325,
     "genre": "BEMANI",
     "song": "\u91ce\u7403\u306e\u904a\u3073\u65b9\u3000\u305d\u3057\u3066\u305d\u306e\u6b74\u53f2\u3000\uff5e\u6c7a\u5b9a\u7248\uff5e",
     "artist": "\u3042\u3055\u304d\u5927\u76e3\u7763",

@@ -12,7 +12,7 @@ const SearchBar = (props) => {
   return (
     <TextField
       id="filled-search"
-      label="Search for song..."
+      label="Search for song by name..."
       type="search"
       value={props.search}
       onChange={props.handleSearch}
