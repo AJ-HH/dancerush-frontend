@@ -8,15 +8,16 @@ import Collapse from "@mui/material/Collapse";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 import Divider from "@mui/material/Divider";
-import SearchBar from "./searchBar";
+import SearchBar from "./SearchBar";
 import Slider from "@mui/material/Slider";
 import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
-import Checkbox from '@mui/material/Checkbox';
-
+import Checkbox from "@mui/material/Checkbox";
+import FormControlLabel from "@mui/material/FormControlLabel";
 
 const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
   const [opened, setOpened] = React.useState([
+    false,
     false,
     false,
     false,
@@ -33,22 +34,24 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
     setAdvSearch({ ...advSearch, artist: e.target.value });
   };
 
-  const handleAdvSearchDifficulty = (event, newValue) => {
-    setAdvSearch({ ...advSearch, difficulty: newValue });
+  const handleAdvSearchEasy = (event, newValue) => {
+    setAdvSearch({ ...advSearch, easy: newValue });
+  };
+
+  const handleAdvSearchNormal = (event, newValue) => {
+    setAdvSearch({ ...advSearch, normal: newValue });
   };
 
   const handleAdvSearchGenre = (event, newValue) => {
     setAdvSearch({ ...advSearch, genre: newValue });
-    console.log(advSearch.genre);
   };
 
   const handleAdvSearchBPM = (event, newValue) => {
     setAdvSearch({ ...advSearch, bpm: newValue });
   };
 
-  const handleAdvSearchLocked = (event) => {
-    setAdvSearch({ ...advSearch, locked: event.target.checked });
-    console.log(advSearch.locked)
+  const handleAdvSearchDefault = (event) => {
+    setAdvSearch({ ...advSearch, default: event.target.checked });
   };
 
   const handleToggle = (value) => () => {
@@ -57,12 +60,13 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
     );
   };
 
-  const valuetextDifficulty = (value) => {
+  const valuetextNormal = (value) => {
     return `${value}`;
   };
   const valuetextBPM = (value) => {
     return `${value} beats per minute`;
   };
+
   return (
     <Card
       sx={{
@@ -95,6 +99,7 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
           primary={"Song Name"}
         >
           <SearchBar
+            label="Search for song..."
             search={advSearch.song}
             handleSearch={handleAdvSearchSong}
           />
@@ -106,6 +111,7 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
           primary={"Artist Name"}
         >
           <SearchBar
+            label="Search for artist..."
             search={advSearch.artist}
             handleSearch={handleAdvSearchArtist}
           />
@@ -120,26 +126,39 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
             value={advSearch.genre}
             onChange={handleAdvSearchGenre}
             aria-label="genre selection"
+            sx={{ flexWrap: "wrap", marginTop: "16px" }}
           >
-            <ToggleButton value="EDM/BEMANI" aria-label="EDM/BEMANI">
+            <ToggleButton
+              color="primary"
+              value="EDM/BEMANI"
+              aria-label="EDM/BEMANI"
+            >
               EDM/BEMANI
             </ToggleButton>
-            <ToggleButton value="EDM/S" aria-label="EDM/S">
+            <ToggleButton color="primary" value="EDM/S" aria-label="EDM/S">
               EDM/S
             </ToggleButton>
-            <ToggleButton value="BEMANI" aria-label="BEMANI">
+            <ToggleButton color="primary" value="BEMANI" aria-label="BEMANI">
               BEMANI
             </ToggleButton>
-            <ToggleButton value="POPS" aria-label="POPS">
+            <ToggleButton color="primary" value="POPS" aria-label="POPS">
               POPS
             </ToggleButton>
-            <ToggleButton value="How To Play" aria-label="How To Play">
+            <ToggleButton
+              color="primary"
+              value="How To Play"
+              aria-label="How To Play"
+            >
               How To Play
             </ToggleButton>
-            <ToggleButton value="EDM" aria-label="EDM">
+            <ToggleButton color="primary" value="EDM" aria-label="EDM">
               EDM
             </ToggleButton>
-            <ToggleButton value="POPS/BEMANI" aria-label="POPS/BEMANI">
+            <ToggleButton
+              color="primary"
+              value="POPS/BEMANI"
+              aria-label="POPS/BEMANI"
+            >
               POPS/BEMANI
             </ToggleButton>
           </ToggleButtonGroup>
@@ -148,48 +167,83 @@ const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
           opened={opened}
           value={3}
           handleToggle={handleToggle}
-          primary={"Difficulty"}
+          primary={"Easy Difficulty"}
         >
-          <Slider
-            getAriaLabel={() => "Difficulty range"}
-            value={advSearch.difficulty}
-            onChange={handleAdvSearchDifficulty}
-            valueLabelDisplay="auto"
-            min={1}
-            step={1}
-            max={10}
-            getAriaValueText={valuetextDifficulty}
-          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Slider
+              getAriaLabel={() => "Easy difficulty range"}
+              value={advSearch.easy}
+              onChange={handleAdvSearchEasy}
+              valueLabelDisplay="on"
+              min={1}
+              step={1}
+              max={10}
+              getAriaValueText={valuetextNormal}
+              sx={{ width: "97.5%", marginTop: "40px" }}
+            />
+          </div>
         </MyListButton>
         <MyListButton
           opened={opened}
           value={4}
           handleToggle={handleToggle}
-          primary={"BPM"}
+          primary={"Normal Difficulty"}
         >
-          <Slider
-            getAriaLabel={() => "BPM range"}
-            value={advSearch.bpm}
-            onChange={handleAdvSearchBPM}
-            valueLabelDisplay="auto"
-            min={92}
-            step={1}
-            max={232}
-            getAriaValueText={valuetextBPM}
-          />
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Slider
+              getAriaLabel={() => "Normal difficulty range"}
+              value={advSearch.normal}
+              onChange={handleAdvSearchNormal}
+              valueLabelDisplay="on"
+              min={1}
+              step={1}
+              max={10}
+              getAriaValueText={valuetextNormal}
+              sx={{ width: "97.5%", marginTop: "40px" }}
+            />
+          </div>
         </MyListButton>
         <MyListButton
           opened={opened}
           value={5}
           handleToggle={handleToggle}
+          primary={"BPM"}
+        >
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <Slider
+              getAriaLabel={() => "BPM range"}
+              value={advSearch.bpm}
+              onChange={handleAdvSearchBPM}
+              valueLabelDisplay="on"
+              min={92}
+              step={1}
+              max={232}
+              getAriaValueText={valuetextBPM}
+              sx={{ width: "97.5%", marginTop: "40px" }}
+              marks={[
+                { value: 100, label: "100" },
+                { value: 200, label: "200" },
+              ]}
+            />
+          </div>
+        </MyListButton>
+        <MyListButton
+          opened={opened}
+          value={6}
+          handleToggle={handleToggle}
           primary={"Availability"}
         >
-          <Checkbox
-            checked={advSearch.locked}
-            onChange={handleAdvSearchLocked}
-            inputProps={{
-              "aria-label": "Checkbox for song availability",
-            }}
+          <FormControlLabel
+            control={
+              <Checkbox
+                checked={advSearch.default}
+                onChange={handleAdvSearchDefault}
+                inputProps={{
+                  "aria-label": "Checkbox for song availability",
+                }}
+              />
+            }
+            label="Only songs available by default"
           />
         </MyListButton>
       </List>
@@ -210,7 +264,16 @@ const MyListButton = ({ opened, value, handleToggle, primary, children }) => {
         {opened.at(value) ? <RemoveIcon /> : <AddIcon />}
       </ListItemButton>
 
-      <Collapse in={opened.at(value)} timeout="auto" unmountOnExit>
+      <Collapse
+        in={opened.at(value)}
+        timeout="auto"
+        unmountOnExit
+        sx={{
+          paddingLeft: "16px",
+          paddingRight: "16px",
+          paddingBottom: "16px",
+        }}
+      >
         {children}
       </Collapse>
 

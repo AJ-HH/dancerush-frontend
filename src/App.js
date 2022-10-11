@@ -1,18 +1,15 @@
 import "./App.css";
 import React from "react";
-import Song from "./components/song";
+import Song from "./components/Song";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import SearchBar from "./components/searchBar";
+import SearchBar from "./components/SearchBar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import ModalSongContent from "./components/ModalSongContent";
 import ModalSearch from "./components/ModalSearch";
 
-// TODO add searching functionality
-// TODO add advanced search functionality
-// TODO How to use search functionality (?) button
 const App = () => {
   return (
     <div className="App">
@@ -25,23 +22,25 @@ const App = () => {
 };
 
 const Main = () => {
-  const [search, setSearch] = React.useState("");
   const handleSearch = (e) => {
-    setSearch(e.target.value);
+    setAdvSearch({ ...advSearch, song: e.target.value });
   };
 
   const [advSearch, setAdvSearch] = React.useState({
     song: "",
     artist: "",
-    difficulty: [1, 10],
+    easy: [1, 10],
+    normal: [1, 10],
     bpm: [92, 232],
     genre: [],
-    locked: false,
+    default: false,
   });
 
   const [openSearch, setOpenSearch] = React.useState(false);
   const handleOpenSearch = () => setOpenSearch(true);
-  const handleCloseSearch = () => setOpenSearch(false);
+  const handleCloseSearch = () => {
+    setOpenSearch(false);
+  };
 
   // allSongs - not modified, currSongs is modified based on allSongs when searching for songs
   const [allSongs, setAllSongs] = React.useState([]);
@@ -63,7 +62,7 @@ const Main = () => {
 
   // Getting the actual song data
   React.useEffect(() => {
-    fetch("final_songs_test.json")
+    fetch("final_songs.json")
       .then((res) => res.json())
       .then((songs) => setAllSongs(songs));
     setCurrSongs(allSongs);
@@ -71,9 +70,12 @@ const Main = () => {
 
   // Re-renders whenever the search bar/advanced search is updated
   React.useEffect(() => {
-    const lower = search.toLowerCase();
-    setCurrSongs(
-      allSongs.filter((s) => {
+    let result = [];
+    let lower = advSearch.song.toLowerCase();
+    if (lower === "") {
+      result = allSongs;
+    } else {
+      result = allSongs.filter((s) => {
         if (s.alias == null) return s.song.toLowerCase().includes(lower);
         else
           return (
@@ -82,9 +84,62 @@ const Main = () => {
               return s.toLowerCase().includes(lower);
             }).length > 0
           );
-      })
-    );
-  }, [search, allSongs]);
+      });
+    }
+
+    if (advSearch.artist !== "") {
+      lower = advSearch.artist.toLowerCase();
+      result = result.filter((s) => {
+        if (s.artistalias == null)
+          return s.artist.toLowerCase().includes(lower);
+        else
+          return (
+            s.artist.toLowerCase().includes(lower) ||
+            s.artistalias.filter((s) => {
+              return s.toLowerCase().includes(lower);
+            }).length > 0
+          );
+      });
+    }
+
+    if (advSearch.genre.length > 0) {
+      result = result.filter((s) => {
+        return advSearch.genre.includes(s.genre);
+      });
+    }
+    let low = advSearch.easy.at(0);
+    let high = advSearch.easy.at(1); 
+    if (low !== 1 || high !== 10){
+      result = result.filter((s) => {
+        return s.easy >= low &&  s.easy <= high
+      });
+    }
+
+    low = advSearch.normal.at(0);
+    high = advSearch.normal.at(1); 
+    if (low !== 1 || high !== 10){
+      result = result.filter((s) => {
+        return s.normal >= low && s.normal <= high
+      });
+    }
+
+    low = advSearch.bpm.at(0);
+    high = advSearch.bpm.at(1); 
+    if (low !== 92 || high !== 232){
+      result = result.filter((s) => {
+        return s.bpm >= low && s.bpm <= high
+      });
+    }
+    // eslint-disable-next-line
+    if (advSearch.default == true){
+      result = result.filter((s) => {
+        // eslint-disable-next-line
+        return s.unlocked == true
+      });
+    }
+
+    setCurrSongs(result);
+  }, [advSearch, allSongs]);
 
   return (
     <Box
@@ -100,7 +155,13 @@ const Main = () => {
         alignItems: "center",
       }}
     >
-      <SearchBar search={search} handleSearch={handleSearch} />
+      <div style={{ width: "85%" }}>
+        <SearchBar
+          label="Search for song by name..."
+          search={advSearch.song}
+          handleSearch={handleSearch}
+        />
+      </div>
       <Box
         component="div"
         sx={{
@@ -150,7 +211,6 @@ const Main = () => {
         <ModalSearch
           advSearch={advSearch}
           setAdvSearch={setAdvSearch}
-          setSearch={setSearch}
         ></ModalSearch>
       </Modal>
     </Box>
