@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 
-const Song = (props) => {
+const Song = ({handleOpen, song, id}) => {
   return (
     <Card
       sx={{
@@ -18,7 +18,7 @@ const Song = (props) => {
     >
       <CardActionArea
         onClick={() => {
-          props.handleOpen(props.song.id);
+          handleOpen(id);
         }}
       >
         <div
@@ -43,7 +43,7 @@ const Song = (props) => {
               color="text.secondary"
               gutterBottom
             >
-              {props.song.genre}
+              {song.genre}
             </Typography>
             <Typography
               variant="h6"
@@ -51,20 +51,20 @@ const Song = (props) => {
               gutterBottom
               style={{ fontWeight: "bold", textAlign: "left" }}
             >
-              {props.song.song}
+              {song.song}
             </Typography>
             <Typography
               sx={{ fontSize: 14, textAlign: "left" }}
               color="text.secondary"
             >
-              {props.song.artist}
+              {song.artist}
             </Typography>
           </CardContent>
           <Box
             component="img"
             height="82px"
             width="82px"
-            src={"images/" + props.song.thumbnail}
+            src={"images/" + song.thumbnail}
             alt="song"
             padding="16px"
           />
@@ -109,7 +109,7 @@ const Song = (props) => {
                 color: "#FFF",
               }}
             >
-              {props.song.easy}
+              {song.easy}
             </div>
             <div
               style={{
@@ -124,7 +124,7 @@ const Song = (props) => {
                 color: "#FFF",
               }}
             >
-              {props.song.normal}
+              {song.normal}
             </div>
           </div>
         </div>

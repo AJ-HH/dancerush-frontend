@@ -36,8 +36,30 @@ const Main = () => {
     default: false,
   });
 
+  const [finalSearch, setFinalSearch] = React.useState({
+    song: "",
+    artist: "",
+    easy: [1, 10],
+    normal: [1, 10],
+    bpm: [92, 232],
+    genre: [],
+    default: false,
+  });
+
   const [openSearch, setOpenSearch] = React.useState(false);
-  const handleOpenSearch = () => setOpenSearch(true);
+  const handleOpenSearch = () => {
+    setAdvSearch({
+      song: "",
+      artist: "",
+      easy: [1, 10],
+      normal: [1, 10],
+      bpm: [92, 232],
+      genre: [],
+      default: false,
+    });
+    setOpenSearch(true);
+  };
+
   const handleCloseSearch = () => {
     setOpenSearch(false);
   };
@@ -53,25 +75,33 @@ const Main = () => {
   const handleOpen = (id) => {
     // Using the id that has been passed in when the song card is clicked, it will
     // access the data from that song in dancerush_songs.json
-    const currData = currSongs.find((song) => {
-      return song.id === id;
-    });
+    console.log(id);
+    const currData = currSongs.at(id);
     setModalSong(currData);
     setOpen(true);
   };
 
   // Getting the actual song data
   React.useEffect(() => {
-    fetch("final_songs.json")
-      .then((res) => res.json())
-      .then((songs) => setAllSongs(songs));
+    async function fetchSongs() {
+      await fetch("http://localhost:8080/songlist/all-songs", {
+        method: "GET",
+        headers: { "Content-Type": "application/json" },
+      })
+        .then((res) => res.json())
+        .then((songs) => setAllSongs(songs))
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+    fetchSongs();
     setCurrSongs(allSongs);
-  }, [allSongs]);
+  }, []);
 
   // Re-renders whenever the search bar/advanced search is updated
   React.useEffect(() => {
     let result = [];
-    let lower = advSearch.song.toLowerCase();
+    let lower = finalSearch.song.toLowerCase();
     if (lower === "") {
       result = allSongs;
     } else {
@@ -87,8 +117,8 @@ const Main = () => {
       });
     }
 
-    if (advSearch.artist !== "") {
-      lower = advSearch.artist.toLowerCase();
+    if (finalSearch.artist !== "") {
+      lower = finalSearch.artist.toLowerCase();
       result = result.filter((s) => {
         if (s.artistalias == null)
           return s.artist.toLowerCase().includes(lower);
@@ -102,44 +132,44 @@ const Main = () => {
       });
     }
 
-    if (advSearch.genre.length > 0) {
+    if (finalSearch.genre.length > 0) {
       result = result.filter((s) => {
-        return advSearch.genre.includes(s.genre);
+        return finalSearch.genre.includes(s.genre);
       });
     }
-    let low = advSearch.easy.at(0);
-    let high = advSearch.easy.at(1); 
-    if (low !== 1 || high !== 10){
+    let low = finalSearch.easy.at(0);
+    let high = finalSearch.easy.at(1);
+    if (low !== 1 || high !== 10) {
       result = result.filter((s) => {
-        return s.easy >= low &&  s.easy <= high
-      });
-    }
-
-    low = advSearch.normal.at(0);
-    high = advSearch.normal.at(1); 
-    if (low !== 1 || high !== 10){
-      result = result.filter((s) => {
-        return s.normal >= low && s.normal <= high
+        return s.easy >= low && s.easy <= high;
       });
     }
 
-    low = advSearch.bpm.at(0);
-    high = advSearch.bpm.at(1); 
-    if (low !== 92 || high !== 232){
+    low = finalSearch.normal.at(0);
+    high = finalSearch.normal.at(1);
+    if (low !== 1 || high !== 10) {
       result = result.filter((s) => {
-        return s.bpm >= low && s.bpm <= high
+        return s.normal >= low && s.normal <= high;
+      });
+    }
+
+    low = finalSearch.bpm.at(0);
+    high = finalSearch.bpm.at(1);
+    if (low !== 92 || high !== 232) {
+      result = result.filter((s) => {
+        return s.bpm >= low && s.bpm <= high;
       });
     }
     // eslint-disable-next-line
-    if (advSearch.default == true){
+    if (finalSearch.default == true) {
       result = result.filter((s) => {
         // eslint-disable-next-line
-        return s.unlocked == true
+        return s.unlocked == true;
       });
     }
 
     setCurrSongs(result);
-  }, [advSearch, allSongs]);
+  }, [finalSearch, allSongs]);
 
   return (
     <Box
@@ -160,6 +190,9 @@ const Main = () => {
           label="Search for song by name..."
           search={advSearch.song}
           handleSearch={handleSearch}
+          onBlur={() => {
+            setFinalSearch(advSearch);
+          }}
         />
       </div>
       <Box
@@ -197,9 +230,7 @@ const Main = () => {
         {/* eslint-disable-next-line */}
         {currSongs.map((song, key) => {
           if (key < 20)
-            return (
-              <Song handleOpen={handleOpen} key={song.id} song={song}></Song>
-            );
+            return <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>;
         })}
       </Box>
       {/* Modal Song content */}

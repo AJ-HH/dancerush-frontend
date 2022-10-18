@@ -17,6 +17,7 @@ const SearchBar = (props) => {
       value={props.search}
       onChange={props.handleSearch}
       style={style}
+      onBlur={props.onBlur}
     />
   );
 };
