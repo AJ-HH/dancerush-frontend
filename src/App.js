@@ -61,6 +61,7 @@ const Main = () => {
   };
 
   const handleCloseSearch = () => {
+    setFinalSearch(advSearch);
     setOpenSearch(false);
   };
 
@@ -88,7 +89,7 @@ const Main = () => {
         method: "GET",
         headers: { "Content-Type": "application/json" },
       })
-        .then((res) => res.json())
+        .then((res) =>  res.json())
         .then((songs) => setAllSongs(songs))
         .catch((error) => {
           console.log(error);
@@ -100,75 +101,30 @@ const Main = () => {
 
   // Re-renders whenever the search bar/advanced search is updated
   React.useEffect(() => {
-    let result = [];
-    let lower = finalSearch.song.toLowerCase();
-    if (lower === "") {
-      result = allSongs;
-    } else {
-      result = allSongs.filter((s) => {
-        if (s.alias == null) return s.song.toLowerCase().includes(lower);
-        else
-          return (
-            s.song.toLowerCase().includes(lower) ||
-            s.alias.filter((s) => {
-              return s.toLowerCase().includes(lower);
-            }).length > 0
-          );
-      });
+    async function fetchSongs() {
+      await fetch(
+        "http://localhost:8080/songlist/advanced-search?" +
+          new URLSearchParams({
+            song: finalSearch.song,
+            artist: finalSearch.artist,
+            genre: finalSearch.genre,
+            bpm: finalSearch.bpm,
+            easy: finalSearch.easy,
+            normal: finalSearch.normal,
+            unlocked: finalSearch.default,
+          }),
+        {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+        }
+      )
+        .then((res) => res.json())
+        .then((songs) => setCurrSongs(songs))
+        .catch((error) => {
+          console.log(error);
+        });
     }
-
-    if (finalSearch.artist !== "") {
-      lower = finalSearch.artist.toLowerCase();
-      result = result.filter((s) => {
-        if (s.artistalias == null)
-          return s.artist.toLowerCase().includes(lower);
-        else
-          return (
-            s.artist.toLowerCase().includes(lower) ||
-            s.artistalias.filter((s) => {
-              return s.toLowerCase().includes(lower);
-            }).length > 0
-          );
-      });
-    }
-
-    if (finalSearch.genre.length > 0) {
-      result = result.filter((s) => {
-        return finalSearch.genre.includes(s.genre);
-      });
-    }
-    let low = finalSearch.easy.at(0);
-    let high = finalSearch.easy.at(1);
-    if (low !== 1 || high !== 10) {
-      result = result.filter((s) => {
-        return s.easy >= low && s.easy <= high;
-      });
-    }
-
-    low = finalSearch.normal.at(0);
-    high = finalSearch.normal.at(1);
-    if (low !== 1 || high !== 10) {
-      result = result.filter((s) => {
-        return s.normal >= low && s.normal <= high;
-      });
-    }
-
-    low = finalSearch.bpm.at(0);
-    high = finalSearch.bpm.at(1);
-    if (low !== 92 || high !== 232) {
-      result = result.filter((s) => {
-        return s.bpm >= low && s.bpm <= high;
-      });
-    }
-    // eslint-disable-next-line
-    if (finalSearch.default == true) {
-      result = result.filter((s) => {
-        // eslint-disable-next-line
-        return s.unlocked == true;
-      });
-    }
-
-    setCurrSongs(result);
+    fetchSongs();
   }, [finalSearch, allSongs]);
 
   return (
@@ -229,8 +185,14 @@ const Main = () => {
       >
         {/* eslint-disable-next-line */}
         {currSongs.map((song, key) => {
-          if (key < 20)
-            return <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>;
+            return (
+              <Song
+                handleOpen={handleOpen}
+                id={key}
+                key={key}
+                song={song}
+              ></Song>
+            );
         })}
       </Box>
       {/* Modal Song content */}

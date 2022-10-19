@@ -15,7 +15,7 @@ import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 import Checkbox from "@mui/material/Checkbox";
 import FormControlLabel from "@mui/material/FormControlLabel";
 
-const ModalSearch = ({ advSearch, setAdvSearch, setSearch }) => {
+const ModalSearch = ({ advSearch, setAdvSearch }) => {
   const [opened, setOpened] = React.useState([
     false,
     false,
