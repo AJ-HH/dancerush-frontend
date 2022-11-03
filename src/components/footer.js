@@ -56,7 +56,7 @@ const Footer = () => {
         }}
       >
         Thanks to Michael Lawrence Dee/michael888#0082 on Discord for the
-        thumbnail images, aliases and links to the songs.
+        thumbnail images, aliases and links to the songs!
       </Typography>
     </Card>
   );

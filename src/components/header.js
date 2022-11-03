@@ -38,7 +38,7 @@ const Header = (props) => {
           width: "100%",
           color: "#FFF",
           textShadow:
-            "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+            "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
           transform: "translate(-10%, -10%)",
         }}
       >
@@ -62,7 +62,7 @@ const Header = (props) => {
           width: "100%",
           color: "#FFF",
           textShadow:
-            "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
           transform: "translate(-10%, -10%)",
         }}
       >
@@ -86,7 +86,7 @@ const Header = (props) => {
           width: "100%",
           color: "#FFF",
           textShadow:
-            "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
           transform: "translate(-10%, -10%)",
         }}
       >
@@ -110,7 +110,7 @@ const Header = (props) => {
           width: "100%",
           color: "#FFF",
           textShadow:
-            "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
           transform: "translate(-10%, -10%)",
         }}
       >
@@ -133,7 +133,7 @@ const Header = (props) => {
           width: "100%",
           color: "#FFF",
           textShadow:
-            "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
           transform: "translate(-10%, -10%)",
         }}
       >

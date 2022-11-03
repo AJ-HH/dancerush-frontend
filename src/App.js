@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Modal from "@mui/material/Modal";
+
 import ModalSongContent from "./components/ModalSongContent";
 import ModalSearch from "./components/ModalSearch";
 
@@ -23,7 +23,15 @@ const App = () => {
 
 const Main = () => {
   const handleSearch = (e) => {
-    setAdvSearch({ ...advSearch, song: e.target.value });
+    setAdvSearch({
+      song: e.target.value,
+      artist: "",
+      easy: [1, 10],
+      normal: [1, 10],
+      bpm: [92, 232],
+      genre: [],
+      default: false,
+    });
   };
 
   const [advSearch, setAdvSearch] = React.useState({
@@ -72,11 +80,12 @@ const Main = () => {
   // States necessary for displaying the song that will be displayed on the modal
   const [modalSong, setModalSong] = React.useState({});
   const [open, setOpen] = React.useState(false);
-  const handleClose = () => setOpen(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
   const handleOpen = (id) => {
     // Using the id that has been passed in when the song card is clicked, it will
     // access the data from that song in dancerush_songs.json
-    console.log(id);
     const currData = currSongs.at(id);
     setModalSong(currData);
     setOpen(true);
@@ -85,11 +94,11 @@ const Main = () => {
   // Getting the actual song data
   React.useEffect(() => {
     async function fetchSongs() {
-      await fetch("http://localhost:8080/songlist/all-songs", {
+      await fetch("https://dancerush.fly.dev/songlist/all-songs", {
         method: "GET",
         headers: { "Content-Type": "application/json" },
       })
-        .then((res) =>  res.json())
+        .then((res) => res.json())
         .then((songs) => setAllSongs(songs))
         .catch((error) => {
           console.log(error);
@@ -103,7 +112,7 @@ const Main = () => {
   React.useEffect(() => {
     async function fetchSongs() {
       await fetch(
-        "http://localhost:8080/songlist/advanced-search?" +
+        "https://dancerush.fly.dev/songlist/advanced-search?" +
           new URLSearchParams({
             song: finalSearch.song,
             artist: finalSearch.artist,
@@ -185,27 +194,27 @@ const Main = () => {
       >
         {/* eslint-disable-next-line */}
         {currSongs.map((song, key) => {
-            return (
-              <Song
-                handleOpen={handleOpen}
-                id={key}
-                key={key}
-                song={song}
-              ></Song>
-            );
+          return (
+            <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>
+          );
         })}
       </Box>
       {/* Modal Song content */}
-      <Modal open={open} onClose={handleClose}>
-        <ModalSongContent modalSong={modalSong}></ModalSongContent>
-      </Modal>
+
+      <ModalSongContent
+        open={open}
+        handleClose={handleClose}
+        modalSong={modalSong}
+      ></ModalSongContent>
+
       {/* Modal for Advanced Search */}
-      <Modal open={openSearch} onClose={handleCloseSearch}>
-        <ModalSearch
-          advSearch={advSearch}
-          setAdvSearch={setAdvSearch}
-        ></ModalSearch>
-      </Modal>
+
+      <ModalSearch
+        openSearch={openSearch}
+        handleCloseSearch={handleCloseSearch}
+        advSearch={advSearch}
+        setAdvSearch={setAdvSearch}
+      ></ModalSearch>
     </Box>
   );
 };
