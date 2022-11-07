@@ -78,17 +78,32 @@ const Main = () => {
   const [currSongs, setCurrSongs] = React.useState([]);
 
   // States necessary for displaying the song that will be displayed on the modal
-  const [modalSong, setModalSong] = React.useState({});
+  const [modalSong, setModalSong] = React.useState({
+    artist: "",
+    bpm: 0,
+    chinalocked: false,
+    easy: 1,
+    easyurl: "",
+    genre: "",
+    japanonly: false,
+    koreaonly: false,
+    normal: 10,
+    normalurl: "",
+    noteseasy: 0,
+    notesnomral: 0,
+    song: "",
+    thumbnail: "",
+    unlocked: true,
+  });
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
     setOpen(false);
   };
+  // Using the id that has been passed in when the song card is clicked, it will
+  // access the data from that song in dancerush_songs.json
   const handleOpen = (id) => {
-    // Using the id that has been passed in when the song card is clicked, it will
-    // access the data from that song in dancerush_songs.json
-    const currData = currSongs.at(id);
-    setModalSong(currData);
     setOpen(true);
+    setModalSong(currSongs.at(id));
   };
 
   // Getting the actual song data

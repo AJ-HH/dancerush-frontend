@@ -17,6 +17,7 @@ const Song = ({handleOpen, song, id}) => {
       }}
     >
       <CardActionArea
+        style={{cursor:'pointer'}}
         onClick={() => {
           handleOpen(id);
         }}

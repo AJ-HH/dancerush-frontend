@@ -2,11 +2,7 @@ import React from "react";
 import Card from "@mui/material/Card";
 import List from "@mui/material/List";
 import ListSubheader from "@mui/material/ListSubheader";
-import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
-import Collapse from "@mui/material/Collapse";
-import RemoveIcon from "@mui/icons-material/Remove";
-import AddIcon from "@mui/icons-material/Add";
 import Divider from "@mui/material/Divider";
 import SearchBar from "./SearchBar";
 import Slider from "@mui/material/Slider";
@@ -60,19 +56,19 @@ const ModalSearch = ({
 
   return (
     <Modal open={openSearch} onClose={handleCloseSearch}>
-      <Box>
+
         <Card
           sx={{
             minWidth: "365px",
             maxWidth: "720px",
-            width: "50%",
-            position: "absolute",
+            width: "90%",
+            height:"100%",
+            position: "fixed",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             bgcolor: "background.paper",
-            maxHeight: "575px",
-            overflowY: "auto",
+            overflowY: "scroll",
           }}
         >
           <List
@@ -220,7 +216,6 @@ const ModalSearch = ({
             </MyListButton>
           </List>
         </Card>
-      </Box>
     </Modal>
   );
 };

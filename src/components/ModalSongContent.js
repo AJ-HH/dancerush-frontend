@@ -15,6 +15,8 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
   const handleNormalClick = () => {
     setNormalClicked(!normalClicked);
   };
+  React.useEffect(()=>{
+  },[modalSong]);
   return (
     <Modal open={open} onClose={handleClose}>
       <Box>
@@ -23,13 +25,13 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
             minWidth: "365px",
             maxWidth: "720px",
             width: "90%",
-            position: "absolute",
+            position: "fixed",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             bgcolor: "background.paper",
             maxHeight: "575px",
-            overflowY: "auto",
+            overflowY: "scroll",
           }}
         >
           <div
