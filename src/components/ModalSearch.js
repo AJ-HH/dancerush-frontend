@@ -59,7 +59,7 @@ const ModalSearch = ({
 
         <Card
           sx={{
-            minWidth: "365px",
+            minWidth: "330px",
             maxWidth: "720px",
             width: "90%",
             height:"100%",
