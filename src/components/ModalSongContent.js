@@ -22,7 +22,7 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
       <Box>
         <Card
           sx={{
-            minWidth: "330px",
+            minWidth: "360px",
             maxWidth: "720px",
             width: "90%",
             position: "fixed",
