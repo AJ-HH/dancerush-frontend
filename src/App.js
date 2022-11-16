@@ -109,7 +109,7 @@ const Main = () => {
   // Getting the actual song data
   React.useEffect(() => {
     async function fetchSongs() {
-      await fetch("https://dancerush.fly.dev/songlist/all-songs", {
+      await fetch(process.env.REACT_APP_API_URL + "/all-songs", {
         method: "GET",
         headers: { "Content-Type": "application/json" },
       })
@@ -127,7 +127,8 @@ const Main = () => {
   React.useEffect(() => {
     async function fetchSongs() {
       await fetch(
-        "https://dancerush.fly.dev/songlist/advanced-search?" +
+        process.env.REACT_APP_API_URL +
+          "/advanced-search?" +
           new URLSearchParams({
             song: finalSearch.song,
             artist: finalSearch.artist,
