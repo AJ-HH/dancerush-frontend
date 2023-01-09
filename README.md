@@ -4,5 +4,5 @@ Frontend for a website to view and search through a list of dancerush songs, uti
 # Known Issues
 
 - Cannot go beyond 10 songs at a time - pagination will be done when I have the time 
-- Song modal does not work for certain mobile devices. This has no consistency, on my phone (iPhone) and a friend (iPhone) it doesn't show the song details, while other friends (iPhone + Android) on different browsers (Safari, Firefox) it shows all the details
+- Song modal does not work for certain mobile devices. This has no consistency, on my phone (iPhone) and a friend (iPhone) it doesn't show the song details, while other friends (iPhone + Android) on different browsers (Safari, Firefox) it shows all the details. If you have an iPhone 12 it will not work for some reason.
 - May be difficult to close modals on very small screens 
