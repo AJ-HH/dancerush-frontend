@@ -288,7 +288,7 @@
 		"remyurl": "HIP",
 		"easy": 3,
 		"normal": 8,
-		"easyurl": false,
+		"easyurl": "DO1lSthh2Dk&t=10s",
 		"normalurl": "6KERfVRtHPQ",
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
@@ -685,7 +685,8 @@
 		"easyurl": "akOhjql3fnA",
 		"normalurl": "HVdZkhJvbJY",
 		"notes": [ 
-			{ "note": "note_SeeAlso", "s": [ "U.S.A. ANOTHER EDITION" ] }
+			{ "note": "note_SeeAlso", "s": [ "U.S.A. ANOTHER EDITION" ] }, 
+			{ "note": "note_Removed", "MM": 10, "s": [ 15, 2022 ] } 
 		],
 		"links": [ "U.S.A. ANOTHER EDITION" ]
 	},
@@ -702,7 +703,8 @@
 		"easyurl": "901843387777421322/USA_ANOTHER_Easy.mp4",
 		"normalurl": "901843527556796436/USA_ANOTHER_Normal.mp4",
 		"notes": [ 
-			{ "note": "note_SeeAlso", "s": [ "U.S.A." ] }
+			{ "note": "note_SeeAlso", "s": [ "U.S.A." ] }, 
+			{ "note": "note_Removed", "MM": 10, "s": [ 15, 2022 ] } 
 		],
 		"links": [ "U.S.A." ]
 	},
@@ -751,7 +753,10 @@
 		"easy": 3,
 		"normal": 8,
 		"easyurl": "xlTP-cf3fdw",
-		"normalurl": "j2kDV_BMssw"
+		"normalurl": "j2kDV_BMssw",
+		"notes": [
+			{ "note": "note_Removed", "MM": 9, "s": [ 27, 2022 ] }
+		]
 	},
 	{
 		"title": "Crank It Up",
@@ -763,7 +768,10 @@
 		"easy": 3,
 		"normal": 7,
 		"easyurl": "LjAMMETA5Z8",
-		"normalurl": "gLT8xH7F76o"
+		"normalurl": "gLT8xH7F76o",
+		"notes": [
+			{ "note": "note_Removed", "MM": 9, "s": [ 27, 2022 ] }
+		]
 	},
 	{
 		"title": "41 Days",
@@ -776,7 +784,10 @@
 		"easy": 5,
 		"normal": 8,
 		"easyurl": "IiNa9LujdJU",
-		"normalurl": "tDHBBfcceMQ"
+		"normalurl": "tDHBBfcceMQ",
+		"notes": [
+			{ "note": "note_Removed", "MM": 11, "s": [ 26, 2022 ] }
+		]
 	},
 	{
 		"title": "One Word",
@@ -789,7 +800,10 @@
 		"easy": 2,
 		"normal": 7,
 		"easyurl": "9M8BcGwbviE",
-		"normalurl": "JSE42lDRVrE"
+		"normalurl": "JSE42lDRVrE",
+		"notes": [
+			{ "note": "note_Removed", "MM": 11, "s": [ 26, 2022 ] }
+		]
 	},
 	{
 		"title": "Rip It Off (Now) Rip It Off",
@@ -985,7 +999,8 @@
 		"easy": 4,
 		"easyurl": "C_GfOf-yc0w",
 		"notes": [ 
-			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "NewAige CHARLESTON EDITION" ] } 
+			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "NewAige CHARLESTON EDITION" ] }, 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "5<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (チャールストン合宿コース/Charleston Training Camp Course)" ] } 
 		],
 		"links": [ "NewAige CHARLESTON EDITION" ]
 	},
@@ -1027,9 +1042,10 @@
 		"easy": 6,
 		"easyurl": "oEHyiSN-sOs",
 		"notes": [ 
-			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "Don't Stop!! RUNNING MAN EDITION" ] } 
+			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "Don't Stop!! RUNNING MAN EDITION" ] }, 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "Shuffle the Cards RUNNING MAN EDITION" ] } 
 		],
-		"links": [ "Don't Stop!! RUNNING MAN EDITION" ]
+		"links": [ "Don't Stop!! RUNNING MAN EDITION", "Shuffle the Cards RUNNING MAN EDITION" ]
 	},
 	{
 		"title": "クラブステップレッスン",
@@ -1042,9 +1058,10 @@
 		"easy": 4,
 		"easyurl": "txRkhQWYyqw",
 		"notes": [ 
-			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "Majestic CRAB STEP EDITION" ] } 
+			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Event", "s": [ "Majestic CRAB STEP EDITION" ] }, 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "Honey Bounce CRAB STEP EDITION" ] } 
 		],
-		"links": [ "Majestic CRAB STEP EDITION" ]
+		"links": [ "Majestic CRAB STEP EDITION", "Honey Bounce CRAB STEP EDITION" ]
 	},
 	{
 		"title": "リバースランニングマンレッスン",
@@ -1057,7 +1074,8 @@
 		"easy": 5,
 		"easyurl": "YtJAH9V-YDQ",
 		"notes": [ 
-			{ "note": "note_MissionFor", "mis": "Event", "s": [ "5<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2020AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)" ] } 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "5<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2020AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)" ] }, 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "5<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)" ] } 
 		]
 	},
 	{
@@ -1629,9 +1647,10 @@
 			{ "note": "note_OldMission", "mission": "mission_Clear", "mis": "Discount", "origlength": 0, "s": [ "Small Steps" ] }, 
 			{ "note": "note_MissionFor", "prev": "Previously", "mis": "Discount", "s": [ "Don't Stop!!" ] }, 
 			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Impress" ] }, 
-			{ "note": "note_MissionFor", "mis": "Event", "s": [ "10<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022SPRING～ (ランニングマン合宿コース/Running Man Training Camp Course)" ] } 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "10<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022SPRING～ (ランニングマン合宿コース/Running Man Training Camp Course)" ] }, 
+			{ "note": "note_SeeAlso", "s": [ "Oppress CHARLESTON EDITION" ] }
 		],
-		"links": [ "Small Steps", "Don't Stop!!", "Impress" ],
+		"links": [ "Small Steps", "Don't Stop!!", "Impress", "Oppress CHARLESTON EDITION" ],
 		"easyurl": "76xo14Tdo5o",
 		"normalurl": "0vDUD-kg3TU"
 	},
@@ -2503,8 +2522,7 @@
 		"remyurl": "Take_me_higher",
 		"easy": 6,
 		"normal": 9,
-		"stars": 200,
-		"unlock": { "mission": "mission_Clear", "extra": "inExtra", "ing": "ing", "s": [ "take me higher" ] },
+		"stars": 100,
 		"discount": [ 
 			{ "mission": "mission_Unlock", "s": [ "Crazy Shuffle" ] }, 
 			{ "mission": "mission_ExtraStage", "s": [ 5 ] }, 
@@ -2531,8 +2549,7 @@
 		"remyurl": "BEYOND_THE_EARTH_(STARDOM_Remix)",
 		"easy": 7,
 		"normal": 10,
-		"stars": 200,
-		"unlock": { "mission": "mission_Clear", "extra": "inExtra", "ing": "ing", "s": [ "BEYOND THE EARTH (STARDOM Remix)" ] },
+		"stars": 100,
 		"discount": [ 
 			{ "mission": "mission_Unlock", "s": [ "THE SAFARI (STARDOM Remix)" ] }, 
 			{ "mission": "mission_ExtraStage", "s": [ 5 ] }, 
@@ -2559,8 +2576,7 @@
 		"remyurl": "Shakunetsu_Beach_Side_Bunny_(STARDOM_Remix)",
 		"easy": 7,
 		"normal": 10,
-		"stars": 200,
-		"unlock": { "mission": "mission_Clear", "extra": "inExtra", "ing": "ing", "s": [ "灼熱Beach Side Bunny (STARDOM Remix)" ] },
+		"stars": 100,
 		"discount": [ 
 			{ "mission": "mission_Unlock", "s": [ "BEYOND THE EARTH (STARDOM Remix)" ] }, 
 			{ "mission": "mission_ExtraStage", "s": [ 5 ] }, 
@@ -2585,8 +2601,7 @@
 		"remyurl": "JOK3R",
 		"easy": 4,
 		"normal": 9,
-		"stars": 200,
-		"unlock": { "mission": "mission_Clear", "extra": "inExtra", "ing": "ing", "s": [ "JOK3R" ] },
+		"stars": 100,
 		"discount": [ 
 			{ "mission": "mission_Unlock", "s": [ "take me higher" ] }, 
 			{ "mission": "mission_ExtraStage", "s": [ 5 ] }, 
@@ -2594,9 +2609,10 @@
 		],
 		"notes": [ 
 			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Undercover" ] }, 
-			{ "note": "note_StringMerge", "chain": "discount_chain", "s": [ "\n**", "**:\nCrazy Shuffle ⇒ take me higher ⇒ **JOK3R** ⇒ Undercover ⇒ Midland Mainline ⇒ Roughneck Disco ⇒ Villains ⇒ PRANK ⇒ Don't Rush but Dance Rush ⇒ My Time ⇒ Ch4nge M4 Life ⇒ Synaptic ⇒ Official Bootleg ⇒ She Shines Under The Mirror Ball ⇒ Warpstep" ] } 
+			{ "note": "note_StringMerge", "chain": "discount_chain", "s": [ "\n**", "**:\nCrazy Shuffle ⇒ take me higher ⇒ **JOK3R** ⇒ Undercover ⇒ Midland Mainline ⇒ Roughneck Disco ⇒ Villains ⇒ PRANK ⇒ Don't Rush but Dance Rush ⇒ My Time ⇒ Ch4nge M4 Life ⇒ Synaptic ⇒ Official Bootleg ⇒ She Shines Under The Mirror Ball ⇒ Warpstep" ] }, 
+			{ "note": "note_SeeAlso", "s": [ "JOK3R RUNNING MAN EDITION" ] } 
 		],
-		"links": [ "Crazy Shuffle", "take me higher", "JOK3R", "Undercover", "Midland Mainline", "Roughneck Disco", "Villains", "PRANK", "Don't Rush but Dance Rush", "My Time", "Ch4nge M4 Life", "Synaptic", "Official Bootleg", "She Shines Under The Mirror Ball", "Warpstep" ],
+		"links": [ "Crazy Shuffle", "take me higher", "JOK3R", "Undercover", "Midland Mainline", "Roughneck Disco", "Villains", "PRANK", "Don't Rush but Dance Rush", "My Time", "Ch4nge M4 Life", "Synaptic", "Official Bootleg", "She Shines Under The Mirror Ball", "Warpstep", "JOK3R RUNNING MAN EDITION" ],
 		"easyurl": "hJGo6GoxELM",
 		"normalurl": "ImDHiakAo9E"
 	},
@@ -2611,8 +2627,7 @@
 		"remyurl": "Undercover",
 		"easy": 4,
 		"normal": 9,
-		"stars": 200,
-		"unlock": { "mission": "mission_Clear", "extra": "inExtra", "ing": "ing", "s": [ "Undercover" ] },
+		"stars": 100,
 		"discount": [ 
 			{ "mission": "mission_Unlock", "s": [ "JOK3R" ] }, 
 			{ "mission": "mission_ExtraStage", "s": [ 5 ] }, 
@@ -2960,6 +2975,10 @@
 		"easy": 6,
 		"normal": 8,
 		"stars": 150,
+		"notes": [ 
+			{ "note": "note_SeeAlso", "s": [ "December In Strasbourg CRAB STEP EDITION" ] }
+		],
+		"links": [ "December In Strasbourg CRAB STEP EDITION" ],
 		"easyurl": "Zq1WLxqXslc",
 		"normalurl": "masqY9WcHsc"
 	},
@@ -3614,9 +3633,10 @@
 		],
 		"notes": [ 
 			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Switch" ] }, 
-			"**SPARK FESTIVAL 2019**: \nMemories ⇒ Flying soda ⇒ Fire Spirit ⇒ Night & Day ⇒ Wowie Zowie! ⇒ Twinkle ⇒ RAVELINE ATTACK ⇒ Switch ⇒ **Set Me Free**" 
+			"**SPARK FESTIVAL 2019**: \nMemories ⇒ Flying soda ⇒ Fire Spirit ⇒ Night & Day ⇒ Wowie Zowie! ⇒ Twinkle ⇒ RAVELINE ATTACK ⇒ Switch ⇒ **Set Me Free**", 
+			{ "note": "note_SeeAlso", "s": [ "Set Me Free (Hommarju Remix)" ] } 
 		],
-		"links": [ "Electric Dance System Music", "Drop The Bounce", "Astrogazer", "Memories", "Flying soda", "Fire Spirit", "Night & Day", "Wowie Zowie!", "Twinkle", "RAVELINE ATTACK", "Switch", "Set Me Free" ],
+		"links": [ "Electric Dance System Music", "Drop The Bounce", "Astrogazer", "Memories", "Flying soda", "Fire Spirit", "Night & Day", "Wowie Zowie!", "Twinkle", "RAVELINE ATTACK", "Switch", "Set Me Free", "Set Me Free (Hommarju Remix)" ],
 		"easyurl": "BzW7jkOVZ10",
 		"normalurl": "2si9nqTNLJE"
 	},
@@ -4515,9 +4535,10 @@
 		],
 		"notes": [ 
 			{ "note": "note_UnlockFor", "cond": "unlock", "withstars": "withStars", "andplay": "andPlay", "anddiscover": "anddiscover", "ing": "ing", "s": [ "Heat Up The Dancefloor" ] }, 
-			{ "note": "note_StringMerge", "chain": "discovery_chain", "s": [ "\n**", "**:\nNocturnus ⇒ **Broadway Walk** ⇒ Heat Up The Dancefloor" ] } 
+			{ "note": "note_StringMerge", "chain": "discovery_chain", "s": [ "\n**", "**:\nNocturnus ⇒ **Broadway Walk** ⇒ Heat Up The Dancefloor" ] }, 
+			{ "note": "note_SeeAlso", "s": [ "Broadway Walk CHARLESTON EDITION" ] } 
 		],
-		"links": [ "Nocturnus", "Broadway Walk", "Heat Up The Dancefloor", "アルストロメリア (walk with you remix)", "C'mon baby", "Majestic" ],
+		"links": [ "Nocturnus", "Broadway Walk", "Heat Up The Dancefloor", "アルストロメリア (walk with you remix)", "C'mon baby", "Majestic", "Broadway Walk CHARLESTON EDITION" ],
 		"easyurl": "5kwB3WW9YRY",
 		"normalurl": "FuVFeoyw66A"
 	},
@@ -5251,9 +5272,10 @@
 		],
 		"notes": [ 
 			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Penguin Morning" ] }, 
-			"**DANCERUSH STARDOM GYM3**:\nDEVILFISHMANのテーマ ⇒ Synth Presets & Sample Loops ⇒ **Shuffle The Cards** ⇒ Penguin Morning ⇒ neu (STARDOM Remix)" 
+			"**DANCERUSH STARDOM GYM3**:\nDEVILFISHMANのテーマ ⇒ Synth Presets & Sample Loops ⇒ **Shuffle The Cards** ⇒ Penguin Morning ⇒ neu (STARDOM Remix)", 
+			{ "note": "note_SeeAlso", "s": [ "Shuffle the Cards RUNNING MAN EDITION" ] } 
 		],
-		"links": [ "DEVILFISHMANのテーマ", "Synth Presets & Sample Loops", "Shuffle The Cards", "Penguin Morning", "neu (STARDOM Remix)" ],
+		"links": [ "DEVILFISHMANのテーマ", "Synth Presets & Sample Loops", "Shuffle The Cards", "Penguin Morning", "neu (STARDOM Remix)", "Shuffle the Cards RUNNING MAN EDITION" ],
 		"easyurl": "_IyeETXKpD4",
 		"normalurl": "_F4hW0ROfMU"
 	},
@@ -5470,7 +5492,7 @@
 		"remyurl": "Too_Late_Snow",
 		"easy": 4,
 		"normal": 6,
-		"unlock": { "mission": "mission_Stamp", "unavailable": "eventEnd" },
+		"stars": 150,
 		"easyurl": "MYQO5cgpk3I",
 		"normalurl": "OOKW1LYMe-g"
 	},
@@ -5792,7 +5814,7 @@
 		"remyurl": "Sleepwell",
 		"easy": 4,
 		"normal": 7,
-		"unlock": { "mission": "mission_Stamp", "unavailable": "eventEnd" },
+		"stars": 150,
 		"easyurl": "3QH5Xxc_tts",
 		"normalurl": "T3nRkdI3Gqo"
 	},
@@ -5902,7 +5924,7 @@
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
 		],
-		"easyurl": false,
+		"easyurl": "WX5o0vdXOwY&t=7s",
 		"normalurl": "OgsArEkN0r4"
 	},
 	{
@@ -5919,7 +5941,7 @@
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
 		],
-		"easyurl": false,
+		"easyurl": "MytJmRliAoU&t=10s",
 		"normalurl": "CORQbILsY0Y"
 	},
 	{
@@ -6307,7 +6329,7 @@
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
 		],
-		"easyurl": false,
+		"easyurl": "nBa2h35Uyhk&t=10s",
 		"normalurl": "985803761077354536/Bboom_Normal.mp4"
 	},
 	{
@@ -6320,6 +6342,8 @@
 		"remyurl": "The_Stealer",
 		"easy": 4,
 		"normal": 7,
+		"easyurl": "khTYx7gCKXw&t=9s",
+		"normalurl": "4P5sCmTxfTs&t=9s",
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
 		]
@@ -6335,6 +6359,8 @@
 		"remyurl": "Twilight_(ONEUS)",
 		"easy": 4,
 		"normal": 7,
+		"easyurl": "3Yfa0ngY9oU&t=9s",
+		"normalurl": "02BJ48D4-F0&t=9s",
 		"notes": [ 
 			{ "note": "note_Regional", "loc": "South Korea" }
 		]
@@ -6450,9 +6476,11 @@
 		"remyurl": "Metric",
 		"easy": 5,
 		"normal": 8,
-		"stars": 30,
-		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM4 <:gym4:906148246659952670>" ] },
-		"notes": [ "**DANCERUSH STARDOM GYM4**:\n**Metric** ⇒ Crystal Clear ⇒ WELCOME TO MY GAME ⇒ melody H4CKER ⇒ Brand New Step" ],
+		"stars": 40,
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Crystal Clear" ] }, 
+			"**DANCERUSH STARDOM GYM4**:\n**Metric** ⇒ Crystal Clear ⇒ WELCOME TO MY GAME ⇒ melody H4CKER ⇒ Brand New Step" 
+		],
 		"links": [ "Metric", "Crystal Clear", "WELCOME TO MY GAME", "melody H4CKER", "Brand New Step" ],
 		"easyurl": "AHlzK1t5Shk",
 		"normalurl": "1OXuFt2TcBI"
@@ -6468,9 +6496,14 @@
 		"remyurl": "Crystal_Clear",
 		"easy": 5,
 		"normal": 8,
-		"stars": 30,
-		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM4 <:gym4:906148246659952670>" ] },
+		"stars": 80,
+		"discount": [ 
+			{ "mission": "mission_Unlock", "s": [ "Metric" ] }, 
+			{ "mission": "mission_Clear", "s": [ "Metric" ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 95, "Metric" ] } 
+		],
 		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "WELCOME TO MY GAME" ] }, 
 			"**DANCERUSH STARDOM GYM4**:\nMetric ⇒ **Crystal Clear** ⇒ WELCOME TO MY GAME ⇒ melody H4CKER ⇒ Brand New Step" 
 		],
 		"links": [ "Metric", "Crystal Clear", "WELCOME TO MY GAME", "melody H4CKER", "Brand New Step" ],
@@ -6488,9 +6521,16 @@
 		"remyurl": "WELCOME_TO_MY_GAME",
 		"easy": 5,
 		"normal": 7,
-		"stars": 30,
-		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM4 <:gym4:906148246659952670>" ] },
-		"notes": [ "**DANCERUSH STARDOM GYM4**:\nMetric ⇒ Crystal Clear ⇒ **WELCOME TO MY GAME** ⇒ melody H4CKER ⇒ Brand New Step" ],
+		"stars": 80,
+		"discount": [ 
+			{ "mission": "mission_Unlock", "s": [ "Crystal Clear" ] }, 
+			{ "mission": "mission_Clear", "s": [ "Crystal Clear" ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 95, "Crystal Clear" ] } 
+		],
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "melody H4CKER" ] }, 
+			"**DANCERUSH STARDOM GYM4**:\nMetric ⇒ Crystal Clear ⇒ **WELCOME TO MY GAME** ⇒ melody H4CKER ⇒ Brand New Step" 
+		],
 		"links": [ "Metric", "Crystal Clear", "WELCOME TO MY GAME", "melody H4CKER", "Brand New Step" ],
 		"easyurl": "TbD24UIGvOI",
 		"normalurl": "AZyHA-IoQqk"
@@ -6507,9 +6547,14 @@
 		"remyurl": "Melody_H4CKER",
 		"easy": 5,
 		"normal": 9,
-		"stars": 30,
-		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM4 <:gym4:906148246659952670>" ] },
+		"stars": 80,
+		"discount": [ 
+			{ "mission": "mission_Unlock", "s": [ "WELCOME TO MY GAME" ] }, 
+			{ "mission": "mission_Clear", "s": [ "WELCOME TO MY GAME" ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 95, "WELCOME TO MY GAME" ] } 
+		],
 		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Brand New Step" ] }, 
 			"**DANCERUSH STARDOM GYM4**:\nMetric ⇒ Crystal Clear ⇒ WELCOME TO MY GAME ⇒ **melody H4CKER** ⇒ Brand New Step" 
 		],
 		"links": [ "Metric", "Crystal Clear", "WELCOME TO MY GAME", "melody H4CKER", "Brand New Step" ],
@@ -6527,8 +6572,12 @@
 		"remyurl": "Brand_New_Step",
 		"easy": 6,
 		"normal": 9,
-		"stars": 30,
-		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM4 <:gym4:906148246659952670>" ] },
+		"stars": 80,
+		"discount": [ 
+			{ "mission": "mission_Unlock", "s": [ "melody H4CKER" ] }, 
+			{ "mission": "mission_Clear", "s": [ "melody H4CKER" ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 95, "melody H4CKER" ] } 
+		],
 		"notes": [ 
 			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "The GameHacker (Sampled Crazy Shuffle)" ] },
 			"**DANCERUSH STARDOM GYM4**:\nMetric ⇒ Crystal Clear ⇒ WELCOME TO MY GAME ⇒ melody H4CKER ⇒ **Brand New Step**" 
@@ -6801,7 +6850,7 @@
 		"remyurl": "E",
 		"easy": 5,
 		"normal": 9,
-		"unlock": { "mission": "mission_Stamp", "unavailable": "eventEnd" },
+		"unlock": { "mission": "mission_Stamp" },
 		"easyurl": "ibBMBW-BDmI&t=23s",
 		"normalurl": "My3v6l4Q5Vo&t=24s"
 	},
@@ -6815,6 +6864,9 @@
 		"remyurl": "Gunjou",
 		"easy": 3,
 		"normal": 7,
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "10<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (チャールストン合宿コース/Charleston Training Camp Course)" ] } 
+		],
 		"easyurl": "oybq2lhxY5I&t=11s",
 		"normalurl": "SQWkF7fGcDQ&t=15s"
 	},
@@ -6828,7 +6880,10 @@
 		"easy": 3,
 		"normal": 7,
 		"easyurl": "uTrS9JQpqpU&t=10s",
-		"normalurl": "0LMKaqVwqVo&t=13s"
+		"normalurl": "0LMKaqVwqVo&t=13s",
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "10<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)" ] } 
+		]
 	},
 	{
 		"title": "Trash",
@@ -6998,7 +7053,8 @@
 		"easyurl": "xoCaAOEibAU&t=22s",
 		"normalurl": "W4UGrm5UtEo&t=22s",
 		"notes": [ 
-			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Sunshine let me find a way" ] } 
+			{ "note": "note_MissionFor", "mis": "Discount", "s": [ "Sunshine let me find a way" ] }, 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "10<:Star:575161446904758272> DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (クラブステップ合宿コース/Crab Step Training Camp Course)" ] } 
 		],
 		"links": [ "Sunshine let me find a way" ]
 	},
@@ -7741,8 +7797,443 @@
 		"remyurl": "Touch_My_Body",
 		"easy": 5,
 		"normal": 9,
-		"unlock": { "mission": "mission_Stamp" },
+		"unlock": { "mission": "mission_Stamp", "unavailable": "eventEnd" },
 		"easyurl": "MahTO3S5Efw&t=23s",
 		"normalurl": "6-YrSeVKTo4&t=23s"
+	},
+	{
+		"title": "Broadway Walk CHARLESTON EDITION",
+		"alias": [ "百老匯", "Broadway Walk CHARLESTON version" ],
+		"artist": "Dirty Androids",
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "DIVING GHOST",
+		"thumbnail": "broadway_walk_C_version_jacket.png",
+		"remyurl": "Broadway_Walk",
+		"easy": 5,
+		"normal": 8,
+		"mission": [ 
+			{ "mission": "mission_ClearAnySong", "s": [ 1 ] }, 
+			{ "mission": "mission_NoteTotal", "s": [ 200, "PERFECT" ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "Broadway Walk CHARLESTON EDITION" ] },
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "Oppress CHARLESTON EDITION" ] }, 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (チャールストン合宿コース/Charleston Training Camp Course)**:\n**Broadway Walk CHARLESTON EDITION** ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ Oppress CHARLESTON EDITION", 
+			{ "note": "note_SeeAlso", "s": [ "Broadway Walk" ] } 
+		],
+		"links": [ "Broadway Walk CHARLESTON EDITION", "Oppress CHARLESTON EDITION", "Broadway Walk" ],
+		"easyurl": false,
+		"normalurl": "y51fVuFfgbU&t=23s"
+	},
+	{
+		"title": "Oppress CHARLESTON EDITION",
+		"alias": [ "Oppress CHARLESTON version" ],
+		"artist": "BEMANI Sound Team \"SYUNN\"",
+		"artistalias": [ "BST SYUNN" ],
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"thumbnail": "oppress_charleston_jacket.png",
+		"remyurl": "Oppress",
+		"easy": 4,
+		"normal": 8,
+		"mission": [ 
+			{ "mission": "mission_GetNAnySong", "s": [ 20, "BAD", 2 ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 80, "Broadway Walk CHARLESTON EDITION" ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "Oppress CHARLESTON EDITION" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (チャールストン合宿コース/Charleston Training Camp Course)**:\nBroadway Walk CHARLESTON EDITION ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ **Oppress CHARLESTON EDITION**", 
+			{ "note": "note_SeeAlso", "s": [ "Oppress" ] } 
+		],
+		"links": [ "Broadway Walk CHARLESTON EDITION", "Oppress CHARLESTON EDITION", "Oppress" ],
+		"easyurl": false,
+		"normalurl": "psjCitMsLCY&t=23s"
+	},
+	{
+		"title": "Honey Bounce CRAB STEP EDITION",
+		"alias": [ "Honey Bounce CRAB STEP version" ],
+		"artist": "nora2r",
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "DIVING GHOST",
+		"thumbnail": "Honey_Bounce_Crab_Jacket.png",
+		"remyurl": "Honey_Bounce",
+		"easy": 3,
+		"normal": 7,
+		"mission": [ 
+			{ "mission": "mission_Clear", "s": [ "クラブステップレッスン" ] }, 
+			{ "mission": "mission_ScoreTotal", "s": [ 100 ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "Honey Bounce CRAB STEP EDITION" ] },
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "December In Strasbourg CRAB STEP EDITION" ] }, 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (クラブステップ合宿コース/Crab Step Training Camp Course)**:\n**Honey Bounce CRAB STEP EDITION** ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ December In Strasbourg CRAB STEP EDITION", 
+			{ "note": "note_SeeAlso", "s": [ "Honey Bounce" ] }
+		],
+		"links": [ "クラブステップレッスン", "Honey Bounce CRAB STEP EDITION", "December In Strasbourg CRAB STEP EDITION", "Honey Bounce" ],
+		"easyurl": false,
+		"normalurl": "BFgTO9yOjoM&t=23s"
+	},
+	{
+		"title": "December In Strasbourg CRAB STEP EDITION",
+		"alias": [ "聖誕老人", "December In Strasbourg CRAB STEP version" ],
+		"artist": "nana(Sevencolors) feat. mana",
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "CLASS",
+		"thumbnail": "December_in_Strasboirg_Crab_Ver_JaCKET.png",
+		"remyurl": "December_in_Strasbourg",
+		"easy": 5,
+		"normal": 8,
+		"mission": [ 
+			{ "mission": "mission_GetNAnySong", "s": [ 30, "GOOD", 2 ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 80, "Honey Bounce CRAB STEP EDITION" ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "December In Strasbourg CRAB STEP EDITION" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (クラブステップ合宿コース/Crab Step Training Camp Course)**:\nHoney Bounce CRAB STEP EDITION ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ **December In Strasbourg CRAB STEP EDITION**", 
+			{ "note": "note_SeeAlso", "s": [ "December In Strasbourg" ] }
+		],
+		"links": [ "Honey Bounce CRAB STEP EDITION", "December In Strasbourg CRAB STEP EDITION", "December In Strasbourg" ],
+		"easyurl": false,
+		"normalurl": "hF7qtw-bUio&t=23s"
+	},
+	{
+		"title": "Shuffle the Cards RUNNING MAN EDITION",
+		"alias": [ "洗牌", "Shuffle the Cards RUNNINGMAN EDITION", "Shuffle the Cards RM EDITION", "Shuffle the Cards RUNNING MAN version", "Shuffle the Cards RUNNINGMAN version", "Shuffle the Cards RM version" ],
+		"artist": "uno(IOSYS TRAX)",
+		"artistalias": [ "RoughSketch" ],
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "CLASS",
+		"thumbnail": "shuffle_the_cards_RM_Ver_Jacket.png",
+		"remyurl": "Shuffle_The_Cards",
+		"easy": 5,
+		"normal": 8,
+		"mission": [ 
+			{ "mission": "mission_Clear", "s": [ "ステップバリエーション2" ] }, 
+			{ "mission": "mission_ScoreTotal", "s": [ 100 ] }  
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "Shuffle the Cards RUNNING MAN EDITION" ] },
+		"notes": [ 
+			{ "note": "note_MissionFor", "mis": "Event", "s": [ "JOK3R RUNNING MAN EDITION" ] }, 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)**:\n**Shuffle the Cards RUNNING MAN EDITION** ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ JOK3R RUNNING MAN EDITION", 
+			{ "note": "note_SeeAlso", "s": [ "Shuffle the Cards" ] }
+		],
+		"links": [ "ステップバリエーション2", "Shuffle the Cards RUNNING MAN EDITION", "JOK3R RUNNING MAN EDITION", "Shuffle the Cards" ],
+		"easyurl": false,
+		"normalurl": "ar3RUJP9tT4&t=23s"
+	},
+	{
+		"title": "JOK3R RUNNING MAN EDITION",
+		"alias": [ "JOKER", "JOK3R RUNNINGMAN EDITION", "JOK3R RM EDITION", "JOK3R RUNNING MAN version", "JOK3R RUNNINGMAN version", "JOK3R RM version" ],
+		"artist": "Yuta Imai",
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "SUPER THUNDER",
+		"thumbnail": "jok3r_RM_ver_jacket.png",
+		"remyurl": "JOK3R",
+		"easy": 6,
+		"normal": 9,
+		"mission": [ 
+			{ "mission": "mission_GetNAnySong", "s": [ 40, "GREAT", 2 ] }, 
+			{ "mission": "mission_ScoreSong", "s": [ 80, "Shuffle the Cards RUNNING MAN EDITION" ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "JOK3R RUNNING MAN EDITION" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (ネオランニングマン合宿コース/Neo Running Man Training Camp Course)**:\nShuffle the Cards RUNNING MAN EDITION ⇒ 5<:Star:575161446904758272> ⇒ 10<:Star:575161446904758272> ⇒ **JOK3R RUNNING MAN EDITION**", 
+			{ "note": "note_SeeAlso", "s": [ "JOK3R" ] }
+		],
+		"links": [ "Shuffle the Cards RUNNING MAN EDITION", "JOK3R RUNNING MAN EDITION", "JOK3R" ],
+		"easyurl": false,
+		"normalurl": "MaYKbIomCMY&t=23s"
+	},
+	{
+		"title": "So What",
+		"artist": "PRIDASK",
+		"category": "autumn2022",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "SUPER THUNDER, Otias ENT Produced",
+		"thumbnail": "so_what_jacket.png",
+		"remyurl": "So_What_(PRIDASK)",
+		"easy": 6,
+		"normal": 9,
+		"mission": [ 
+			{ "mission": "mission_GetNAnySong", "s": [ 15, "BAD", 5 ] }, 
+			{ "mission": "mission_ScoreTotal", "s": [ 2000 ] } 
+		],
+		"unlock": { "mission": "mission_TrainingCamp", "s": [ "DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ <:2022autumn:1031029571706949663>", "So What" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM 炎のDANCE合宿～2022AUTUMN～ (最終仕上げ/Final Finish)**: Unlockable only after finishing all 3 Training Camp Courses"
+		],
+		"easyurl": false,
+		"normalurl": "CHyiS81jyCg&t=23s"
+	},
+	{
+		"title": "Awakening Wings",
+		"artist": "伊達朱里紗",
+		"artistalias": [ "Arisa Date", "Yida zhu lisha", "Ida Julisa" ],
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Awakening_Wings.png",
+		"remyurl": "Awakening_Wings",
+		"easy": 3,
+		"normal": 7,
+		"easyurl": "7TL2zbNfh7A&t=23s",
+		"normalurl": "fuFdoqnTOvY&t=23s"
+	},
+	{
+		"title": "New Decade",
+		"artist": "Sota F.",
+		"artistalias": [ "Sota Fujimori" ],
+		"category": "ichikamixup",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "New_Decade.png",
+		"remyurl": "New_Decade",
+		"easy": 6,
+		"normal": 8,
+		"unlock": { "mission": "mission_IchikaMixUpBlue", "s": [ "DDR" ] },
+		"easyurl": false,
+		"normalurl": "drVfsA_KCT8&t=23s"
+	},
+	{
+		"title": "Necroxis Girl",
+		"artist": "BEMANI Sound Team \"HuΣeR\"",
+		"artistalias": [ "BST Humer", "Aritomo Hamada", "hummer" ],
+		"category": "ichikamixup",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Necroxis_Girl.png",
+		"remyurl": "Necroxis_Girl",
+		"easy": 6,
+		"normal": 9,
+		"unlock": { "mission": "mission_IchikaMixUpBlue", "s": [ "jubeat" ] },
+		"easyurl": false,
+		"normalurl": "perixISl_qk&t=23s"
+	},
+	{
+		"title": "新蛇姫",
+		"alias": [ "Shin hebi hime", "New Decade × BREDLI", "New Decade x BREDLI", "new snake princess" ],
+		"artist": "BEMANI Sound Team \"U1-ASAMi\"",
+		"artistalias": [ "BST U1", "Yuichi Asami" ],
+		"category": "ichikamixup",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Shin_hebi_hime.png",
+		"remyurl": "Shin_hebi_hime",
+		"easy": 4,
+		"normal": 8,
+		"unlock": { "mission": "mission_IchikaMixUpPink", "s": [ "DRS×DDR" ] },
+		"easyurl": false,
+		"normalurl": "gmxnz6TYo00&t=23s"
+	},
+	{
+		"title": "Dance With The Dead",
+		"artist": "BEMANI Sound Team \"SYUNN\"",
+		"artistalias": [ "BST SYUNN", "Shunsuke Sato" ],
+		"category": "ichikamixup",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Dance_With_The_Dead.png",
+		"remyurl": "Dance_With_The_Dead",
+		"easy": 3,
+		"normal": 7,
+		"unlock": { "mission": "mission_IchikaMixUpPink", "s": [ "jubeat×DRS" ] },
+		"easyurl": false,
+		"normalurl": "5YUBlmKD2Pk&t=23s"
+	},
+	{
+		"title": "VOLAQUAS",
+		"artist": "BEMANI Sound Team \"DJ TOTTO VS 兎々\"",
+		"artistalias": [ "BST TOTTO", "Yoshihiro Tagawa", "Usagi", "Rabbit" ],
+		"category": "ichikamixup",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "VOLAQUAS.png",
+		"remyurl": "VOLAQUAS",
+		"easy": 7,
+		"normal": 10,
+		"unlock": { "mission": "mission_IchikaMixUpPurple", "s": [ "DRS" ] },
+		"easyurl": false,
+		"normalurl": "ZTEOezGx19k&t=23s"
+	},
+	{
+		"title": "GHOST MODE",
+		"artist": "lapix",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "DIVING GHOST",
+		"thumbnail": "Ghost_Mode_Jacket.png",
+		"remyurl": "GHOST_MODE",
+		"easy": 5,
+		"normal": 8,
+		"stars": 240,
+		"singlediscount": true,
+		"discount": [ 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] }, 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] }, 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] } 
+		],
+		"easyurl": false,
+		"normalurl": "JLvVL20nrIs&t=23s"
+	},
+	{
+		"title": "Set Me Free (Hommarju Remix)",
+		"alias": [ "SMF" ],
+		"artist": "Hommarju",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "FIVE PIECE RECORDS",
+		"thumbnail": "Set_me_free_hommarju_jacket.png",
+		"remyurl": "Set_Me_Free_(Hommarju_Remix)",
+		"easy": 6,
+		"normal": 10,
+		"stars": 240,
+		"singlediscount": true,
+		"discount": [ 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] }, 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] }, 
+			{ "mission": "mission_ScoreTotal", "noextra": "noExtra", "s": [ 2500 ] } 
+		],
+		"notes": [ 
+			{ "note": "note_SeeAlso", "s": [ "Set Me Free" ] } 
+		],
+		"links": [ "Set Me Free" ],
+		"easyurl": false,
+		"normalurl": "m_Kemj1shuU&t=23s"
+	},
+	{
+		"title": "HANDS UP IN THE AIR",
+		"artist": "U1",
+		"category": "gym5",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "HANDS_UP_IN_THE_AIR.png",
+		"remyurl": "HANDS_UP_IN_THE_AIR",
+		"easy": 5,
+		"normal": 8,
+		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM5 <:gym5:1048441110156021790>" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM GYM5**:\n**HANDS UP IN THE AIR** ⇒ Tropical White ⇒ Rock The Club ⇒ Jumbo Drill ⇒ 音楽 (STARDOM Remix)" 
+		],
+		"links": [ "HANDS UP IN THE AIR", "Tropical White", "Rock The Club", "Jumbo Drill", "音楽 (STARDOM Remix)" ],
+		"easyurl": "N9U4DbGI5oo&t=40s",
+		"normalurl": "gLS2MIjTqcQ&t=40s"
+	},
+	{
+		"title": "Tropical White",
+		"artist": "星宮とと+TEMPLIME",
+		"artistalias": [ "HOSHIMIYA TOTO" ],
+		"category": "gym5",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "TROP, Otias ENT Produced",
+		"thumbnail": "tropical_white_jacket.png",
+		"remyurl": "Tropical_White",
+		"easy": 4,
+		"normal": 8,
+		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM5 <:gym5:1048441110156021790>" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM GYM5**:\nHANDS UP IN THE AIR ⇒ **Tropical White** ⇒ Rock The Club ⇒ Jumbo Drill ⇒ 音楽 (STARDOM Remix)" 
+		],
+		"links": [ "HANDS UP IN THE AIR", "Tropical White", "Rock The Club", "Jumbo Drill", "音楽 (STARDOM Remix)" ],
+		"easyurl": "RArOJVVk1gk&t=40s",
+		"normalurl": "kUyayR08L7g&t=40s"
+	},
+	{
+		"title": "Rock The Club",
+		"artist": "Expander",
+		"category": "gym5",
+		"record": "Yes",
+		"folders": [ "BEMANI" ],
+		"thumbnail": "Rock_The_Club.png",
+		"remyurl": "Rock_The_Club",
+		"easy": 6,
+		"normal": 9,
+		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM5 <:gym5:1048441110156021790>" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM GYM5**:\nHANDS UP IN THE AIR ⇒ Tropical White ⇒ **Rock The Club** ⇒ Jumbo Drill ⇒ 音楽 (STARDOM Remix)" 
+		],
+		"links": [ "HANDS UP IN THE AIR", "Tropical White", "Rock The Club", "Jumbo Drill", "音楽 (STARDOM Remix)" ],
+		"easyurl": "ME07Mt5yUYw&t=40s",
+		"normalurl": "GYGuGuiwhto&t=40s"
+	},
+	{
+		"title": "Jumbo Drill",
+		"artist": "Nizikawa",
+		"category": "gym5",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "CLASS, Otias ENT Produced",
+		"thumbnail": "Jumbo_Drill_Jacket.png",
+		"remyurl": "Jumbo_Drill",
+		"easy": 7,
+		"normal": 9,
+		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM5 <:gym5:1048441110156021790>" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM GYM5**:\nHANDS UP IN THE AIR ⇒ Tropical White ⇒ Rock The Club ⇒ **Jumbo Drill** ⇒ 音楽 (STARDOM Remix)" 
+		],
+		"links": [ "HANDS UP IN THE AIR", "Tropical White", "Rock The Club", "Jumbo Drill", "音楽 (STARDOM Remix)" ],
+		"easyurl": "PRIvmmjNixg&t=40s",
+		"normalurl": "J_E-CaBtH2Y&t=40s"
+	},
+	{
+		"title": "音楽 (STARDOM Remix)",
+		"alias": [ "Ongaku" ],
+		"artist": "cosMo＠暴走P",
+		"artistalias": [ "Bousou" ],
+		"category": "gym5",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "DIVING GHOST",
+		"thumbnail": "Ongaku_Jacket.png",
+		"remyurl": "Ongaku_(STARDOM_Remix)",
+		"easy": 6,
+		"normal": 10,
+		"unlock": { "mission": "mission_GymClock", "s": [ "DANCERUSH STARDOM GYM5 <:gym5:1048441110156021790>" ] },
+		"notes": [ 
+			"**DANCERUSH STARDOM GYM5**:\nHANDS UP IN THE AIR ⇒ Tropical White ⇒ Rock The Club ⇒ Jumbo Drill ⇒ **音楽 (STARDOM Remix)**" 
+		],
+		"links": [ "HANDS UP IN THE AIR", "Tropical White", "Rock The Club", "Jumbo Drill", "音楽 (STARDOM Remix)" ],
+		"easyurl": "-qPwq4-G2Hs&t=40s",
+		"normalurl": "JDi8gGBSUt4&t=40s"
+	},
+	{
+		"title": "黒髪乱れし修羅となりて (STARDOM Remix)",
+		"alias": [ "Kurokami midareshi shura to narite", "Black Hair Disturbed Shura Become" ],
+		"artist": "Endorfin.",
+		"category": "discovery",
+		"record": "Yes",
+		"folders": [ "EDM", "BEMANI" ],
+		"label": "FIVE PIECE RECORDS",
+		"thumbnail": "Kurokami_jacket.png",
+		"remyurl": "Kurokami_midareshi_shura_to_narite_(STARDOM_Remix)",
+		"easy": 5,
+		"normal": 9,
+		"stars": 160,
+		"unlock": { "mission": "mission_Clear", "ing": "ing", "s": [ "黒髪乱れし修羅となりて (STARDOM Remix)" ] },
+		"singlediscount": true,
+		"discount": [ 
+			{ "mission": "mission_Clear", "times": "nTimes", "s": [ "黒髪乱れし修羅となりて (STARDOM Remix)", 2 ] }, 
+			{ "mission": "mission_Clear", "times": "nTimes", "s": [ "黒髪乱れし修羅となりて (STARDOM Remix)", 2 ] }, 
+			{ "mission": "mission_Clear", "times": "nTimes", "s": [ "黒髪乱れし修羅となりて (STARDOM Remix)", 2 ] }
+		],
+		"discovery": [ 
+			{ "mission": "mission_Clear", "times": "nTimes", "s": [ "黒髪乱れし修羅となりて (STARDOM Remix)", 2 ] }
+		],
+		"notes": [ 
+			{ "note": "note_Random" }
+		],
+		"easyurl": "Si76d_Ag63c&t=23s",
+		"normalurl": "qyp3ffjfvVc&t=23s"
 	}
 ]

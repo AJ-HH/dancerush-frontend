@@ -6,6 +6,9 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import ModalSongContent from "./components/ModalSongContent";
 import ModalSearch from "./components/ModalSearch";
@@ -22,6 +25,8 @@ const App = () => {
 };
 
 const Main = () => {
+  // Handles searching for the searchbar 
+  // Will update the song value, everything else will stay the same as default
   const handleSearch = (e) => {
     setAdvSearch({
       song: e.target.value,
@@ -31,9 +36,11 @@ const Main = () => {
       bpm: [92, 232],
       genre: [],
       default: false,
+      offset: 0
     });
   };
 
+  // advSearch is used as a placeholder to fill in search details before the call is sent to the API
   const [advSearch, setAdvSearch] = React.useState({
     song: "",
     artist: "",
@@ -42,8 +49,10 @@ const Main = () => {
     bpm: [92, 232],
     genre: [],
     default: false,
+    offset: 0
   });
 
+  // finalSearch is the final search results sent to the API
   const [finalSearch, setFinalSearch] = React.useState({
     song: "",
     artist: "",
@@ -52,9 +61,11 @@ const Main = () => {
     bpm: [92, 232],
     genre: [],
     default: false,
+    offset:0
   });
 
   const [openSearch, setOpenSearch] = React.useState(false);
+  // When advanced search is open, set advSearch to default values and shows the modal
   const handleOpenSearch = () => {
     setAdvSearch({
       song: "",
@@ -64,10 +75,12 @@ const Main = () => {
       bpm: [92, 232],
       genre: [],
       default: false,
+      offset: 0
     });
     setOpenSearch(true);
   };
 
+  // When the search modal is closed, finalSearch is updated (and API is called through useEffect)
   const handleCloseSearch = () => {
     setFinalSearch(advSearch);
     setOpenSearch(false);
@@ -90,7 +103,7 @@ const Main = () => {
     normal: 10,
     normalurl: "",
     noteseasy: 0,
-    notesnomral: 0,
+    notesnormal: 0,
     song: "",
     thumbnail: "",
     unlocked: true,
@@ -137,6 +150,7 @@ const Main = () => {
             easy: finalSearch.easy,
             normal: finalSearch.normal,
             unlocked: finalSearch.default,
+            offset: finalSearch.offset
           }),
         {
           method: "GET",
@@ -215,6 +229,22 @@ const Main = () => {
           );
         })}
       </Box>
+
+      {/* Pagination buttons */}
+      <Box
+        sx={{
+          alignItems: "center",
+        }}
+      >
+        <IconButton disabled={finalSearch.offset == 0} aria-label="back">
+          <ArrowBackIosIcon />
+        </IconButton>
+        {/* I realise this is an awful way to do this, sue me */}
+        <IconButton disabled={finalSearch.offset == 33} aria-label="forward">
+          <ArrowForwardIosIcon />
+        </IconButton>
+      </Box>
+
       {/* Modal Song content */}
 
       <ModalSongContent
