@@ -7,16 +7,7 @@ import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 
 const ModalSongContent = ({ open, handleClose, modalSong }) => {
-  const [easyClicked, setEasyClicked] = React.useState(false);
-  const [normalClicked, setNormalClicked] = React.useState(false);
-  const handleEasyClick = () => {
-    setEasyClicked(!easyClicked);
-  };
-  const handleNormalClick = () => {
-    setNormalClicked(!normalClicked);
-  };
-  React.useEffect(()=>{
-  },[modalSong]);
+  React.useEffect(() => {}, [modalSong]);
   return (
     <Modal open={open} onClose={handleClose}>
       <Box>
@@ -256,73 +247,21 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
             sx={{ display: "flex", flexDirection: "column", paddingTop: 0 }}
           >
             <Button
-              variant={easyClicked ? "contained" : "outlined"}
-              sx={{ width: "125px", marginBottom: "8px" }}
-              onClick={handleEasyClick}
+              variant="outlined"
+              sx={{ width: "300px", marginTop: "8px", marginBottom: "8px" }}
+              href={"https://youtube.com/watch?v=" + modalSong.easyurl}
             >
-              Easy Video
+              {modalSong.song} easy
             </Button>
-
-            {easyClicked && (
-              <div
-                style={{
-                  position: "relative",
-                  paddingBottom: "56.25%" /* 16:9 */,
-                  height: 0,
-                }}
-              >
-                <iframe
-                  id="easy"
-                  title="easyvideo"
-                  src={"https://youtube.com/embed/" + modalSong.easyurl}
-                  frameBorder="0"
-                  allowFullScreen
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-              </div>
-            )}
-
             <Button
-              variant={normalClicked ? "contained" : "outlined"}
-              sx={{ width: "150px", marginTop: "8px", marginBottom: "8px" }}
-              onClick={handleNormalClick}
+              variant="outlined"
+              sx={{ width: "300px", marginTop: "8px", marginBottom: "8px" }}
+              href={"https://youtube.com/watch?v=" + modalSong.normalurl}
             >
-              Normal Video
+              {modalSong.song} normal
             </Button>
-
-            {normalClicked && (
-              <div
-                style={{
-                  position: "relative",
-                  paddingBottom: "56.25%" /* 16:9 */,
-                  height: 0,
-                }}
-              >
-                <iframe
-                  id="normal"
-                  title="normalvideo"
-                  src={"https://youtube.com/embed/" + modalSong.normalurl}
-                  frameBorder="0"
-                  allowFullScreen
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                  }}
-                />
-              </div>
-            )}
           </CardContent>
         </Card>
-        
       </Box>
     </Modal>
   );

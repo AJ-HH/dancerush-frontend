@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 const Footer = () => {
   return (
-    <Card style={{ border: "none", boxShadow: "none" }}>
+    <Card style={{ border: "none", boxShadow: "none", position:"relative" }}>
       <CardMedia
         component="img"
         sx={{
@@ -28,10 +28,11 @@ const Footer = () => {
             xl: "block",
           },
           position: "absolute",
-          bottom: "-1",
+          bottom: "0",
           width: "100%",
           color: "#000",
-          backgroundColor: "#f5faff",
+          background:"transparent",
+          zIndex: "1"
         }}
       >
         Thanks to Michael Lawrence Dee/michael888#0082 on Discord for the
@@ -47,12 +48,13 @@ const Footer = () => {
             xl: "none",
           },
           position: "absolute",
-          bottom: "-1",
+          bottom: "0",
           width: "100%",
           color: "#000",
-          backgroundColor: "#f5faff",
+          background:"transparent",
           fontSize: "14px",
           textAlign: "left",
+          zIndex: "1"
         }}
       >
         Thanks to Michael Lawrence Dee/michael888#0082 on Discord for the

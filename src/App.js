@@ -86,8 +86,6 @@ const Main = () => {
     setOpenSearch(false);
   };
 
-  // allSongs - not modified, currSongs is modified based on allSongs when searching for songs
-  const [allSongs, setAllSongs] = React.useState([]);
   const [currSongs, setCurrSongs] = React.useState([]);
 
   // States necessary for displaying the song that will be displayed on the modal
@@ -119,21 +117,41 @@ const Main = () => {
     setModalSong(currSongs.at(id));
   };
 
+  const handleBack = () => {
+    setFinalSearch({ ...finalSearch, offset: finalSearch.offset - 1 });
+  }
+
+  const handleForward = () => {
+    setFinalSearch({ ...finalSearch, offset: finalSearch.offset + 1 });
+  }
+
   // Getting the actual song data
   React.useEffect(() => {
     async function fetchSongs() {
-      await fetch(process.env.REACT_APP_API_URL + "/all-songs", {
+      await fetch(process.env.REACT_APP_API_URL +
+        "/advanced-search?" +
+        new URLSearchParams({
+          song: "",
+          artist: "",
+          genre: [],
+          bpm: [92, 232],
+          easy: [1, 10],
+          normal: [1, 10],
+          unlocked: false,
+          offset: 0
+        }),
+      {
         method: "GET",
         headers: { "Content-Type": "application/json" },
-      })
+      }
+    )
         .then((res) => res.json())
-        .then((songs) => setAllSongs(songs))
+        .then((songs) => setCurrSongs(songs.slice(0,10)))
         .catch((error) => {
           console.log(error);
         });
     }
     fetchSongs();
-    setCurrSongs(allSongs);
   }, []);
 
   // Re-renders whenever the search bar/advanced search is updated
@@ -164,7 +182,7 @@ const Main = () => {
         });
     }
     fetchSongs();
-  }, [finalSearch, allSongs]);
+  }, [finalSearch]);
 
   return (
     <Box
@@ -236,11 +254,10 @@ const Main = () => {
           alignItems: "center",
         }}
       >
-        <IconButton disabled={finalSearch.offset == 0} aria-label="back">
+        <IconButton disabled={finalSearch.offset === 0} onClick={handleBack} aria-label="back">
           <ArrowBackIosIcon />
         </IconButton>
-        {/* I realise this is an awful way to do this, sue me */}
-        <IconButton disabled={finalSearch.offset == 33} aria-label="forward">
+        <IconButton disabled={currSongs.length !== 10} onClick={handleForward} aria-label="forward">
           <ArrowForwardIosIcon />
         </IconButton>
       </Box>
