@@ -68,6 +68,7 @@ const ModalSearch = ({
           transform: "translate(-50%, -50%)",
           bgcolor: "background.paper",
           overflowY: "scroll",
+          '&::-webkit-scrollbar': {display: "none"}
         }}
       >
         <List

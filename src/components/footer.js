@@ -3,9 +3,31 @@ import footer from "../images/bg_bottom_pc.png";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import { styled } from '@mui/material/styles';
+
+const FooterText = styled(Typography)(({theme}) => ({
+  position: "absolute",
+  bottom: 20,
+  left:"50%",
+  margin: theme.spacing(4),
+  width: "85%",
+  color: "#FFF",
+  textShadow: "0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black",
+  transform: "translate(-50%, -10%)",
+  fontWeight: 500,
+  zIndex: "1",
+  [theme.breakpoints.up('xs')]: {
+    fontSize:"1rem",
+    margin: 0,
+  },
+  [theme.breakpoints.up('md')]: {
+    fontSize:"1.5rem"
+  },
+}))
+
 const Footer = () => {
   return (
-    <Card style={{ border: "none", boxShadow: "none", position:"relative" }}>
+    <Card style={{ border: "none", boxShadow: "none", position:"relative", }}>
       <CardMedia
         component="img"
         sx={{
@@ -17,49 +39,10 @@ const Footer = () => {
         alt="Website footer"
         src={footer}
       />
-      <Typography
-        variant="h6"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "block",
-            lg: "block",
-            xl: "block",
-          },
-          position: "absolute",
-          bottom: "0",
-          width: "100%",
-          color: "#000",
-          background:"transparent",
-          zIndex: "1"
-        }}
-      >
-        Thanks to Michael Lawrence Dee/michael888#0082 on Discord for the
-        thumbnail images, aliases and links to the songs.
-      </Typography>
-      <Typography
-        sx={{
-          display: {
-            xs: "block",
-            sm: "block",
-            md: "none",
-            lg: "none",
-            xl: "none",
-          },
-          position: "absolute",
-          bottom: "0",
-          width: "100%",
-          color: "#000",
-          background:"transparent",
-          fontSize: "14px",
-          textAlign: "left",
-          zIndex: "1"
-        }}
-      >
+      <FooterText >
         Thanks to Michael Lawrence Dee/michael888#0082 on Discord for the
         thumbnail images, aliases and links to the songs!
-      </Typography>
+      </FooterText>
     </Card>
   );
 };

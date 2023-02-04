@@ -9,9 +9,9 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-
 import ModalSongContent from "./components/ModalSongContent";
 import ModalSearch from "./components/ModalSearch";
+import Grid from '@mui/material/Grid';
 
 const App = () => {
   return (
@@ -146,7 +146,7 @@ const Main = () => {
       }
     )
         .then((res) => res.json())
-        .then((songs) => setCurrSongs(songs.slice(0,10)))
+        .then((songs) => setCurrSongs(songs.slice(0,12)))
         .catch((error) => {
           console.log(error);
         });
@@ -191,7 +191,7 @@ const Main = () => {
         width: "100%",
         position: "relative",
         top: "-75px",
-        backgroundColor: "#FFF",
+        backgroundColor: "white",
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-start",
@@ -214,7 +214,6 @@ const Main = () => {
           display: "flex",
           width: "85%",
           alignItems: "flex-start",
-          paddingTop: "4px",
         }}
       >
         <Button
@@ -230,7 +229,6 @@ const Main = () => {
         sx={{
           position: "relative",
           minHeight: "600px",
-          height: "100%",
           width: "85%",
           backgroundColor: "#FFF",
           display: "flex",
@@ -240,24 +238,28 @@ const Main = () => {
           flexWrap: "wrap",
         }}
       >
+        <Grid container spacing={4}>
         {/* eslint-disable-next-line */}
         {currSongs.map((song, key) => {
           return (
-            <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>
+            <Grid item md={6} lg={4} sx={{width:"100%"}}>
+              <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>
+            </Grid>
           );
         })}
+        </Grid>
       </Box>
 
       {/* Pagination buttons */}
       <Box
         sx={{
-          alignItems: "center",
+          alignItems: "center", marginTop:"32px", position:"sticky", bottom:64
         }}
       >
-        <IconButton disabled={finalSearch.offset === 0} onClick={handleBack} aria-label="back">
+        <IconButton color="primary" disabled={finalSearch.offset === 0} onClick={handleBack} aria-label="back">
           <ArrowBackIosIcon />
         </IconButton>
-        <IconButton disabled={currSongs.length !== 10} onClick={handleForward} aria-label="forward">
+        <IconButton color="primary" disabled={currSongs.length !== 12} onClick={handleForward} aria-label="forward">
           <ArrowForwardIosIcon />
         </IconButton>
       </Box>

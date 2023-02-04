@@ -1,13 +1,15 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
+import { useTheme } from "@mui/material";
 
 const SearchBar = (props) => {
+  const theme = useTheme();
   const style = {
-    background: "#B3E3FF",
+    background: theme.palette.main.light,
     width: "100%",
     position: "relative",
-    top: "1rem",
-    marginBottom: "16px",
+    marginTop: theme.spacing(4),
+    marginBottom: theme.spacing(4),
   };
   return (
     <TextField

@@ -3,10 +3,40 @@ import header from "../images/bg_top_pc.png";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
+import { styled } from '@mui/material/styles';
+
+const Title = styled(Typography)(({theme}) => ({
+  position: "absolute",
+  top: "35%",
+  left: "50%",
+  color: "#FFF",
+  width:"85%",
+  textShadow: "0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black",
+  transform: "translate(-50%, -50%)",
+  
+  [theme.breakpoints.up('xs')]: {
+    fontSize:"1.5rem"
+  },
+  [theme.breakpoints.up('sm')]: {
+    fontSize:"2rem"
+  },
+  [theme.breakpoints.up('md')]: {
+    fontSize:"3rem"
+  },
+  [theme.breakpoints.up('lg')]: {
+    fontSize:"3.5rem"
+  },
+  [theme.breakpoints.up('xl')]: {
+    fontSize:"5rem"
+  },
+
+
+
+}))
 
 const Header = (props) => {
   return (
-    <Card style={{ border: "none", boxShadow: "none" }}>
+    <Card sx={{ border: "none", boxShadow: "none", position:"relative" }}>
       <CardMedia
         component="img"
         sx={{
@@ -18,127 +48,9 @@ const Header = (props) => {
         alt="Website header"
         src={header}
       />
-      {/* This is the jankiest solution but then again, CSS is cancerous so whatever */}
-      {/* Will display only one Typography per screensize breakpoint */}
-      {/* For desktop/big screen screens */}
-      <Typography
-        variant="h1"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "none",
-            lg: "none",
-            xl: "block",
-          },
-          position: "absolute",
-          top: "30%",
-          left: "10%",
-          height: "100%",
-          width: "100%",
-          color: "#FFF",
-          textShadow:
-            "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
-          transform: "translate(-10%, -10%)",
-        }}
-      >
+      <Title>
         Dancerush Stardom Song Searcher
-      </Typography>
-      {/* Smaller monitors */}
-      <Typography
-        variant="h2"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "none",
-            lg: "block",
-            xl: "none",
-          },
-          position: "absolute",
-          top: "25%",
-          left: "10%",
-          height: "100%",
-          width: "100%",
-          color: "#FFF",
-          textShadow:
-          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
-          transform: "translate(-10%, -10%)",
-        }}
-      >
-        Dancerush Stardom Song Searcher
-      </Typography>
-      {/* Getting to tablet/mobile size */}
-      <Typography
-        variant="h3"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "none",
-            md: "block",
-            lg: "none",
-            xl: "none",
-          },
-          position: "absolute",
-          top: "20%",
-          left: "10%",
-          height: "100%",
-          width: "100%",
-          color: "#FFF",
-          textShadow:
-          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
-          transform: "translate(-10%, -10%)",
-        }}
-      >
-        Dancerush Stardom Song Searcher
-      </Typography>
-      {/* Small mobile screens */}
-      <Typography
-        variant="h4"
-        sx={{
-          display: {
-            xs: "none",
-            sm: "block",
-            md: "none",
-            lg: "none",
-            xl: "none",
-          },
-          position: "absolute",
-          top: "15%",
-          left: "10%",
-          height: "100%",
-          width: "100%",
-          color: "#FFF",
-          textShadow:
-          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
-          transform: "translate(-10%, -10%)",
-        }}
-      >
-        Dancerush Stardom Song Searcher
-      </Typography>
-      <Typography
-        variant="h5"
-        sx={{
-          display: {
-            xs: "block",
-            sm: "none",
-            md: "none",
-            lg: "none",
-            xl: "none",
-          },
-          position: "absolute",
-          top: "15%",
-          left: "10%",
-          height: "100%",
-          width: "100%",
-          color: "#FFF",
-          textShadow:
-          "0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black",
-          transform: "translate(-10%, -10%)",
-        }}
-      >
-        Dancerush Stardom Song Searcher
-      </Typography>
+      </Title>
     </Card>
   );
 };
