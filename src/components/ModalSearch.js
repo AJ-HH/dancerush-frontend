@@ -13,6 +13,29 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 
+const MyListButton = ({ primary, children }) => {
+  return (
+    <div>
+      <ListItemText
+        primary={primary}
+        primaryTypographyProps={{
+          sx: {
+            fontSize: "16px",
+            fontWeight: "bold",
+            marginTop: "16px",
+          },
+        }}
+      />
+
+      <Box sx={{ width: "100%", alignItems: "center" }}>
+        {children}
+      </Box>
+
+
+    </div>
+  );
+};
+
 const ModalSearch = ({
   openSearch,
   handleCloseSearch,
@@ -62,6 +85,9 @@ const ModalSearch = ({
           maxWidth: "720px",
           width: "90%",
           height: "100%",
+          maxHeight: "600px",
+          paddingLeft: "16px",
+          paddingRight: "16px",
           position: "fixed",
           top: "50%",
           left: "50%",
@@ -69,6 +95,7 @@ const ModalSearch = ({
           bgcolor: "background.paper",
           overflowY: "scroll",
           '&::-webkit-scrollbar': {display: "none"}
+          
         }}
       >
         <List
@@ -79,7 +106,7 @@ const ModalSearch = ({
             <ListSubheader
               component="div"
               id="nested-list-subheader"
-              sx={{ fontWeight: "bold" }}
+              sx={{ fontWeight: "bold", zIndex: 2, paddingLeft:0 }}
             >
               Advanced Search Filters
             </ListSubheader>
@@ -87,7 +114,7 @@ const ModalSearch = ({
         >
           <MyListButton primary={"Song Name"}>
             <SearchBar
-              sx={{ marginLeft: "16px", marginRight: "16px" }}
+
               label="Search for song..."
               search={advSearch.song}
               handleSearch={handleAdvSearchSong}
@@ -95,7 +122,7 @@ const ModalSearch = ({
           </MyListButton>
           <MyListButton primary={"Artist Name"}>
             <SearchBar
-              sx={{ marginLeft: "16px", marginRight: "16px" }}
+              sx={{marginRight:0}}
               label="Search for artist..."
               search={advSearch.artist}
               handleSearch={handleAdvSearchArtist}
@@ -106,7 +133,7 @@ const ModalSearch = ({
               value={advSearch.genre}
               onChange={handleAdvSearchGenre}
               aria-label="genre selection"
-              sx={{ flexWrap: "wrap", marginTop: "16px", marginLeft: "16px" }}
+              sx={{ flexWrap: "wrap", marginTop: "16px", marginBottom:"16px" }}
             >
               <ToggleButton
                 color="primary"
@@ -154,7 +181,7 @@ const ModalSearch = ({
                 step={1}
                 max={10}
                 getAriaValueText={valuetextNormal}
-                sx={{ width: "97.5%", marginTop: "40px", marginLeft: "20px" }}
+                sx={{ width: "97.5%", marginTop: "40px"}}
               />
             </div>
           </MyListButton>
@@ -169,7 +196,7 @@ const ModalSearch = ({
                 step={1}
                 max={10}
                 getAriaValueText={valuetextNormal}
-                sx={{ width: "97.5%", marginTop: "40px", marginLeft: "20px" }}
+                sx={{ width: "97.5%", marginTop: "40px",}}
               />
             </div>
           </MyListButton>
@@ -184,7 +211,7 @@ const ModalSearch = ({
                 step={1}
                 max={232}
                 getAriaValueText={valuetextBPM}
-                sx={{ width: "97.5%", marginTop: "40px", marginLeft: "20px" }}
+                sx={{ width: "97.5%", marginTop: "40px",}}
                 marks={[
                   { value: 100, label: "100" },
                   { value: 200, label: "200" },
@@ -201,7 +228,6 @@ const ModalSearch = ({
                   inputProps={{
                     "aria-label": "Checkbox for song availability",
                   }}
-                  sx={{ marginLeft: "16px" }}
                 />
               }
               label="Only songs available by default"
@@ -213,28 +239,5 @@ const ModalSearch = ({
   );
 };
 
-const MyListButton = ({ primary, children }) => {
-  return (
-    <div>
-      <ListItemText
-        primary={primary}
-        primaryTypographyProps={{
-          sx: {
-            fontSize: "16px",
-            fontWeight: "bold",
-            marginTop: "16px",
-            marginLeft: "16px",
-          },
-        }}
-      />
-
-      <Box sx={{ width: "calc(100% - 32px)", alignItems: "center" }}>
-        {children}
-      </Box>
-
-      <Divider sx={{ marginTop: "16px" }} />
-    </div>
-  );
-};
 
 export default ModalSearch;

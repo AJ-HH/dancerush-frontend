@@ -21,7 +21,7 @@ const SubText = styled(Typography)(({ theme }) => ({
 
 const CombinedText = ({ tag, value }) => {
   return (
-    <Grid item xs={8} sm={6} md={3} lg={2.4} xl={2.4}>
+    <Grid item xs={8} sm={6} md={6} lg={6} xl={6}>
       <span style={{ width: "100%", display: "flex", flexDirection: "row" }}>
         <SubText fontWeight="bold">{tag + ": "}</SubText>
         <SubText>{value}</SubText>
@@ -42,93 +42,102 @@ const SongButton = styled(Button)(({ theme }) => ({
   marginBottom: theme.spacing(2),
   fontWeight: 600,
   textAlign: "center",
-  '@media (max-width: 400px)':{
-    maxWidth:"300px",
-    width:"100%"
-  }
+  "@media (max-width: 400px)": {
+    maxWidth: "300px",
+    width: "100%",
+  },
 }));
 
 const styles = {
-  imageStyle:{
-    display:"flex", 
-    flexDirection:"row",
-    '@media (max-width: 500px)':{
-      width:"100%",
-      justifyContent:"center",
-      alignItems:"center",
-      paddingBottom:"16px",
+  imageStyle: {
+    display: "flex",
+    flexDirection: "row",
+    "@media (max-width: 500px)": {
+      width: "100%",
+      justifyContent: "center",
+      alignItems: "center",
+      paddingBottom: "16px",
     },
-    '@media (min-width: 500px)':{
+    "@media (min-width: 500px)": {
       paddingRight: "16px",
-      
     },
   },
   headerStyle: {
-    paddingBottom:"16px",
-    '@media (min-width: 500px)':{
-      display:"flex", 
-      flexDirection:"row",
+    paddingBottom: "16px",
+    "@media (min-width: 500px)": {
+      display: "flex",
+      flexDirection: "row",
     },
   },
-  headerTextStyle:{
-    display:"flex", 
-    flexDirection:"column",
-    '@media (min-width: 500px)':{
-      justifyContent:"flex-end",
+  headerTextStyle: {
+    display: "flex",
+    flexDirection: "column",
+    "@media (min-width: 500px)": {
+      justifyContent: "flex-end",
     },
-  }
-}
+  },
+};
 
 const ModalSongContent = ({ open, handleClose, modalSong }) => {
   const theme = useTheme();
   React.useEffect(() => {}, [modalSong]);
   return (
-    <Modal open={open} onClose={handleClose}>
+    <Modal open={open} onClose={handleClose} sx={{  height: "100vh", overflowY: "hidden"}}>
       <Box>
         <Card
           sx={{
             width: "90%",
+            maxWidth: "760px",
             position: "fixed",
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
             bgcolor: "background.paper",
-            maxHeight: "575px",
             overflowY: "scroll",
             "&::-webkit-scrollbar": { display: "none" },
             padding: theme.spacing(4),
+            "@media (max-width: 675px)": {
+              maxHeight: "600px",
+            },
           }}
         >
-            <Box sx={styles.headerStyle}>
-              <Box sx={styles.imageStyle}>
-                <Box
-                  component="img"
-                  height="160px"
-                  width="160px"
-                  src={"images/" + modalSong.thumbnail}
-                  alt="song"
-                  
-                />
-              </Box>
-              <Box sx={styles.headerTextStyle}>
-                <MainText>{modalSong.song}</MainText>
-                <SubText sx={{paddingBottom:0}}>{modalSong.artist}</SubText>
-              </Box>
-              </Box>
+          <Box sx={styles.headerStyle}>
+            <Box sx={styles.imageStyle}>
+              <Box
+                component="img"
+                height="160px"
+                width="160px"
+                src={"images/" + modalSong.thumbnail}
+                alt="song"
+              />
+            </Box>
+            <Box sx={styles.headerTextStyle}>
+              <MainText>{modalSong.song}</MainText>
+              <SubText sx={{ paddingBottom: 0 }}>{modalSong.artist}</SubText>
+            </Box>
+          </Box>
           <Grid container>
-          <Grid item xs={12} sm={12}>
+            <Grid item xs={12} sm={12}>
               <MainText>STATS</MainText>
             </Grid>
-            <Grid container sx={{padding: 0}}>
+            <Grid container sx={{ padding: 0 }}>
               <CombinedText tag="Genre" value={modalSong.genre} />
               <CombinedText tag="BPM" value={modalSong.bpm} />
               <CombinedText tag="Easy" value={modalSong.easy} />
               <CombinedText tag="Normal" value={modalSong.normal} />
-              <Grid item xs={12} sm={12} md={12} lg={2.4} xl={2.4}>
-                <span style={{ width: "100%", display: "flex", flexDirection: "row" }}>
+              <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                <span
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "row",
+                  }}
+                >
                   <SubText fontWeight="bold">{"Unlocked by default: "}</SubText>
-                  {/* eslint-disable-next-line */}
-                  <SubText>{" " + modalSong.unlocked == 1 ? " yes" : " no"}</SubText>
+                  <SubText>
+                    {/* eslint-disable-next-line */}
+                    {" " + modalSong.unlocked == 1 ? " yes" : " no"}
+                  </SubText>
                 </span>
               </Grid>
             </Grid>
@@ -138,18 +147,20 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
               {modalSong.chinalocked == 1 && (
                 <div style={{ color: "red" }}> • Locked in China </div>
               )}
-{/* eslint-disable-next-line */}
+              {/* eslint-disable-next-line */}
               {modalSong.japanonly == 1 && (
                 <div style={{ color: "red" }}> • Only available in Japan </div>
               )}
-{/* eslint-disable-next-line */}
+              {/* eslint-disable-next-line */}
               {modalSong.koreaonly == 1 && (
                 <div style={{ color: "red" }}> • Only available in Korea </div>
               )}
-
+            </Grid>
+            <Grid item xs={12} sm={12} sx={{paddingTop: theme.spacing(2) }}>
+              <MainText>YouTube Links</MainText>
             </Grid>
             <CardContent
-              sx={{ display: "flex", flexDirection: "column", padding: 0 }}
+              sx={{ display: "flex", flexDirection: "column", padding: 0}}
             >
               <SongButton
                 variant="outlined"

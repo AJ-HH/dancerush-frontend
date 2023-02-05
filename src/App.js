@@ -67,6 +67,7 @@ const Main = () => {
   const [openSearch, setOpenSearch] = React.useState(false);
   // When advanced search is open, set advSearch to default values and shows the modal
   const handleOpenSearch = () => {
+    document.body.style.position = "fixed";
     setAdvSearch({
       song: "",
       artist: "",
@@ -82,6 +83,7 @@ const Main = () => {
 
   // When the search modal is closed, finalSearch is updated (and API is called through useEffect)
   const handleCloseSearch = () => {
+    document.body.style.position = "static";
     setFinalSearch(advSearch);
     setOpenSearch(false);
   };
