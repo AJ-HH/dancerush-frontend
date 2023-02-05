@@ -67,7 +67,9 @@ const Main = () => {
   const [openSearch, setOpenSearch] = React.useState(false);
   // When advanced search is open, set advSearch to default values and shows the modal
   const handleOpenSearch = () => {
-    document.body.style.position = "fixed";
+    if (window.innerWidth < 700){
+      document.body.style.position = 'fixed';
+    }
     setAdvSearch({
       song: "",
       artist: "",
@@ -83,9 +85,12 @@ const Main = () => {
 
   // When the search modal is closed, finalSearch is updated (and API is called through useEffect)
   const handleCloseSearch = () => {
-    document.body.style.position = "static";
+    if (window.innerWidth < 700){
+      document.body.style.position = 'static';
+    }
     setFinalSearch(advSearch);
     setOpenSearch(false);
+
   };
 
   const [currSongs, setCurrSongs] = React.useState([]);
@@ -110,15 +115,20 @@ const Main = () => {
   });
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
-    document.body.style.position = "static";
+    if (window.innerWidth < 700){
+      document.body.style.position = 'static';
+
+    }
     setOpen(false);
   };
   // Using the id that has been passed in when the song card is clicked, it will
   // access the data from that song in dancerush_songs.json
   const handleOpen = (id) => {
-    document.body.style.position = "fixed";
+    if (window.innerWidth < 700){
+      document.body.style.position = 'fixed';
+    }
     setOpen(true);
-    setModalSong(currSongs.at(id));
+    setModalSong(currSongs[id]);
   };
 
   const handleBack = () => {

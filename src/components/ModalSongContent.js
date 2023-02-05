@@ -33,7 +33,7 @@ const CombinedText = ({ tag, value }) => {
 const MainText = styled(Typography)(({ theme }) => ({
   fontWeight: "700",
   textAlign: "left",
-  fontSize: 28,
+  fontSize: 24,
 }));
 
 const SongButton = styled(Button)(({ theme }) => ({
@@ -112,7 +112,7 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
               />
             </Box>
             <Box sx={styles.headerTextStyle}>
-              <MainText>{modalSong.song}</MainText>
+              <MainText sx={{fontSize: 36}}>{modalSong.song}</MainText>
               <SubText sx={{ paddingBottom: 0 }}>{modalSong.artist}</SubText>
             </Box>
           </Box>
