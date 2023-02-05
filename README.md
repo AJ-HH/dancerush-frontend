@@ -7,6 +7,9 @@ https://www.figma.com/file/KPj9nQxznpxcpMiRSScTPi/Dancerush-song-viewer?node-id=
 
 # Known Issues
 
-- Song modal does not work for certain mobile devices. This has no consistency, on my phone (iPhone) and a friend (iPhone) it doesn't show the song details, while other friends (iPhone + Android) on different browsers (Safari, Firefox) it shows all the details. If you have an iPhone 12 it will not work for some reason.
+- ~~Song modal does not work for certain mobile devices. This has no consistency, on my phone (iPhone) and a friend (iPhone) it doesn't show the song details, while other friends (iPhone + Android) on different browsers (Safari, Firefox) it shows all the details. If you have an iPhone 12 it will not work for some reason.~~
+Issue was due to using a prototype function that's not supported with some versions of iOS (Array.at)
 
-- Second Heaven messes up the song card on mobile devices. This is because it tries to fit 'samba,samba,samba' onto the song title section and pushes out the image. 
+- Second Heaven songs messes up the song card on mobile devices. This is because 'samba,samba,somebody' is treated as one word and because of its length, pushes out the image  
+
+- On smaller devices, bringing up the modal will cause the background to jump to the top. This is because position: fixed is necessary to prevent weird scrolling behaviour on mobile devices. Is a common online issue, a necessary tradeoff
