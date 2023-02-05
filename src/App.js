@@ -110,11 +110,13 @@ const Main = () => {
   });
   const [open, setOpen] = React.useState(false);
   const handleClose = () => {
+    document.body.style.position = "static";
     setOpen(false);
   };
   // Using the id that has been passed in when the song card is clicked, it will
   // access the data from that song in dancerush_songs.json
   const handleOpen = (id) => {
+    document.body.style.position = "fixed";
     setOpen(true);
     setModalSong(currSongs.at(id));
   };
