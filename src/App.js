@@ -35,7 +35,7 @@ const Main = () => {
       normal: [1, 10],
       bpm: [92, 232],
       genre: [],
-      default: false,
+      unlocked: false,
       offset: 0
     });
   };
@@ -48,7 +48,7 @@ const Main = () => {
     normal: [1, 10],
     bpm: [92, 232],
     genre: [],
-    default: false,
+    unlocked: false,
     offset: 0
   });
 
@@ -60,7 +60,7 @@ const Main = () => {
     normal: [1, 10],
     bpm: [92, 232],
     genre: [],
-    default: false,
+    unlocked: false,
     offset:0
   });
 
@@ -75,7 +75,7 @@ const Main = () => {
       normal: [1, 10],
       bpm: [92, 232],
       genre: [],
-      default: false,
+      unlocked: false,
       offset: 0
     });
     setOpenSearch(true);
@@ -156,6 +156,7 @@ const Main = () => {
         });
     }
     fetchSongs();
+
   }, []);
 
   // Re-renders whenever the search bar/advanced search is updated
@@ -171,7 +172,7 @@ const Main = () => {
             bpm: finalSearch.bpm,
             easy: finalSearch.easy,
             normal: finalSearch.normal,
-            unlocked: finalSearch.default,
+            unlocked: finalSearch.unlocked,
             offset: finalSearch.offset
           }),
         {
@@ -246,8 +247,8 @@ const Main = () => {
         {/* eslint-disable-next-line */}
         {currSongs.map((song, key) => {
           return (
-            <Grid item md={6} lg={4} sx={{width:"100%"}}>
-              <Song handleOpen={handleOpen} id={key} key={key} song={song}></Song>
+            <Grid item md={6} lg={4} sx={{width:"100%"}} key={key}>
+              <Song handleOpen={handleOpen} id={key} song={song}></Song>
             </Grid>
           );
         })}

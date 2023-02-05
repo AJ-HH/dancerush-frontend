@@ -63,8 +63,8 @@ const ModalSearch = ({
     setAdvSearch({ ...advSearch, bpm: newValue });
   };
 
-  const handleAdvSearchDefault = (event) => {
-    setAdvSearch({ ...advSearch, default: event.target.checked });
+  const handleAdvSearchUnlocked = (event) => {
+    setAdvSearch({ ...advSearch, unlocked: event.target.checked });
   };
 
   const valuetextNormal = (value) => {
@@ -190,7 +190,11 @@ const ModalSearch = ({
                   step={1}
                   max={10}
                   getAriaValueText={valuetextNormal}
-                  sx={{ width: "97.5%", marginTop: "40px" }}
+                  sx={{
+                    width: "97.5%",
+                    marginTop: "40px",
+                    "& .MuiSlider-valueLabel": { maxWidth: "24px" },
+                  }}
                 />
               </div>
             </MyListItem>
@@ -205,7 +209,11 @@ const ModalSearch = ({
                   step={1}
                   max={10}
                   getAriaValueText={valuetextNormal}
-                  sx={{ width: "97.5%", marginTop: "40px" }}
+                  sx={{
+                    width: "97.5%",
+                    marginTop: "40px",
+                    "& .MuiSlider-valueLabel": { maxWidth: "24px" },
+                  }}
                 />
               </div>
             </MyListItem>
@@ -220,7 +228,11 @@ const ModalSearch = ({
                   step={1}
                   max={232}
                   getAriaValueText={valuetextBPM}
-                  sx={{ width: "97.5%", marginTop: "40px" }}
+                  sx={{
+                    width: "97.5%",
+                    marginTop: "40px",
+                    "& .MuiSlider-valueLabel": { maxWidth: "28px" },
+                  }}
                   marks={[
                     { value: 100, label: "100" },
                     { value: 200, label: "200" },
@@ -232,8 +244,8 @@ const ModalSearch = ({
               <FormControlLabel
                 control={
                   <Checkbox
-                    checked={advSearch.default}
-                    onChange={handleAdvSearchDefault}
+                    checked={advSearch.unlocked}
+                    onChange={handleAdvSearchUnlocked}
                     inputProps={{
                       "aria-label": "Checkbox for song availability",
                     }}

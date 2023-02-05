@@ -135,8 +135,7 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
                 >
                   <SubText fontWeight="bold">{"Unlocked by default: "}</SubText>
                   <SubText>
-                    {/* eslint-disable-next-line */}
-                    {" " + modalSong.unlocked == 1 ? " yes" : " no"}
+                    { modalSong.unlocked === true ? " yes" : " no"}
                   </SubText>
                 </span>
               </Grid>
