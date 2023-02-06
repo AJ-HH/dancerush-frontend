@@ -2,7 +2,7 @@
 Frontend for a website to view and search through a list of dancerush songs, utilises the dancerush song API (https://github.com/AJ-HH/dancerush). Made with React and Material-UI, can be viewed here: https://dancerush-song-viewer-ee159.web.app/
 
 # Prototype
--Basic high fidelity prototype used as a guideline for designing the website
+- Basic high fidelity prototype used as a guideline for designing the website
 https://www.figma.com/file/KPj9nQxznpxcpMiRSScTPi/Dancerush-song-viewer?node-id=0%3A1&t=4kJEdjjsmexk14f9-1
 
 # Known Issues
