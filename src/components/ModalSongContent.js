@@ -11,19 +11,17 @@ import { useTheme } from "@mui/material";
 
 const SubText = styled(Typography)(({ theme }) => ({
   fontSize: 16,
-  // display: "inline",
-  // textAlign: "left",
-  // verticalAlign: "middle",
   paddingBottom: theme.spacing(2),
   paddingTop: theme.spacing(2),
-  color: "#5e5e5e",
+  color: "#333",
 }));
 
 const CombinedText = ({ tag, value }) => {
   return (
     <Grid item xs={8} sm={6} md={6} lg={6} xl={6}>
-      <span style={{ width: "100%", display: "flex", flexDirection: "row" }}>
-        <SubText fontWeight="bold">{tag + ": "}</SubText>
+      <span style={{ width: "100%", display: "flex", flexDirection: "row", whiteSpace: "pre" }}>
+        <SubText fontWeight="bold">{tag }</SubText>
+
         <SubText>{value}</SubText>
       </span>
     </Grid>
@@ -33,7 +31,7 @@ const CombinedText = ({ tag, value }) => {
 const MainText = styled(Typography)(({ theme }) => ({
   fontWeight: "700",
   textAlign: "left",
-  fontSize: 24,
+  fontSize: 28,
 }));
 
 const SongButton = styled(Button)(({ theme }) => ({
@@ -121,19 +119,20 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
               <MainText>STATS</MainText>
             </Grid>
             <Grid container sx={{ padding: 0 }}>
-              <CombinedText tag="Genre" value={modalSong.genre} />
-              <CombinedText tag="BPM" value={modalSong.bpm} />
-              <CombinedText tag="Easy" value={modalSong.easy} />
-              <CombinedText tag="Normal" value={modalSong.normal} />
+              <CombinedText tag="Genre: " value={modalSong.genre} />
+              <CombinedText tag="BPM: " value={modalSong.bpm} />
+              <CombinedText tag="Easy: " value={modalSong.easy} />
+              <CombinedText tag="Normal: " value={modalSong.normal} />
               <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                 <span
                   style={{
                     width: "100%",
                     display: "flex",
                     flexDirection: "row",
+                    whiteSpace: "pre"
                   }}
                 >
-                  <SubText fontWeight="bold">{"Unlocked by default: "}</SubText>
+                  <SubText fontWeight="bold">{"Unlocked by default:"}</SubText>
                   <SubText>
                     { modalSong.unlocked === true ? " yes" : " no"}
                   </SubText>
@@ -156,7 +155,7 @@ const ModalSongContent = ({ open, handleClose, modalSong }) => {
               )}
             </Grid>
             <Grid item xs={12} sm={12} sx={{paddingTop: theme.spacing(2) }}>
-              <MainText>YouTube Links</MainText>
+              <MainText>YOUTUBE LINKS</MainText>
             </Grid>
             <CardContent
               sx={{ display: "flex", flexDirection: "column", padding: 0}}
