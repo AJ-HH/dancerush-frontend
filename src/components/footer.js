@@ -1,9 +1,13 @@
 import React from "react";
 import footer from "../images/bg_bottom_pc.png";
+import discord from "../images/discord-icon.svg";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { styled } from '@mui/material/styles';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import IconButton from '@mui/material/IconButton';
+import Box from '@mui/material/Box';
 
 const FooterText = styled(Typography)(({theme}) => ({
   position: "absolute",
@@ -27,7 +31,15 @@ const FooterText = styled(Typography)(({theme}) => ({
 
 const Footer = () => {
   return (
-    <Card style={{ border: "none", boxShadow: "none", position:"relative", }}>
+    <Card sx={{ border: "none", boxShadow: "none", position:"relative", }}>
+      <Box>
+        <IconButton href="https://github.com/AJ-HH/dancerush-frontend/" aria-label="Github link" size='large' sx={{transform: "scale(1.5)",color:"#000"}}>
+          <GitHubIcon/>
+        </IconButton>
+        <IconButton href="https://discord.gg/dancerush" aria-label="Github link" size='large' sx={{padding:0, paddingTop:"8px",color:"#000"}}>
+          <img alt="Link to Dancerush Discord server" src={discord}/>
+        </IconButton>
+      </Box>
       <CardMedia
         component="img"
         sx={{
