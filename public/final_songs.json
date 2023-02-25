@@ -3835,6 +3835,24 @@
   },
   {
     "id": 214,
+    "genre": "EDM/BEMANI",
+    "song": "Shuffle the Cards RUNNING MAN EDITION",
+    "artist": "uno(IOSYS TRAX)",
+    "bpm": 110,
+    "easy": 5,
+    "noteseasy": 236,
+    "normal": 8,
+    "notesnormal": 345,
+    "unlocked": 0,
+    "chinalocked": 0,
+    "japanonly": 0,
+    "koreaonly": 0,
+    "thumbnail": "shuffle_the_cards_RM_Ver_Jacket.png",
+    "easyurl": false,
+    "normalurl": "ar3RUJP9tT4&t=23s"
+  },
+  {
+    "id": 215,
     "genre": "BEMANI",
     "song": "SigSig",
     "artist": "kors k",
@@ -3852,7 +3870,7 @@
     "normalurl": "pCrp47_o724"
   },
   {
-    "id": 215,
+    "id": 216,
     "genre": "BEMANI",
     "song": "Six String Proof (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"Yvya \u00d7 Mutsuhiko Izumi\"",
@@ -3870,7 +3888,7 @@
     "normalurl": "JF99xfdlAKA"
   },
   {
-    "id": 216,
+    "id": 217,
     "genre": "EDM/BEMANI",
     "song": "Sleepwell",
     "artist": "DJ WILDPARTY feat. yosumi",
@@ -3888,7 +3906,7 @@
     "normalurl": "T3nRkdI3Gqo"
   },
   {
-    "id": 217,
+    "id": 218,
     "genre": "EDM/BEMANI",
     "song": "Small Steps",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -3906,7 +3924,7 @@
     "normalurl": "YXofu4qdpWs"
   },
   {
-    "id": 218,
+    "id": 219,
     "genre": "EDM/BEMANI",
     "song": "So What",
     "artist": "PRIDASK",
@@ -3924,7 +3942,7 @@
     "normalurl": "CHyiS81jyCg&t=23s"
   },
   {
-    "id": 219,
+    "id": 220,
     "genre": "BEMANI",
     "song": "Sparkle Smilin'",
     "artist": "BEMANI Sound Team \"Qrispy Joybox\" feat.\u3044\u3061\u304b",
@@ -3942,7 +3960,7 @@
     "normalurl": "jzNpTj5qZyg"
   },
   {
-    "id": 220,
+    "id": 221,
     "genre": "BEMANI",
     "song": "Special One",
     "artist": "kors k feat. Suzuyo Miyamoto",
@@ -3960,7 +3978,7 @@
     "normalurl": "F6fTM0TeBsQ"
   },
   {
-    "id": 221,
+    "id": 222,
     "genre": "EDM/BEMANI",
     "song": "Spin & Slide",
     "artist": "KAN TAKAHIKO",
@@ -3978,7 +3996,7 @@
     "normalurl": "1eY-wwD3Jk8"
   },
   {
-    "id": 222,
+    "id": 223,
     "genre": "EDM/BEMANI",
     "song": "Starlight Kiss",
     "artist": "BlackY",
@@ -3996,7 +4014,7 @@
     "normalurl": "xj6pGoIDVHg"
   },
   {
-    "id": 223,
+    "id": 224,
     "genre": "?",
     "song": "Starlight Parade",
     "artist": "ARM (IOSYS) ft. Renko",
@@ -4014,7 +4032,7 @@
     "normalurl": "P1CIvB1QTOM&t=22s"
   },
   {
-    "id": 224,
+    "id": 225,
     "genre": "EDM/BEMANI",
     "song": "Stepper",
     "artist": "PSYQUI",
@@ -4032,7 +4050,7 @@
     "normalurl": "NdPcEM3855I"
   },
   {
-    "id": 225,
+    "id": 226,
     "genre": "EDM/BEMANI",
     "song": "Summer's End",
     "artist": "Nhato",
@@ -4050,7 +4068,7 @@
     "normalurl": "HQFaV3EU0nc"
   },
   {
-    "id": 226,
+    "id": 227,
     "genre": "EDM/BEMANI",
     "song": "Summery",
     "artist": "KO3",
@@ -4068,7 +4086,7 @@
     "normalurl": "cnFqocWQ8mk"
   },
   {
-    "id": 227,
+    "id": 228,
     "genre": "EDM/BEMANI",
     "song": "Sunrise (feat. LEO & Viola)",
     "artist": "Hommarju",
@@ -4086,7 +4104,7 @@
     "normalurl": "UQiWBgsC67w"
   },
   {
-    "id": 228,
+    "id": 229,
     "genre": "BEMANI",
     "song": "Sunshine let me find a way",
     "artist": "\u30b3\u30d0\u30e4\u30b7\u30e6\u30a6\u30e4 (IOSYS) ft. You-Re:",
@@ -4104,7 +4122,7 @@
     "normalurl": "ehzrqJgwmp0&t=22s"
   },
   {
-    "id": 229,
+    "id": 230,
     "genre": "EDM/BEMANI",
     "song": "Sweet Bordeaux Nightmare",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4122,7 +4140,7 @@
     "normalurl": "wgWCrY-0P2o&t=55s"
   },
   {
-    "id": 230,
+    "id": 231,
     "genre": "EDM/BEMANI",
     "song": "Switch",
     "artist": "Dubscribe",
@@ -4140,7 +4158,7 @@
     "normalurl": "gwBNCmZJfpg"
   },
   {
-    "id": 231,
+    "id": 232,
     "genre": "EDM/BEMANI",
     "song": "Switch SPONGEBOB EDITION",
     "artist": "Dubscribe",
@@ -4158,7 +4176,7 @@
     "normalurl": "VWOjfsgA2ew&t=22s"
   },
   {
-    "id": 232,
+    "id": 233,
     "genre": "EDM/BEMANI",
     "song": "Synaptic",
     "artist": "2ToneDisco",
@@ -4176,7 +4194,7 @@
     "normalurl": "7UQD0i9BwDI"
   },
   {
-    "id": 233,
+    "id": 234,
     "genre": "EDM/BEMANI",
     "song": "Synth Presets & Sample Loops",
     "artist": "BEMANI Sound Team \"90s crew cut\"",
@@ -4194,7 +4212,7 @@
     "normalurl": "LZoIdJ9wWX4"
   },
   {
-    "id": 234,
+    "id": 235,
     "genre": "EDM/BEMANI",
     "song": "THE SAFARI (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -4212,7 +4230,7 @@
     "normalurl": "vRnBR2skl4g"
   },
   {
-    "id": 235,
+    "id": 236,
     "genre": "BEMANI",
     "song": "Thank You Merry Christmas -DANCERUSH Mix-",
     "artist": "VENUS",
@@ -4230,7 +4248,7 @@
     "normalurl": "w1Tfw81vGp0"
   },
   {
-    "id": 236,
+    "id": 237,
     "genre": "EDM/BEMANI",
     "song": "The First Step",
     "artist": "Yooh",
@@ -4248,7 +4266,7 @@
     "normalurl": "OAy-G3MSwrE"
   },
   {
-    "id": 237,
+    "id": 238,
     "genre": "EDM/BEMANI",
     "song": "The GameHacker (Sampled Crazy Shuffle)",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR\"",
@@ -4266,7 +4284,7 @@
     "normalurl": "shgSg-NcP-E&t=23s"
   },
   {
-    "id": 238,
+    "id": 239,
     "genre": "EDM/BEMANI",
     "song": "The Second Summer",
     "artist": "rira",
@@ -4284,7 +4302,7 @@
     "normalurl": "G42RcUfOwkA"
   },
   {
-    "id": 239,
+    "id": 240,
     "genre": "POPS",
     "song": "The Stealer",
     "artist": "THE BOYZ",
@@ -4302,7 +4320,7 @@
     "normalurl": "4P5sCmTxfTs&t=9s"
   },
   {
-    "id": 240,
+    "id": 241,
     "genre": "BEMANI",
     "song": "This Beat Is.....",
     "artist": "Shoichiro Hirata",
@@ -4320,7 +4338,7 @@
     "normalurl": "hAQdmtdC7PI"
   },
   {
-    "id": 241,
+    "id": 242,
     "genre": "BEMANI",
     "song": "Too Late Snow",
     "artist": "movies (moimoi \u00d7 Xceon \u00d7 Dai.)",
@@ -4338,7 +4356,7 @@
     "normalurl": "OOKW1LYMe-g"
   },
   {
-    "id": 242,
+    "id": 243,
     "genre": "EDM/BEMANI",
     "song": "Touch Me",
     "artist": "C-Show",
@@ -4356,7 +4374,7 @@
     "normalurl": "drpB-R_4QkI"
   },
   {
-    "id": 243,
+    "id": 244,
     "genre": "BEMANI",
     "song": "Touch My Body",
     "artist": "anubasu-anubasu",
@@ -4374,7 +4392,7 @@
     "normalurl": "6-YrSeVKTo4&t=23s"
   },
   {
-    "id": 244,
+    "id": 245,
     "genre": "BEMANI",
     "song": "Trash",
     "artist": "Candy House",
@@ -4392,7 +4410,7 @@
     "normalurl": "8npbmxxxQ3s&t=21s"
   },
   {
-    "id": 245,
+    "id": 246,
     "genre": "BEMANI",
     "song": "Trill auf G (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"dj TAKA\"",
@@ -4410,7 +4428,7 @@
     "normalurl": "E9B2TRuhS_A"
   },
   {
-    "id": 246,
+    "id": 247,
     "genre": "BEMANI",
     "song": "Triple Cross",
     "artist": "BEMANI Sound Team \"dj TAKA & DJ YOSHITAKA & SYUNN\"",
@@ -4428,7 +4446,7 @@
     "normalurl": "lRSkOpRLYK4"
   },
   {
-    "id": 247,
+    "id": 248,
     "genre": "EDM/BEMANI",
     "song": "Tropical Love",
     "artist": "CHEAP CREAM",
@@ -4446,7 +4464,7 @@
     "normalurl": "ZGXXI5S8Zkg"
   },
   {
-    "id": 248,
+    "id": 249,
     "genre": "EDM/BEMANI",
     "song": "Tropical White",
     "artist": "\u661f\u5bae\u3068\u3068+TEMPLIME",
@@ -4464,7 +4482,7 @@
     "normalurl": "kUyayR08L7g&t=40s"
   },
   {
-    "id": 249,
+    "id": 250,
     "genre": "EDM/BEMANI",
     "song": "True Blue (STARDOM Remix)",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4482,7 +4500,7 @@
     "normalurl": "QHBV2p0RLNI"
   },
   {
-    "id": 250,
+    "id": 251,
     "genre": "EDM/BEMANI",
     "song": "True Blue (STARDOM Remix) T STEP EDITION",
     "artist": "\u304b\u3081\u308a\u3042",
@@ -4500,7 +4518,7 @@
     "normalurl": "9U8wq3-l4-g&t=22s"
   },
   {
-    "id": 251,
+    "id": 252,
     "genre": "POPS",
     "song": "Twilight",
     "artist": "ONEUS",
@@ -4518,7 +4536,7 @@
     "normalurl": "02BJ48D4-F0&t=9s"
   },
   {
-    "id": 252,
+    "id": 253,
     "genre": "EDM/BEMANI",
     "song": "Twinkle",
     "artist": "Aiobahn",
@@ -4536,7 +4554,7 @@
     "normalurl": "7GaoIluazVU"
   },
   {
-    "id": 253,
+    "id": 254,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4554,7 +4572,7 @@
     "normalurl": null
   },
   {
-    "id": 254,
+    "id": 255,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3 \u708e\u306e\u7279\u8a13\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4572,7 +4590,7 @@
     "normalurl": null
   },
   {
-    "id": 255,
+    "id": 256,
     "genre": "Lesson",
     "song": "T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u5fdc\u7528\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -4590,7 +4608,7 @@
     "normalurl": null
   },
   {
-    "id": 256,
+    "id": 257,
     "genre": "EDM/BEMANI",
     "song": "UCHU",
     "artist": "Ken Plus Ichiro",
@@ -4608,7 +4626,7 @@
     "normalurl": "NMp1EO6kHJc"
   },
   {
-    "id": 257,
+    "id": 258,
     "genre": "EDM/BEMANI",
     "song": "Undercover",
     "artist": "Hommarju",
@@ -4626,7 +4644,7 @@
     "normalurl": "GZ8issBkEDY"
   },
   {
-    "id": 258,
+    "id": 259,
     "genre": "BEMANI",
     "song": "VOLAQUAS",
     "artist": "BEMANI Sound Team \"DJ TOTTO VS \u514e\u3005\"",
@@ -4644,7 +4662,7 @@
     "normalurl": "ZTEOezGx19k&t=23s"
   },
   {
-    "id": 259,
+    "id": 260,
     "genre": "POPS",
     "song": "Valkyrie",
     "artist": "ONEUS",
@@ -4662,7 +4680,7 @@
     "normalurl": "CORQbILsY0Y"
   },
   {
-    "id": 260,
+    "id": 261,
     "genre": "EDM/BEMANI",
     "song": "Vamos A Bailar",
     "artist": "Yooh",
@@ -4680,7 +4698,7 @@
     "normalurl": "CxggygSk_oA"
   },
   {
-    "id": 261,
+    "id": 262,
     "genre": "EDM/BEMANI",
     "song": "Villains",
     "artist": "RoughSketch",
@@ -4698,7 +4716,7 @@
     "normalurl": "Jv-gmC3jVxY"
   },
   {
-    "id": 262,
+    "id": 263,
     "genre": "EDM/BEMANI",
     "song": "Visnu",
     "artist": "Blacklolita",
@@ -4716,7 +4734,7 @@
     "normalurl": "-NsvqcWUJs4"
   },
   {
-    "id": 263,
+    "id": 264,
     "genre": "BEMANI",
     "song": "Voyager",
     "artist": "lapix",
@@ -4734,7 +4752,7 @@
     "normalurl": "i--Eu_wpdS8"
   },
   {
-    "id": 264,
+    "id": 265,
     "genre": "EDM/BEMANI",
     "song": "WELCOME TO MY GAME",
     "artist": "GUCHON",
@@ -4752,7 +4770,7 @@
     "normalurl": "AZyHA-IoQqk"
   },
   {
-    "id": 265,
+    "id": 266,
     "genre": "EDM/BEMANI",
     "song": "Waiting for you",
     "artist": "Soda Sphere",
@@ -4770,7 +4788,7 @@
     "normalurl": "-GSXxd_140Q"
   },
   {
-    "id": 266,
+    "id": 267,
     "genre": "EDM/BEMANI",
     "song": "Warpstep",
     "artist": "DJ Shimamura",
@@ -4788,7 +4806,7 @@
     "normalurl": "xXwxYta7GPU&t=23s"
   },
   {
-    "id": 267,
+    "id": 268,
     "genre": "EDM/BEMANI",
     "song": "Wicked",
     "artist": "Hommarju",
@@ -4806,7 +4824,7 @@
     "normalurl": "yNML_YEIH1U"
   },
   {
-    "id": 268,
+    "id": 269,
     "genre": "EDM/BEMANI",
     "song": "Wicked SPONGEBOB EDITION",
     "artist": "Hommarju",
@@ -4824,7 +4842,7 @@
     "normalurl": "w8-rzMSCELo&t=22s"
   },
   {
-    "id": 269,
+    "id": 270,
     "genre": "EDM/BEMANI",
     "song": "Without Words",
     "artist": "Dominant Space",
@@ -4842,7 +4860,7 @@
     "normalurl": "wLYzc16mU4A&t=55s"
   },
   {
-    "id": 270,
+    "id": 271,
     "genre": "BEMANI",
     "song": "Wowie Zowie!",
     "artist": "Hommarju",
@@ -4860,7 +4878,7 @@
     "normalurl": "7z2iZq7yBw8"
   },
   {
-    "id": 271,
+    "id": 272,
     "genre": "BEMANI",
     "song": "X-ray binary",
     "artist": "BEMANI Sound Team \"Trance Liquid\"",
@@ -4878,7 +4896,7 @@
     "normalurl": "uyhmadAtUKA"
   },
   {
-    "id": 272,
+    "id": 273,
     "genre": "EDM/BEMANI",
     "song": "You Take My Soul",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -4896,7 +4914,7 @@
     "normalurl": "CQ93v_r8tp8&t=22s"
   },
   {
-    "id": 273,
+    "id": 274,
     "genre": "?",
     "song": "You You You",
     "artist": "D.Watt ft. \u7d21\u97f3\u308c\u3044",
@@ -4914,7 +4932,7 @@
     "normalurl": "zMx-NqB81GA&t=22s"
   },
   {
-    "id": 274,
+    "id": 275,
     "genre": "BEMANI",
     "song": "[E]",
     "artist": "dj MAX STEROID",
@@ -4932,7 +4950,7 @@
     "normalurl": "My3v6l4Q5Vo&t=24s"
   },
   {
-    "id": 275,
+    "id": 276,
     "genre": "EDM/BEMANI",
     "song": "about right",
     "artist": "BEMANI Sound Team \"The Foie-Gras of The Sea\"",
@@ -4950,7 +4968,7 @@
     "normalurl": "ROGdfxR6WX8"
   },
   {
-    "id": 276,
+    "id": 277,
     "genre": "BEMANI",
     "song": "bass 2 bass",
     "artist": "Ryu\u2606",
@@ -4968,7 +4986,7 @@
     "normalurl": "0dOc0U__WLo"
   },
   {
-    "id": 277,
+    "id": 278,
     "genre": "EDM/BEMANI",
     "song": "gigadelic (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"Dustup\"",
@@ -4986,7 +5004,7 @@
     "normalurl": "-7hhiLLvqNI"
   },
   {
-    "id": 278,
+    "id": 279,
     "genre": "EDM/BEMANI",
     "song": "glacia (STARDOM Remix)",
     "artist": "lapix",
@@ -5004,7 +5022,7 @@
     "normalurl": "IaWAmbzUcU0"
   },
   {
-    "id": 279,
+    "id": 280,
     "genre": "EDM/BEMANI",
     "song": "melody H4CKER",
     "artist": "Moe Shop",
@@ -5022,7 +5040,7 @@
     "normalurl": "Q18GC4O0Mco"
   },
   {
-    "id": 280,
+    "id": 281,
     "genre": "BEMANI",
     "song": "murmur twins",
     "artist": "yu_tokiwa.djw",
@@ -5040,7 +5058,7 @@
     "normalurl": "wATOMhaTXso"
   },
   {
-    "id": 281,
+    "id": 282,
     "genre": "EDM/BEMANI",
     "song": "neu (STARDOM Remix)",
     "artist": "\u5c11\u5e74\u30e9\u30b8\u30aa arranged by BEMANI Sound Team \"PON\"",
@@ -5058,7 +5076,7 @@
     "normalurl": "QfgMVKBCQtw"
   },
   {
-    "id": 282,
+    "id": 283,
     "genre": "EDM/BEMANI",
     "song": "new heaven",
     "artist": "kiraku",
@@ -5076,7 +5094,7 @@
     "normalurl": "apU2yZJI4c8"
   },
   {
-    "id": 283,
+    "id": 284,
     "genre": "BEMANI",
     "song": "smooooch\u30fb\u2200\u30fb",
     "artist": "kors k",
@@ -5094,7 +5112,7 @@
     "normalurl": "10zRsC7M8JQ"
   },
   {
-    "id": 284,
+    "id": 285,
     "genre": "EDM/BEMANI",
     "song": "take me higher",
     "artist": "KOTONOHOUSE",
@@ -5112,7 +5130,7 @@
     "normalurl": "XZxU4140Lvw"
   },
   {
-    "id": 285,
+    "id": 286,
     "genre": "BEMANI",
     "song": "toy boxer (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"S-C-U & SYUNN\"",
@@ -5130,7 +5148,7 @@
     "normalurl": "VzeKKsp5RHE"
   },
   {
-    "id": 286,
+    "id": 287,
     "genre": "BEMANI",
     "song": "voltississimo (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"PHQUASE\"",
@@ -5148,7 +5166,7 @@
     "normalurl": "yS4iSqZEzUk"
   },
   {
-    "id": 287,
+    "id": 288,
     "genre": "EDM/BEMANI",
     "song": "\u2020\u6e1a\u306e\u5c0f\u60aa\u9b54\u30e9\u30f4\u30ea\u30a3\uff5e\u30ec\u30a4\u30c7\u30a3\u30aa\u2020 (STARDOM Remix)",
     "artist": "kors k",
@@ -5166,7 +5184,7 @@
     "normalurl": "B2iuLA9kvwU"
   },
   {
-    "id": 288,
+    "id": 289,
     "genre": "EDM/BEMANI",
     "song": "\u2020\u6e1a\u306e\u5c0f\u60aa\u9b54\u30e9\u30f4\u30ea\u30a3\uff5e\u30ec\u30a4\u30c7\u30a3\u30aa\u2020 (STARDOM Remix) SPONGEBOB EDITION",
     "artist": "kors k",
@@ -5184,7 +5202,7 @@
     "normalurl": "B8DCjm_GxMs"
   },
   {
-    "id": 289,
+    "id": 290,
     "genre": "POPS",
     "song": "\u2191\u2191\u2193\u2193\u2190\u2192\u2190\u2192BA",
     "artist": "meiyo",
@@ -5202,7 +5220,7 @@
     "normalurl": "TeX9-bgU7ZE&t=20s"
   },
   {
-    "id": 290,
+    "id": 291,
     "genre": "POPS",
     "song": "\u3046\u3063\u305b\u3047\u308f",
     "artist": "Ado",
@@ -5220,7 +5238,7 @@
     "normalurl": "MpKY1cSNd00"
   },
   {
-    "id": 291,
+    "id": 292,
     "genre": "BEMANI",
     "song": "\u304a\u30fc\u307e\u3044\uff01\u3089\u3076\u308a\u30fc\uff01\u3059\u3046\u3043\u30fc\u3066\u3043\uff01\u3060\u30fc\u308a\u3093\uff01 (DANCERUSH Style)",
     "artist": "BEMANI Sound Team \"PON\" feat.NU-KO",
@@ -5238,7 +5256,7 @@
     "normalurl": "s9uNiDAo-IY"
   },
   {
-    "id": 292,
+    "id": 293,
     "genre": "BEMANI",
     "song": "\u3053\u3053\u304b\u3089\u3088\u308d\u3057\u304f\u5927\u4f5c\u6226143",
     "artist": "BEMANI Sound Team \"\u3042\u3055\u304d\u968a\"",
@@ -5256,7 +5274,7 @@
     "normalurl": "UAmkkoFZ7VY"
   },
   {
-    "id": 293,
+    "id": 294,
     "genre": "BEMANI",
     "song": "\u3055\u3088\u306a\u3089\u30c8\u30ea\u30c3\u30d7",
     "artist": "Dormir",
@@ -5274,7 +5292,7 @@
     "normalurl": "6GWykcgf3dA"
   },
   {
-    "id": 294,
+    "id": 295,
     "genre": "BEMANI",
     "song": "\u30a2\u30eb\u30b9\u30c8\u30ed\u30e1\u30ea\u30a2 (walk with you remix)",
     "artist": "TAG",
@@ -5292,7 +5310,7 @@
     "normalurl": "Ivl7e-LQYxc"
   },
   {
-    "id": 295,
+    "id": 296,
     "genre": "BEMANI",
     "song": "\u30a8\u30b3\u723a",
     "artist": "Y&Co.",
@@ -5310,7 +5328,7 @@
     "normalurl": "vzkA22K6h-8"
   },
   {
-    "id": 296,
+    "id": 297,
     "genre": "EDM/BEMANI",
     "song": "\u30aa\u30cd\u30ac\u30a4\u30fb\u30c7\u30a3\u30b9\u30b3\u30fb\u30df\u30e5\u30fc\u30b8\u30c3\u30af",
     "artist": "\u661f\u91ce\u594f\u5b50 Prod by.uno",
@@ -5328,7 +5346,7 @@
     "normalurl": "VwMzNXh0v5I"
   },
   {
-    "id": 297,
+    "id": 298,
     "genre": "BEMANI",
     "song": "\u30ab\u30b4\u30ce\u30c8\u30ea",
     "artist": "\u6a59\u8272\u7279\u5225\u5ba4",
@@ -5346,7 +5364,7 @@
     "normalurl": "2yBlQWh0-Ds"
   },
   {
-    "id": 298,
+    "id": 299,
     "genre": "Lesson",
     "song": "\u30af\u30e9\u30d6\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5364,7 +5382,7 @@
     "normalurl": null
   },
   {
-    "id": 299,
+    "id": 300,
     "genre": "BEMANI",
     "song": "\u30b5\u30e8\u30ca\u30e9\u30fb\u30d8\u30f4\u30f3",
     "artist": "\u732b\u53c9Master",
@@ -5382,7 +5400,7 @@
     "normalurl": "8o0NG6kMpSU"
   },
   {
-    "id": 300,
+    "id": 301,
     "genre": "POPS",
     "song": "\u30b7\u30e5\u30ac\u30fc\u30bd\u30f3\u30b0\u3068\u30d3\u30bf\u30fc\u30b9\u30c6\u30c3\u30d7",
     "artist": "UNISON SQUARE GARDEN",
@@ -5400,7 +5418,7 @@
     "normalurl": "901513583601520670/Sugar_song_Normal.mp4"
   },
   {
-    "id": 301,
+    "id": 302,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f31",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5418,7 +5436,7 @@
     "normalurl": null
   },
   {
-    "id": 302,
+    "id": 303,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f32",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5436,7 +5454,7 @@
     "normalurl": null
   },
   {
-    "id": 303,
+    "id": 304,
     "genre": "Lesson",
     "song": "\u30b9\u30c6\u30c3\u30d7\u30d0\u30ea\u30a8\u30fc\u30b7\u30e7\u30f33",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5454,7 +5472,7 @@
     "normalurl": null
   },
   {
-    "id": 304,
+    "id": 305,
     "genre": "Lesson",
     "song": "\u30b9\u30dd\u30f3\u30b8\u30dc\u30d6\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5472,7 +5490,7 @@
     "normalurl": null
   },
   {
-    "id": 305,
+    "id": 306,
     "genre": "BEMANI",
     "song": "\u30b9\u30fc\u30d1\u30fc\u6226\u6e6f\u30d0\u30d0\u30f3\u30d0\u30fc\u30f3",
     "artist": "\u3059\u308f\u3072\u3067\u304a,\u79cb\u6210,\u304b\u307c\u3061\u3083,\u85cd\u6708\u306a\u304f\u308b,NU-KO by BEMANI Sound Team \"\u516b\u6238\u4e80\u751f\u7f85\"",
@@ -5490,7 +5508,7 @@
     "normalurl": "yvMXBQpf7zQ"
   },
   {
-    "id": 306,
+    "id": 307,
     "genre": "Lesson",
     "song": "\u30c0\u30a6\u30f3\uff06\u30b9\u30e9\u30a4\u30c9\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5508,7 +5526,7 @@
     "normalurl": null
   },
   {
-    "id": 307,
+    "id": 308,
     "genre": "Lesson",
     "song": "\u30c1\u30e3\u30fc\u30eb\u30b9\u30c8\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5526,7 +5544,7 @@
     "normalurl": null
   },
   {
-    "id": 308,
+    "id": 309,
     "genre": "BEMANI",
     "song": "\u30c1\u30e5\u30c3\u30c1\u30e5\u266a\u30de\u30c1\u30e5\u30d4\u30c1\u30e5",
     "artist": "\u306a\u306a\u3072\u3089,Nana Takahashi,\u732b\u4f53\u8cea by BEMANI Sound Team \"\u5287\u30c0\u30f3\u30b5\u30fc\u30ec\u30b3\u30fc\u30c9\"",
@@ -5544,7 +5562,7 @@
     "normalurl": "l40B9m9rFxg"
   },
   {
-    "id": 309,
+    "id": 310,
     "genre": "EDM/BEMANI",
     "song": "\u30c9\u30fc\u30d1\u30df\u30f3 (STARDOM Remix)",
     "artist": "ARM(IOSYS)",
@@ -5562,7 +5580,7 @@
     "normalurl": "7kZE_ockeFw"
   },
   {
-    "id": 310,
+    "id": 311,
     "genre": "POPS",
     "song": "\u30cf\u30c3\u30d4\u30fc\u30b7\u30f3\u30bb\u30b5\u30a4\u30b6",
     "artist": "EasyPop",
@@ -5580,7 +5598,7 @@
     "normalurl": "IodtLvoDJJ8"
   },
   {
-    "id": 311,
+    "id": 312,
     "genre": "BEMANI",
     "song": "\u30d4\u30a2\u30ce\u4f53\u64cd\u7b2c\u4e00",
     "artist": "\u30ce\u30b9\u30bf\u30eb\u30b8\u30a2\u6f14\u594f\u5354\u4f1a\u266a",
@@ -5598,7 +5616,7 @@
     "normalurl": "seSt6sVhlsk"
   },
   {
-    "id": 312,
+    "id": 313,
     "genre": "BEMANI",
     "song": "\u30df\u30c3\u30c9\u30ca\u30a4\u30c8\u2606WAR",
     "artist": "\u3044\u3061\u304b",
@@ -5616,7 +5634,7 @@
     "normalurl": "agFsyNgJipQ"
   },
   {
-    "id": 313,
+    "id": 314,
     "genre": "BEMANI",
     "song": "\u30e6\u30e1\u30d6\u30ad",
     "artist": "\u7d2b\u5d0e \u96ea,Risa Yuzuki,709sec. by BEMANI Sound Team \"PHQUASE & SYUNN\"",
@@ -5634,7 +5652,7 @@
     "normalurl": "E2jQUxb9Qk4"
   },
   {
-    "id": 314,
+    "id": 315,
     "genre": "BEMANI",
     "song": "\u30e9\u30d6\u30ad\u30e9\u2606\u30b9\u30d7\u30e9\u30c3\u30b7\u30e5",
     "artist": "BEMANI Sound Team \"Sota F.\" feat.\u3044\u3061\u304b",
@@ -5652,7 +5670,7 @@
     "normalurl": "Vaggy9j-3kE"
   },
   {
-    "id": 315,
+    "id": 316,
     "genre": "BEMANI",
     "song": "\u30e9\u30f3\u30ab\u30fc\u30ad\u30e9\u30fc\u30ac\u30fc\u30eb (STARDOM Remix)",
     "artist": "\u4e2d\u5cf6\u7531\u8cb4 \u00d7 \u3044\u3061\u304b",
@@ -5670,7 +5688,7 @@
     "normalurl": "eF5BQ-M7sX0"
   },
   {
-    "id": 316,
+    "id": 317,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5688,7 +5706,7 @@
     "normalurl": null
   },
   {
-    "id": 317,
+    "id": 318,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3 \u708e\u306e\u7279\u8a13\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5706,7 +5724,7 @@
     "normalurl": null
   },
   {
-    "id": 318,
+    "id": 319,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3\u5fdc\u7528\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5724,7 +5742,7 @@
     "normalurl": null
   },
   {
-    "id": 319,
+    "id": 320,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\uff06T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u8907\u5408\u7de8",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5742,7 +5760,7 @@
     "normalurl": null
   },
   {
-    "id": 320,
+    "id": 321,
     "genre": "Lesson",
     "song": "\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\uff06T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3\u8907\u5408\u7de82",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5760,7 +5778,7 @@
     "normalurl": null
   },
   {
-    "id": 321,
+    "id": 322,
     "genre": "Lesson",
     "song": "\u30ea\u30d0\u30fc\u30b9T\u30b9\u30c6\u30c3\u30d7\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5778,7 +5796,7 @@
     "normalurl": null
   },
   {
-    "id": 322,
+    "id": 323,
     "genre": "Lesson",
     "song": "\u30ea\u30d0\u30fc\u30b9\u30e9\u30f3\u30cb\u30f3\u30b0\u30de\u30f3\u30ec\u30c3\u30b9\u30f3",
     "artist": "\u30aa\u30ea\u30b8\u30ca\u30eb",
@@ -5796,7 +5814,7 @@
     "normalurl": null
   },
   {
-    "id": 323,
+    "id": 324,
     "genre": "EDM/BEMANI",
     "song": "\u4e16\u754c\u306e\u679c\u3066\u306b\u7d04\u675f\u306e\u51f1\u6b4c\u3092 (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"JYUNN\"",
@@ -5814,7 +5832,7 @@
     "normalurl": "WLnDacIke6g"
   },
   {
-    "id": 324,
+    "id": 325,
     "genre": "BEMANI",
     "song": "\u51db\u3068\u3057\u3066\u54b2\u304f\u82b1\u306e\u5982\u304f",
     "artist": "\u7d05\u8272\u30ea\u30c8\u30de\u30b9",
@@ -5832,7 +5850,7 @@
     "normalurl": "bsfSiGxD01E"
   },
   {
-    "id": 325,
+    "id": 326,
     "genre": "BEMANI",
     "song": "\u5341\u516d\u591c\u30bb\u30c4\u30ca",
     "artist": "Xceon feat.Mayumi Morinaga",
@@ -5850,7 +5868,7 @@
     "normalurl": "q0rr3ppg3k8"
   },
   {
-    "id": 326,
+    "id": 327,
     "genre": "POPS",
     "song": "\u5973\u3005\u3057\u304f\u3066",
     "artist": "\u30b4\u30fc\u30eb\u30c7\u30f3\u30dc\u30f3\u30d0\u30fc",
@@ -5868,7 +5886,7 @@
     "normalurl": "muU63c9AZTw"
   },
   {
-    "id": 327,
+    "id": 328,
     "genre": "POPS",
     "song": "\u5973\u3005\u3057\u304f\u3066 ANOTHER EDITION",
     "artist": "\u30b4\u30fc\u30eb\u30c7\u30f3\u30dc\u30f3\u30d0\u30fc",
@@ -5886,7 +5904,7 @@
     "normalurl": "901852094645026816/Meme_ANOTHER_Normal.mp4"
   },
   {
-    "id": 328,
+    "id": 329,
     "genre": "POPS",
     "song": "\u602a\u7269",
     "artist": "YOASOBI",
@@ -5904,7 +5922,7 @@
     "normalurl": "mRZdKWR27WA"
   },
   {
-    "id": 329,
+    "id": 330,
     "genre": "BEMANI",
     "song": "\u65b0\u86c7\u59eb",
     "artist": "BEMANI Sound Team \"U1-ASAMi\"",
@@ -5922,7 +5940,7 @@
     "normalurl": "gmxnz6TYo00&t=23s"
   },
   {
-    "id": 330,
+    "id": 331,
     "genre": "BEMANI",
     "song": "\u6700\u5c0f\u4e09\u500d\u5b8c\u5168\u6570 (DANCERUSH Style)",
     "artist": "DJ TECHNORCH with BEMANI Sound Team",
@@ -5940,7 +5958,7 @@
     "normalurl": "by_e2i8TYDc"
   },
   {
-    "id": 331,
+    "id": 332,
     "genre": "BEMANI",
     "song": "\u6727",
     "artist": "HHH\u00d7MM\u00d7ST",
@@ -5958,7 +5976,7 @@
     "normalurl": "qnEIiiaIANo"
   },
   {
-    "id": 332,
+    "id": 333,
     "genre": "EDM/BEMANI",
     "song": "\u707c\u71b1Beach Side Bunny (STARDOM Remix)",
     "artist": "BEMANI Sound Team \"SYUNN\"",
@@ -5976,7 +5994,7 @@
     "normalurl": "nXqQKhGQzaU"
   },
   {
-    "id": 333,
+    "id": 334,
     "genre": "BEMANI",
     "song": "\u72c2\u6c34\u4e00\u83ef",
     "artist": "BEMANI Sound Team \"Hu\u03a3eR Vs. SYUNN\" feat.\u3044\u3061\u304b",
@@ -5994,7 +6012,7 @@
     "normalurl": "sWvS8f7w-yA"
   },
   {
-    "id": 334,
+    "id": 335,
     "genre": "POPS",
     "song": "\u7d05\u84ee\u83ef",
     "artist": "(LiSA)",
@@ -6012,7 +6030,7 @@
     "normalurl": "901823148759064616/Gurenge_Normal.mp4"
   },
   {
-    "id": 335,
+    "id": 336,
     "genre": "POPS",
     "song": "\u7d05\u84ee\u83ef ANOTHER EDITION",
     "artist": "(LiSA)",
@@ -6030,7 +6048,7 @@
     "normalurl": "901823368163127306/Gurenge_ANOTHER_Normal.mp4"
   },
   {
-    "id": 336,
+    "id": 337,
     "genre": "POPS",
     "song": "\u7fa4\u9752",
     "artist": "(YOASOBI)",
@@ -6048,7 +6066,7 @@
     "normalurl": "SQWkF7fGcDQ&t=15s"
   },
   {
-    "id": 337,
+    "id": 338,
     "genre": "BEMANI",
     "song": "\u91ce\u7403\u306e\u904a\u3073\u65b9\u3000\u305d\u3057\u3066\u305d\u306e\u6b74\u53f2\u3000\uff5e\u6c7a\u5b9a\u7248\uff5e",
     "artist": "\u3042\u3055\u304d\u5927\u76e3\u7763",
@@ -6066,7 +6084,7 @@
     "normalurl": "W4UGrm5UtEo&t=22s"
   },
   {
-    "id": 338,
+    "id": 339,
     "genre": "BEMANI",
     "song": "\u97f3\u697d (STARDOM Remix)",
     "artist": "cosMo\uff20\u66b4\u8d70P",
@@ -6084,7 +6102,7 @@
     "normalurl": "JDi8gGBSUt4&t=40s"
   },
   {
-    "id": 339,
+    "id": 340,
     "genre": "EDM/BEMANI",
     "song": "\u9ed2\u9aea\u4e71\u308c\u3057\u4fee\u7f85\u3068\u306a\u308a\u3066 (STARDOM Remix)",
     "artist": "Endorfin.",

@@ -15,12 +15,14 @@ const SearchBar = (props) => {
     <TextField
       id="filled-search"
       label={props.label}
-      type="search"
+
       value={props.search}
       onChange={props.handleSearch}
       style={style}
       sx={props.sx}
       onBlur={props.onBlur}
+      onKeyDown={props.onKeyDown}
+      InputProps={props.InputProps}
     />
   );
 };

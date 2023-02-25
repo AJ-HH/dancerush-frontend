@@ -12,6 +12,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ModalSongContent from "./components/ModalSongContent";
 import ModalSearch from "./components/ModalSearch";
 import Grid from '@mui/material/Grid';
+import SearchIcon from '@mui/icons-material/Search';
+import InputAdornment from '@mui/material/InputAdornment';
 
 const App = () => {
   return (
@@ -220,6 +222,23 @@ const Main = () => {
           handleSearch={handleSearch}
           onBlur={() => {
             setFinalSearch(advSearch);
+          }}
+          onKeyDown={(ev) => {
+            if (ev.key === 'Enter') {
+              setFinalSearch(advSearch);
+              ev.preventDefault();
+            }
+          }}
+          InputProps={{
+            endAdornment: <InputAdornment position="end">
+            <IconButton
+              aria-label="search for song"
+              onClick={() => setFinalSearch(advSearch)}
+              edge="end"
+            >
+              <SearchIcon />
+            </IconButton>
+          </InputAdornment>,
           }}
         />
       </div>
