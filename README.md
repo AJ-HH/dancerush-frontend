@@ -13,3 +13,10 @@ Issue was due to using a prototype function that's not supported with some versi
 - Second Heaven songs messes up the song card on mobile devices. This is because 'samba,samba,somebody' is treated as one word and because of its length, pushes out the image  
 
 - On smaller devices, bringing up the modal will cause the background to jump to the top. This is because position: fixed is necessary to prevent weird scrolling behaviour on mobile devices. Is a common online issue, a necessary tradeoff
+
+# Features to Add
+
+- Scroll to top button (mainly useful for mobile users)
+- Dark mode
+- Search button for advanced search (rather than just clicking outside the modal)
+- Help button
