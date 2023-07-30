@@ -18,7 +18,7 @@ let theme = createTheme({
     },
     normal: {
       main: '#FFA200'
-    }
+    },
   },
   spacing: 4,
 });

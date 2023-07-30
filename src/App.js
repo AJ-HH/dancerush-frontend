@@ -14,6 +14,7 @@ import ModalSearch from "./components/ModalSearch";
 import Grid from '@mui/material/Grid';
 import SearchIcon from '@mui/icons-material/Search';
 import InputAdornment from '@mui/material/InputAdornment';
+import DarkModeButton from "./components/DarkModeButton";
 
 const App = () => {
   return (
@@ -248,6 +249,7 @@ const Main = () => {
           display: "flex",
           width: "85%",
           alignItems: "flex-start",
+          justifyContent: "space-between"
         }}
       >
         <Button
@@ -257,6 +259,7 @@ const Main = () => {
         >
           Advanced search
         </Button>
+        <DarkModeButton sx={{ m: 1 }} />
       </Box>
       <Box
         component="div"
